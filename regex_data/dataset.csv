@@ -1,0 +1,2074 @@
+regex_pattern,is_vulnerable,regex_length,quantifier_count,alternation_count,nesting_depth,has_nested_quantifier,has_ambiguous_alternation,has_optional_in_loop,has_quantifier_on_group,has_start_anchor,has_end_anchor
+^(.*?)\s+(.*?)\s+(.*?)$,True,23.0,8.0,0.0,1.0,False,False,False,False,True,True
+#(chunk-.+?)::(before|after)\s*\{\s*content:\s*(.+?)\s*\},True,57.0,8.0,1.0,1.0,False,False,False,False,False,False
+\s*\[\s*([^\]]+)\s*\],True,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+<<<<<<< HEAD\s*(.*?)\s*=======\s*(.*?)\s*>>>>>>> .+,True,51.0,9.0,0.0,1.0,False,False,False,False,False,False
+"<pre id=""tabContent"">\s*(.*?)\s*</pre>",True,38.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^(#{1,6}\s+.*?)(\s+)#([A-Za-z0-9_-]+)\s*$",True,41.0,7.0,0.0,1.0,False,False,False,False,True,True
+"\s+(.+)\s*\((\d+)\),?",True,21.0,5.0,0.0,1.0,False,False,False,False,False,False
+"(#[ \t\S]*)|(/\*[^*]*\*+(?:[^/*][^*]*\*+)*/)|([!]{3,}\s*(?P<com>\w+)\s*[!]{3,}[\s\S]+[!]{3,}\s*end\s+(?P=com)\s*[!]{3,})",True,120.0,26.0,2.0,2.0,True,False,True,True,False,False
+\[\[ *(.+?) *\| *(.+?) *\]\],True,28.0,8.0,1.0,1.0,False,False,False,False,False,False
+(<(?:hr|br|img|link|meta|col)\b.*?)\s*/?\s*(>),True,46.0,6.0,5.0,2.0,False,False,False,False,False,False
+"(.+?),(.+?),(.+?);",True,18.0,6.0,0.0,1.0,False,False,False,False,False,False
+#-(.*\s*)+--,True,12.0,3.0,0.0,1.0,True,False,False,True,False,False
+evolvedrecipe\s+(.+?)\s*{(.*?)},True,31.0,6.0,0.0,1.0,False,False,False,False,False,False
+"<p class=""title"">\s*(.*)\s*<\/p>",True,32.0,3.0,0.0,1.0,False,False,False,False,False,False
+Time\t(.*)\t(.*)\t+(\d+),True,24.0,4.0,0.0,1.0,False,False,False,False,False,False
+({})\s+(?P<word>.+?)\s*\?,True,25.0,6.0,0.0,1.0,False,False,False,False,False,False
+"^(.{1,21})\1*(.{1,21})(?:\1|\2)*(.{1,21})(?:\1|\2|\3)*$",True,55.0,8.0,3.0,1.0,False,False,True,True,True,True
+(\w+://)?(.+@)*([\w\d\.]+)(:[\d]+)?/*:?(.*)/(.*).git,True,52.0,11.0,0.0,1.0,True,False,False,True,False,False
+^ds:(.+)\|na:(\d+)\|cb_type:(.*)\|(.*)\|(.*) (.*)$,True,50.0,6.0,4.0,1.0,False,False,False,False,True,True
+\{!\s*(.+?)\s*!\},True,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^\[(.*),(.*),(.*),(.*)\]$",True,25.0,4.0,0.0,1.0,False,False,False,False,True,True
+\[download\]\s+([\d.]+)\%(?:.*?(?:of|\s+)\s*([\\d.]+\S+))?(?:.*?at\s+([\d.]+\S+)\/s)?.*,True,87.0,19.0,1.0,2.0,False,False,False,False,False,False
+^\s*(?:\((?P<time>.*?)\))?\s*\S+\s+(?P<frameid>[0-9A-F]+)\s*\[\d+\]\s*(?P<data>[0-9A-F ]*)(?:\s*::.*)?$,True,103.0,20.0,0.0,2.0,False,False,False,False,True,True
+"^\s*(\d+(?:,\d+)?)\s+(.+?)\s+(\w+)(?:\s+\(dividir\))?\s*$",True,57.0,14.0,0.0,2.0,False,False,False,False,True,True
+```(?:json)?\s*([\s\S]*?)\s*```,True,31.0,6.0,0.0,1.0,False,False,False,False,False,False
+(#EXTVLCOPT:http-referrer=(https?://[^/]*monotv[^/]*\.[^\s/]+).+?\n)(https?://[^ \n\r]+),True,88.0,8.0,0.0,2.0,False,False,False,False,False,False
+(\${{\s*(.+?)\s*}}),True,19.0,4.0,0.0,2.0,False,False,False,False,False,False
+(\$\[\[\s*([+-]?)\s*(.+?)\s*\]\]),True,33.0,7.0,0.0,2.0,False,False,False,False,False,False
+(:?\<\bmedia:(:?(?:.*?)+)\>),True,28.0,6.0,0.0,3.0,True,False,True,True,False,False
+<title>\s*([^<]*)\s*</title>,True,28.0,3.0,0.0,1.0,False,False,False,False,False,False
+"([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+",True,64.0,6.0,1.0,1.0,True,False,False,True,False,False
+^Event\s+(\d+)\s+(Women|Men)\s+(\d+)\s+Yard\s+([A-Za-z ]+)(?:\s+Time\s+Trial)?$,True,79.0,12.0,1.0,1.0,False,False,False,False,True,True
+PROPOSE EDIT\s+(?P<path>/[^\s]+)\s*---\s*old\s*---\s*(?P<old>.*?)\s*---\s*new\s*---\s*(?P<new>.*),True,97.0,16.0,0.0,1.0,False,False,False,False,False,False
+ *# *<([a-z0-9_-]+)> *= *#([0-9]+) *(?:\(= *([0-9.+-]+[0-9.]*?|) *(.*)\))?,True,74.0,16.0,1.0,2.0,False,True,False,False,False,False
+^.+?:\s*(.+?)\s*;\s*Sent queued message ID:\s*(.+?)\s*SMSGlobalMsgID:(.+?)$,True,75.0,13.0,0.0,1.0,False,False,False,False,True,True
+SELECT\s+(.*?)\s+FROM,True,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+"\[ext_resource\s+(?:type=""([^""]+)"")?\s*(?:path=""([^""]+)"")?\s*(?:id=""([^""]+)"")?\]",True,80.0,12.0,0.0,2.0,False,False,False,False,False,False
+"\(""\s*([^""]+?)\s*""\s*,\s*""\s*([^""]+?)\s*""\s*,\s*""\s*([^""]+?)\s*""\)",True,66.0,16.0,0.0,1.0,False,False,False,False,False,False
+^(https?:\/\/raw\.githubusercontent\.com\/.+\/.+\/.+\/.+)$,True,58.0,5.0,0.0,1.0,False,False,False,False,True,True
+^[ \t]*1[ \t]*[0-9]+[ \t]*[0-9]+[ \t]*[0-9]+[ \t]*[0-9]+[ \t]*([0-9]+),True,70.0,11.0,0.0,1.0,False,False,False,False,True,False
+^\s*(?:<s>)?\s*([^(]+)(?:</s>)?\s*(?:\(([^)]+)\))\s*?,True,53.0,12.0,0.0,3.0,False,False,False,False,True,False
+^\s*(?P<vlan_name>.+)\s*\|\s+(?P<config>Disabled|Manual|Auto)\s*(?P<address>\S+)?\s*(?P<mask>\S+)?$,True,99.0,14.0,3.0,1.0,False,False,False,False,True,True
+[\r\n]SOURCE      ([^\r\n]+)[\r\n]  ORGANISM\s+([^\r\n]+)\s+(.*?)\S,True,67.0,6.0,0.0,1.0,False,False,False,False,False,False
+.*:.*:.* -> .*:.*:.*,True,20.0,6.0,0.0,0.0,False,False,False,False,False,False
+<reasoning>\s*(.*?)\s*</reasoning>,True,34.0,4.0,0.0,1.0,False,False,False,False,False,False
+<answer>\s*(.*?)\s*</answer>,True,28.0,4.0,0.0,1.0,False,False,False,False,False,False
+"data-verified=""([a-z_]+)"">\s*([^<]+?)\s*<",True,41.0,5.0,0.0,1.0,False,False,False,False,False,False
+```json\s*(.*?)\s*```,True,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+%struct.(?:constant|syscall)_entry\s*{\s*([^}]+)\s*},True,52.0,5.0,1.0,1.0,False,False,False,False,False,False
+\s+(\d+)\s+(\d+)\s+(obj\s*.+?\s*?endobj),True,40.0,10.0,0.0,1.0,False,False,False,False,False,False
+^(?P<return_type>\w+\s*\*?\s*)\s*(?P<function_name>\w+)\s*\((?P<parameters>.*)\)\s*;?$,True,86.0,14.0,0.0,1.0,False,False,False,False,True,True
+"^(?!www)([-a-zA-Z0-9@:%._\+~#=]+\.)+[a-z]{2,6}$",True,47.0,5.0,0.0,1.0,True,False,False,True,True,True
+"import\s+(?:\(\s*([^)]+)\s*\)|""([^""]+)"")",True,40.0,6.0,1.0,2.0,False,False,False,False,False,False
+(\S+\.tests\S*)[\s:]+\S+?\.(test_\S+)\s+\.\.\.,True,46.0,7.0,0.0,1.0,False,False,False,False,False,False
+solution\s*:\s*(.+?)\n\s*Default Value:,True,39.0,5.0,0.0,1.0,False,False,False,False,False,False
+solution\s*:\s*(.+?)\n\s*reference,True,34.0,5.0,0.0,1.0,False,False,False,False,False,False
+"[m]?RNA .*\s+.*[XN]P_[\d]+[.][\d]+[\s]?[\(]?[\w]*.[\w]*[\)]?[,]? \b[\d]+\s+coding\s+exon[s]?,.*\s+.*\s+.*\s+[-]+[\d\n\-\s]*",True,123.0,24.0,0.0,0.0,False,False,False,False,False,False
+^\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|(?:\s*([^|]*)\s*\|)?(?:\s*([^|]*)\s*\|)?,True,73.0,16.0,9.0,2.0,False,False,False,False,True,False
+See\s*(also)?\s*(:)?[^[]*\[.*,True,29.0,6.0,0.0,1.0,False,False,False,False,False,False
+```yaml\s*(.*?)\s*```,True,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^\s*([A-Za-z0-9_]+)\s*=\s*([A-Za-z]+)\s*\(\s*([A-Za-z0-9_,\s]*)\s*\)\s*$",True,72.0,10.0,0.0,1.0,False,False,False,False,True,True
+Перем\s+(.+)\s+Экспорт,True,22.0,3.0,0.0,1.0,False,False,False,False,False,False
+^[\t ]*([ \tа-яА-Я]+):?\s*$,True,27.0,4.0,0.0,1.0,False,False,False,False,True,True
+^##\s+\d+\s*[\)/]?\s*(.+?)\s+\(\d+\)\s*$,True,40.0,10.0,0.0,1.0,False,False,False,False,True,True
+"^rect\((.*),(.*),(.*),(.*)\)$",True,29.0,4.0,0.0,1.0,False,False,False,False,True,True
+### SPARQL:\s*(.+?)\s*###,True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+### Output:\s*(.+?)\s*###,True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+### Answer:\s*(.+?)\s*###,True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+### ANSWER:\s*(.+?)\s*###,True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+### SPARQL query:\s*(.+?)\s*###,True,31.0,4.0,0.0,1.0,False,False,False,False,False,False
+PREFIX\s*(.+?)(\s*###|$),True,24.0,4.0,1.0,1.0,False,False,False,False,False,False
+what\s+are\s+the\s+(.+?)\s+(.+?)\s+issues\s+related\s+to\s+(.+),True,63.0,13.0,0.0,1.0,False,False,False,False,False,False
+>\s*(.+)\s*>\s*((\S+)),True,22.0,5.0,0.0,2.0,False,False,False,False,False,False
+\[\s*([A-Za-z ]+)\s*\],True,22.0,3.0,0.0,1.0,False,False,False,False,False,False
+"^#{0,6}\s*(INT\.|EXT\.|INT/EXT\.|I/E\.)\s*(.+?)\s*[-–—]\s*(.+?)$",True,64.0,9.0,3.0,1.0,False,False,False,False,True,True
+^([^<]+)\s*<?([^<]+)?>$,True,23.0,5.0,0.0,1.0,False,False,False,False,True,True
+"(?P<key>(\w+\.?)+) = ""(?P<value>[^""]+)",True,38.0,6.0,0.0,2.0,True,False,True,True,False,False
+^(.*?)\s*([.\s]*)\s*(\d+)$,True,26.0,6.0,0.0,1.0,False,False,False,False,True,True
+\s*typedef\s+enum\s+{\s*([^}]+)\s*}\s*(\w+)\s*,True,46.0,9.0,0.0,1.0,False,False,False,False,False,False
+^\s*(style|time|(clock|line|bus)\s+(.+?))\s*(:)\s*$,True,51.0,6.0,4.0,2.0,False,False,False,False,True,True
+([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@bilgiedu.net,True,45.0,3.0,0.0,1.0,True,False,False,True,False,False
+<revised_template>\s*(.*?)\s*</revised_template>,True,48.0,4.0,0.0,1.0,False,False,False,False,False,False
+^```(?:json)?\s*\n?(.*?)\n?\s*```$,True,34.0,8.0,0.0,1.0,False,False,False,False,True,True
+\d+.\d+.\d+.\d+,True,15.0,4.0,0.0,0.0,False,False,False,False,False,False
+Rev. (?P<Program>.+)/(?P<Platform>.+)/(?P<Release>.+)/(?P<Patch>\d+) \((\d+/\d+/\d+)\).,True,87.0,11.0,0.0,1.0,False,False,False,False,False,False
+^(-?\d+ *)+$,True,12.0,4.0,0.0,1.0,True,False,True,True,True,True
+#define (?P<name>\w+)(?:\((?P<params>[^\n]+?)\))??  *(?P<expr>.+?) *(?:/\*\*< (?P<doc>.*?) \*/)?\n,True,98.0,21.0,0.0,2.0,False,False,False,False,False,False
+(?:^ */\*\*?\s*(?P<pre_doc>[\S\s]*?)\s*\*/\n)?    (?P<field>.+?); *(?:/\*\*< (?P<post_doc>[\S\s]*?) \*/)?,True,105.0,24.0,0.0,2.0,False,False,False,False,False,False
+\s*(.*?)\s+=>\s+(.*?)\s+\(.*\),True,30.0,9.0,0.0,1.0,False,False,False,False,False,False
+"BLEU = (.+?), (.+?)/(.+?)/(.+?)/(.+?) \(",True,40.0,10.0,0.0,1.0,False,False,False,False,False,False
+package\s+(\w+)\s*(?:\(.*?\))?\s*(.+?)endpackage,True,48.0,10.0,0.0,1.0,False,False,False,False,False,False
+\s*(.*?)\s*\[(.*)\],True,19.0,5.0,0.0,1.0,False,False,False,False,False,False
+(?:\n|^)(?:\|.*?\|.*?\|.*?\n)(?:\|(?:\s*[:-]+[-| :]*\s*)\|.*?\n)(?:\|.*?\|.*?\|.*?\n)+,True,86.0,24.0,10.0,2.0,True,True,True,True,False,False
+(?:\n|^)(?:\S.*?\|.*?\n)(?:(?:\s*[:-]+[-| :]*\s*).*?\n)(?:\S.*?\|.*?\n)+,True,72.0,20.0,4.0,2.0,True,False,True,True,False,False
+<NODE_START_(\d{4})>\s*(.*?)\s*</NODE_END_\1>,True,45.0,5.0,0.0,1.0,False,False,False,False,False,False
+(==+)\s*(.*?)\s*\1,True,18.0,5.0,0.0,1.0,False,False,False,False,False,False
+\[.*?\]\[experiment\.utils\.print_mean_std\]\[INFO\]\s*-\s*(?P<metric>[^\n]+?)\s*-\s*,True,85.0,9.0,0.0,1.0,False,False,False,False,False,False
+e\s*\*?\*?\s*\(?\s*i\s*\*?\s*pi\s*\)?\s*\+\s*1\s*=\s*0,True,54.0,19.0,0.0,0.0,False,False,False,False,False,False
+"^\s*([+-]?)(\d{0,3})\s*(?:\:\s*(\d{0,2})\s*){0,2}(\.\d*)?\s*$",True,61.0,13.0,0.0,2.0,False,False,False,False,True,True
+^\s*[-+]?[0-9]*\.?[0-9]*(e[-+]?)?[0-9]*\s*$,True,43.0,11.0,0.0,1.0,False,False,False,False,True,True
+@JNIAdditionalImport\(\s*{?(?P<class_names>.*?)}?\s*\),True,54.0,7.0,0.0,1.0,False,False,False,False,False,False
+\s*(.+?)\s*\(\s*(.*[^\s]+)\s*\),True,31.0,8.0,0.0,1.0,False,False,False,False,False,False
+\btime\s+must\s+(?:researchers?|.*?\s+give)\b,True,45.0,7.0,1.0,1.0,False,False,False,False,False,False
+proclamation\s+no\.?\s*\.?\s*[.\s]*$,True,36.0,6.0,0.0,0.0,False,False,False,False,False,True
+(?:remove|delete|take\s*out)\s+(?P<product>[\w\s]+?)\s*(?:from\s*(?:my\s*)?(?:cart|basket)),True,91.0,13.0,3.0,2.0,False,False,False,False,False,False
+^\s*(?:gamma|Γ)\(\s*(.+?)\s*\)\s*$,True,34.0,7.0,1.0,1.0,False,False,False,False,True,True
+.+\s+OK\s+.+\s+(\d+:\d+)\s+.+(http.+),True,37.0,10.0,0.0,1.0,False,False,False,False,False,False
+MOVIE:\s*(.*?)\s* WATCH:\s*(.*?)\s* REASON:\s*(.*?)\s*,True,54.0,12.0,0.0,1.0,False,False,False,False,False,False
+MOVIE:\s*(.*?)\s*WATCH:\s*(.*?)\s*REASON:\s*(.*?)\s*FEELING:\s*(.*?)\s*RATING:\s*(\d),True,85.0,17.0,0.0,1.0,False,False,False,False,False,False
+MOVIE:\s*(.*?)\s*WATCH:\s*(.*?)\s*REASON:\s*(.*?)\s*RATING:\s*(.*?)\s*FEELING:(.*?),True,83.0,18.0,0.0,1.0,False,False,False,False,False,False
+(?:\s*)(.*?)(\s*)<(.+)>\s*$,True,27.0,7.0,0.0,1.0,False,False,False,False,False,True
+RATING:\s*(.*?)\s*REASON:\s*(.*?),True,33.0,7.0,0.0,1.0,False,False,False,False,False,False
+^[^\x00-\x1F\x7F\s]+[^\x00-\x1F\x7F]*[^\x00-\x1F\x7F\s]+$|^[^\x00-\x1F\x7F\s]+$,True,79.0,4.0,1.0,0.0,False,False,False,False,True,True
+\{\%\s*if\s+([^%]+)\s*\%\},True,26.0,4.0,0.0,1.0,False,False,False,False,False,False
+if\s+(.+?)\s+(?:then|:),True,23.0,5.0,1.0,1.0,False,False,False,False,False,False
+(?:if|IF)\s*\n?\s*(.+?)\s*\n?\s*(?:then|THEN|:),True,47.0,10.0,3.0,1.0,False,False,False,False,False,False
+\{\%\s*elif\s+([^%]+)\s*\%\}|elif\s+(.+),True,40.0,6.0,1.0,1.0,False,False,False,False,False,False
+\{\%\s*for\s+(.+?)\s+in\s+(.+?)\s*\%\},True,38.0,9.0,0.0,1.0,False,False,False,False,False,False
+^\s+(.+)\s+(zero|const|ro code|inited|uninit)\s,True,47.0,3.0,4.0,1.0,False,False,False,False,True,False
+"^\s*(?:public|private|protected)\s+(?:static\s+)?[\w<>\[\], ?]+\s+([A-Za-z_]\w*)\s*\(",True,85.0,11.0,2.0,1.0,False,False,False,False,True,False
+^(.+?)\s+down\s+(.+?)\s+in\s+OT\.?$,True,35.0,9.0,0.0,1.0,False,False,False,False,True,True
+"^ICE\s+detains\s+(.+?)\s+in\s+Texas,?\s*amid\s+(.+)$",True,52.0,10.0,0.0,1.0,False,False,False,False,True,True
+watch(\s[a-zA-Z0-9_\s\-\(\)]*)*\|.*,True,35.0,3.0,1.0,1.0,False,False,False,False,False,False
+(^\s*(?://\s*)?###\s+.+$\n(?:.|\n)*?^\s*(?://\s*)?```(?:cpp|c\+\+|c)\s*$\n(?:.|\n)*?^\s*(?://\s*)?```\s*$),True,106.0,25.0,4.0,2.0,False,True,True,True,False,False
+^\s*(?://\s*)?###\s+(?P<path>.+?)\s*$\n(?:(?:.|\n)*?)^\s*(?://\s*)?```(?P<lang>cpp|c\+\+|c)\s*$\n(?P<body>(?:.|\n)*?)^\s*(?://\s*)?```\s*$,True,138.0,30.0,4.0,2.0,False,True,True,True,True,True
+^\s*(?://\s*)?(?P<path>[^\n\r]+?\.(?:h|hpp|hh|hxx|c|cc|cpp|cxx))\s*$\n(?:(?:.|\n)*?)^\s*(?://\s*)?```(?P<lang>cpp|c\+\+|c)\s*$\n(?P<body>(?:.|\n)*?)^\s*(?://\s*)?```\s*$,True,169.0,30.0,11.0,2.0,False,True,True,True,True,True
+^\s*(?://\s*)?```(?P<lang>cpp|c\+\+|c)\s*$\n(?P<body>(?:.|\n)*?)^\s*(?://\s*)?```\s*$,True,85.0,17.0,3.0,2.0,False,True,True,True,True,True
+\.\[([\d]*):?([\d]*):?([\d]*)\](.*),True,35.0,6.0,0.0,1.0,False,False,False,False,False,False
+"<!ENTITY +(\w+) +CDATA +""([^""]+)"" +-- +((?:.|\n)+?) *-->",True,70.0,5.0,4.0,1.0,False,False,False,False,False,False
+"([A-Z][\. A-Z]{1,}){1,} [\w\-']+",True,21.0,5.0,0.0,1.0,False,False,False,False,False,False
+([0-9a-f]{8})\s+.\s+.\s+\.text\s+([0-9a-f]{8})\s+(.*),True,28.0,8.0,0.0,1.0,False,False,False,False,False,False
+^[a-zA-Z][a-zA-Z0-9]*[a-zA-Z]+[a-zA-Z0-9]*$,True,42.0,6.0,4.0,2.0,False,False,False,False,False,False
+"^(\d+)\s+(.+?)\s+([0-9]+,[0-9]{2})$",True,215.0,33.0,0.0,1.0,False,False,False,False,False,False
+^\|\s*([^|]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|$,True,65.0,16.0,0.0,2.0,False,False,False,False,True,True
+.*: (?P<online>\d*).(?P<max>\d*).*: *(?P<players>\d*).*: *(?P<bots>\d*).* (?P<uptime>\d*) seconds.*: (?P<mem>[\d.]*).(?P<maxmem>[\d.]*) kb.*: (?P<gamemode>[^\n]*),True,51.0,7.0,0.0,1.0,False,False,False,False,True,True
+\[\s*([0-9]+)\]\s+([ /0-9a-zA-Z()]+)\s+ALLOW IN\s+([.:/a-f0-9]+)\s+#(.*)$,True,164.0,16.0,0.0,1.0,False,False,False,False,False,False
+\b(?:calle|avenida|av\.|pasaje|psje\.)\s+[A-Za-záéíóúñÁÉÍÓÚÑ\s]+\s+\d+,True,71.0,10.0,0.0,1.0,False,False,False,False,False,False
+```(?:python)?\s*\n(.*?)\n\s*```,True,24.0,6.0,0.0,1.0,False,False,False,False,False,True
+^VAR\s*([A-Z]*)\s*([A-Z]*)\s*([0-9]*)$,True,24.0,6.0,0.0,1.0,False,False,False,False,True,True
+@import\s+(.+?)\s*;,True,36.0,10.0,0.0,2.0,False,False,False,False,True,True
+@import\s+(.+?)\s*?\n,True,38.0,6.0,0.0,1.0,False,False,False,False,True,False
+Q\d*:(\s*)(.*?)(\s*)A\d*:(\s*)([\s\S]*?)(?=Q|$),True,23.0,4.0,0.0,1.0,False,False,False,False,False,False
+COL\s+(.*?)\s+VAL\s+(.*?)\s+,True,53.0,7.0,3.0,1.0,False,False,False,False,True,False
+(<(?:hr|br|img|link|meta)\b.*?)\s*/?\s*(>),True,61.0,10.0,0.0,1.0,False,False,False,False,True,True
+"(?s)<tr>\s*<td[^>]*>\s*<br>\s*<hr[^>]*>\s*<span class=""contTitle2"">(?P<name>.*?)</span>\s*,\s*(?P<location>.*?), (?P<city>.*?), CA, \d+ <br>(?:.*?)</td>\s*</tr>\s*<tr>\s*<td[^>]*>\s*<ul[^>]*>\s*(?P<html>.*?)\s*</td>",True,65.0,13.0,0.0,1.0,False,False,False,False,True,True
+^\s*((\d+)w)?\s*((\d+)d)?\s*((\d+)h)?\s*((\d+)m)?\s*((\d+)s)?\s*$,True,53.0,11.0,0.0,1.0,False,False,False,False,True,True
+^1.([1-9]+\d*|0).([1-9]+\d*|0)(-rc\d+|-dev\d+)?$,True,23.0,5.0,0.0,1.0,False,False,False,False,False,False
+^typedef\s+(?P<def>[\w\s\d_\*&]+)\s+(?P<name>\w+);$,True,118.0,15.0,6.0,1.0,False,False,False,False,False,False
+telec todo work\(\s*slug\s*=\s*([^)]+?)\s*\),True,24.0,5.0,0.0,1.0,False,False,False,False,False,False
+telec todo prepare\(\s*slug\s*=\s*([^)]+?)\s*\),True,45.0,6.0,0.0,1.0,False,False,False,False,True,True
+Contract name:.*?>[\s\S].*?>(.*?)</dd>,True,38.0,6.0,5.0,1.0,False,False,False,False,True,False
+"(([A-Z-]{3,} ?)+ ([A-Z][a-zÀ-ÿ-]{3,} ?)+)",True,30.0,5.0,0.0,1.0,False,False,False,False,False,False
+"Received Notification:.*?:(?P<User>[^,]*).*type:\s(?P<Type>[^,]*).*created at:\s(?P<Timestamp>[^,]*).*details:\s\{(?P<Details>{.*})\}.*message:\s""(?P<Message>[^""]*)",True,27.0,6.0,0.0,1.0,False,False,False,False,False,False
+"\{\{<\s*faq\s+question=""([^""]+)""\s*>\}\}\s*(.*?)\s*\{\{<\s*/faq\s*>\}\}",True,41.0,6.0,0.0,1.0,False,False,False,False,False,False
+<title>\s*(.*?)\s*</title>,True,51.0,6.0,0.0,1.0,False,False,False,False,False,False
+(?P<before>[\s\S]*\n)?(?P<dox>\s*##.*\n(?:\s*#.*)*\n*)(?P<var>[\s\w]+=.+\n)(?P<after>[\s\S]*),True,83.0,13.0,4.0,2.0,False,False,False,False,True,True
+\[S\]\s*(.*?)\s*\[O\]\s*(.*?)\s*\[A\]\s*(.*?)\s*\[P\]\s*(.*?)\s*\[L\]\s*(.*?)(?=\)|\n|;|$),True,21.0,3.0,0.0,1.0,True,False,False,True,False,False
+typedef\s+(.+?)\s+(\w+)\s*;,True,25.0,5.0,0.0,1.0,False,False,False,False,True,False
+(.+?)_(.+?)_(.+)\.u?deb$,True,67.0,14.0,0.0,1.0,False,False,False,False,False,False
+^(.+)_(.+?)_(.+?).u?deb$,True,105.0,16.0,0.0,1.0,False,False,False,False,False,False
+^\s*(\w+)\s*(?:\(\s*(.*?)\s*\))?\s*$,True,20.0,3.0,0.0,1.0,False,False,False,False,False,True
+^\s*def\s+[a-zA-Z0-9_]+\s*([^:#]*)\s*:,True,22.0,6.0,0.0,2.0,True,False,True,True,False,False
+NVIDIA GPU\s*(.*?)\s*at,True,15.0,6.0,0.0,1.0,False,False,False,False,False,False
+^(\t*)-\s*(TODO|DOING|DONE)\s+(.+?)(?:\s+project::|$),True,63.0,16.0,1.0,1.0,False,False,False,False,False,False
+"^[-\u2013\u2014]\s*(.+?)\s+on\s+[""\u201c]?(.+?)[""\u201d]?\s*$",True,26.0,4.0,0.0,1.0,True,False,True,True,False,True
+"^(\d{2}/\d{2})\s+(\d{2}/\d{2})\s+(.+?)\s+(-?[\d.,]+)\s+([\d.,]+)$",True,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^(\d{2}/\d{2})\s+(\d{2}/\d{2})\s+(.+?)\s+(-?[\d.,]+)$",True,44.0,9.0,1.0,1.0,False,False,False,False,False,False
+FINAL\s*\(\s*(.*?)\s*\),True,31.0,7.0,0.0,1.0,False,False,False,False,False,False
+\|\s*([A-Za-z0-9_]+)\s*\|\s*([A-Za-z0-9_]+)\s*\|\s*([A-Za-z0-9_]+)\s*\|\s*([0-9Kk xX]+)\s*\|\s*([A-Za-z0-9_ xX]+)\s*\|,True,49.0,9.0,1.0,1.0,False,False,False,False,False,False
+SEARCH\s*\(\s*(.*?)\s*\),True,40.0,7.0,0.0,1.0,False,False,False,False,False,False
+^\s*([A-Za-z0-9 \-_/&\(\)]+?)\s*[:\-]\s*(.+)$,True,60.0,10.0,2.0,1.0,False,False,False,False,False,False
+^\|\s*([^|]+?)\s*\|\s*(PASS|FAIL)\s*\|,True,32.0,5.0,1.0,1.0,False,False,False,False,False,False
+(SPDX-FileCopyrightText:\s*)(.+?)\s*<([^>]+)>,True,22.0,4.0,0.0,1.0,False,False,False,False,False,False
+\.\. TIP::\s*\n(.*?)\s*\n\s*\n,True,36.0,5.0,0.0,1.0,False,False,False,False,False,False
+(\w+)::\s*\n(.*?)\s*\n\s*\n,True,62.0,15.0,0.0,2.0,False,False,False,False,False,False
+\|\s*([\d-]+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|,True,59.0,11.0,0.0,1.0,False,False,False,False,False,True
+^\s(?P<subsystem>\b[\w\d\-\_]+\b)\s+(?P<group>[\w\d]*)\s+(?P<pid>\d*)\s+(?P<status>\bactive|inoperative\b)$,True,62.0,12.0,0.0,2.0,True,False,True,True,False,True
+(?:<pb\s*.*?\s*>),True,50.0,8.0,0.0,1.0,False,False,False,False,True,True
+"(?:on|at)\s+the\s+corner\s+of\s+([^,\.;]+)\s+and\s+([^,\.;]+)",True,20.0,5.0,0.0,1.0,False,False,False,False,True,False
+"(?:at|near)\s+the\s+intersection\s+of\s+([^,\.;]+)\s+and\s+([^,\.;]+)",True,69.0,9.0,0.0,1.0,False,False,False,False,True,False
+<!--\s*lg:([a-z:]+)(?:\s+([^-]+(?:-(?!->)[^-]*)*))?\s*-->,True,73.0,7.0,0.0,1.0,False,False,False,False,True,True
+"([`""\u05f4]+)(\s*)(.+?)(\s*)([`""\u05f4]+)",True,74.0,11.0,0.0,1.0,True,False,True,True,True,True
+([\(\[\{<\u201c]+)(\s*)(.+?)(\s*)([\)\]\}>\u201d]+),True,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+^(.*?)\s*(?:\(([^)]+?)\))?\s*?(?:\.\.\.)?\s*?(ok|FAIL|skipped|ERROR|expected fail)$,True,49.0,8.0,0.0,1.0,False,False,False,False,True,True
+<#T##([^#]*)(##.*)*#>,True,41.0,7.0,0.0,1.0,False,False,False,False,True,True
+^###\s+(.+?)\s+\((\d+)m\),True,42.0,6.0,0.0,2.0,False,False,False,False,True,True
+"(\d+[\.\d]*\s*-\s*\d+[\.\d]*)\s*(seconds?)?\s*([,:-])?\s*([^{}""]*?)",True,44.0,8.0,0.0,1.0,False,False,False,False,True,True
+"Version (.*?), [\d.]+ MBs.*?</td>.*?class=""newsDate""[^>]*> *(.*?) *</td>.*?(class=""language"".*?) </table>",True,39.0,5.0,0.0,2.0,False,False,False,False,True,True
+([\d]+.[\d]+.[\d]+)$,True,43.0,12.0,4.0,1.0,False,False,False,False,True,True
+{{({*(?:}?[^}]+)*}*)}},True,145.0,23.0,10.0,1.0,False,True,False,False,False,False
+NegCtrl(.*)_NegCtrl(.*)+NegCtrl(.*)_NegCtrl(.*),True,146.0,25.0,10.0,1.0,False,False,False,False,False,False
+=+\s*(.*?)\s*=+,True,112.0,16.0,6.0,1.0,False,True,False,False,False,False
+(\w+)\s*\(\s*(?:\(\s*)?(?:state|s)\s*(?::\s*\w+)?\s*\)?\s*=>\s*,True,113.0,18.0,6.0,1.0,False,False,False,False,False,False
+"([a-zA-Z0-9_]+,?)+[^,\s]+$",True,120.0,18.0,7.0,1.0,False,True,False,False,True,False
+==>\s*(.+?)\s*<==,True,59.0,11.0,6.0,1.0,False,False,False,False,False,False
+"(?i)(account\s*#?|acct\s*#?)\s*:?\s*\d{8,17}",True,53.0,11.0,4.0,1.0,False,False,False,False,False,False
+(?i)routing\s*#?\s*:?\s*\d{9}\b,True,62.0,12.0,4.0,1.0,False,False,False,False,False,False
+(?i)(?:ssn|social\s*security)\s*#?\s*:?\s*\d{9}\b,True,49.0,9.0,4.0,1.0,False,False,False,False,False,False
+"(?i)passport\s*#?\s*:?\s*[A-Z0-9]{6,9}\b",True,40.0,9.0,0.0,1.0,False,False,False,False,False,False
+"(?i)(?:driver'?s?\s*license|DL)\s*#?\s*:?\s*[A-Z0-9]{5,15}\b",True,22.0,6.0,0.0,1.0,False,False,False,False,False,False
+"(?i)(?:medical\s*record|MRN|patient\s*id)\s*#?\s*:?\s*\S{5,}",True,27.0,5.0,0.0,1.0,False,False,False,False,False,False
+(?:lemma|theorem)\s+([^:]+?)\s*:,True,21.0,3.0,0.0,0.0,False,False,False,False,False,False
+\{\{\s*([^}]+?)\s*\}\},True,73.0,15.0,0.0,2.0,False,False,False,False,True,True
+```python\s*(.*?)\s*```,True,63.0,6.0,0.0,1.0,False,False,False,False,False,False
+```\s*([a-zA-Z0-9_]*)\s*\n(.*?)\n```,True,50.0,5.0,0.0,1.0,False,False,False,False,False,False
+(?<!!)\[\[ *(.+?) *(\| *.+?)? *\]\],True,149.0,20.0,1.0,2.0,True,False,True,True,False,False
+(\d+).*? ([0-9a-fA-F]+)(?:.*? (\S*[/\.]\S+))?(?:.*? \((.+)\))?,True,30.0,6.0,1.0,1.0,True,False,False,True,False,False
+(testimonials?|reviews?|what\s+.*\s+say|success\s+stories),True,21.0,3.0,0.0,0.0,False,False,False,False,True,True
+url\(\s*(?P<raw>[^)]+?)\s*\),True,30.0,6.0,0.0,3.0,False,False,False,False,True,False
+\(영문\)\s*([A-Za-z\s]+?)(?:\s*$|\n),True,69.0,12.0,0.0,1.0,False,False,False,False,False,False
+^(\d{4}\.\d{2})\s+(\d{4}\.\d{2})\s+(.+?)\s+([^\s/]+(?:\s+[^\s/]+)*?)\s+([\d.]+\s*/\s*[\d.]+|/)\s+(\S+)\s+(졸업|재학|휴학|중퇴),True,46.0,8.0,0.0,1.0,False,False,False,False,True,True
+"(\d{4}\.\d{2})\s+(\d{4}\.\d{2})\s+(.+?)\s{2,}(.+?)\s{2,}([\d.]+\s*/\s*[\d.]+|/)\s+(\S+)\s+(졸업|재학|휴학|중퇴)",True,42.0,6.0,1.0,1.0,False,False,False,False,True,False
+\|\s*标签\s*\|\s*(.+?)\s*\|,True,29.0,5.0,0.0,1.0,False,False,False,False,True,False
+\|\s*提及书籍\s*\|\s*(.+?)\s*\|,True,26.0,4.0,0.0,1.0,False,False,False,False,True,False
+(?P<prefix>(?:(?:Chapter|Section|Part)\s+)?\d+\.?\s+)?(?P<title>.*?)\s+(?P<page>\d+)$,True,37.0,9.0,0.0,0.0,False,False,False,False,False,False
+(?P<prefix>[IVXivx]+\.?\s+)?(?P<title>.*?)\s+(?P<page>\d+)$,True,35.0,8.0,0.0,1.0,False,False,False,False,True,True
+(?P<prefix>[A-Z](?:\.\d+)+\s+)?(?P<title>.*?)\s+(?P<page>\d+)$,True,112.0,22.0,3.0,2.0,False,False,False,False,True,True
+"^(?P<indent>\s{2,})(?P<title>.*?)\s+(?P<page>\d+)$",True,75.0,6.0,7.0,1.0,False,True,False,False,False,False
+^\(\s*(.*?)\s*\)\s*⇐,True,49.0,5.0,2.0,2.0,False,False,False,False,True,False
+^Impedance matrix for frequency = (\d*\.?\d+e?[+-]?\d+) (\d+) x (\d+),True,94.0,16.0,2.0,2.0,False,False,False,False,False,False
+"^ln([a-zA-Z0-9]{1,90})[0-9]+[munp]?[a-zA-Z0-9]+[0-9]+[munp]?[a-zA-Z0-9]*$",True,32.0,8.0,0.0,1.0,False,False,False,False,True,True
+"^(?:https?://)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$",True,92.0,14.0,0.0,1.0,False,False,False,False,True,True
+\[\[ *(.+?) *\]\],True,62.0,18.0,0.0,1.0,False,False,True,True,False,False
+^[A-Z]\s+\d+\s+([A-Z\s]+)\s+(\d+\.\d{2})\s+[A-Z]$,True,60.0,19.0,0.0,1.0,False,False,True,True,False,False
+^\d+\s+([A-Z\s]+)\s+(\d+\.\d{2})\s+[A-Z]$,True,63.0,17.0,0.0,1.0,False,False,True,True,False,False
+"^\s*(\d+)\s+([A-Za-z\s&()]+)\s+([\d,\s]+)$",True,34.0,5.0,0.0,2.0,False,False,False,False,False,False
+"^\s*(\d+)\s+([A-Za-z\s&]+)\s+([\d,]+\.?\d*)$",True,77.0,9.0,2.0,1.0,False,False,False,False,False,False
+"^\s*\]\s+([A-Za-z\s&()]+)\s+([\d,\s]+)$",True,96.0,13.0,1.0,1.0,False,False,False,False,False,False
+^\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(.*?)\s*\|$,True,81.0,10.0,0.0,2.0,True,False,True,True,True,True
+"\bIN THE\s+([A-Z ,.'\-]+?)\s+COURT\b",True,81.0,7.0,5.0,1.0,False,True,False,False,False,False
+^\s*\d+(\.\d+)*\s+.*\s+\d+\s*$,True,136.0,20.0,0.0,1.0,False,False,False,False,False,False
+```(?:json)?\s*\n?(.*?)\n?\s*```,True,124.0,15.0,1.0,2.0,True,True,True,True,True,False
+\d+\.\s*Q:\s*(.+?)\s*A:\s*(.+?)(?=\d+\.\s*Q:|$),True,115.0,12.0,1.0,2.0,False,True,False,False,True,True
+\d+\.\s*(.+?)\s*(?:Options:|A\.)(.*?)(?:Correct answer|correct option|correct choice):?\s*([A-D]),True,61.0,6.0,6.0,1.0,False,False,False,False,False,False
+<p>\s*(.*?)\s*<img\s+([^>]*?)\s*/?>\s*(.*?)\s*</p>,True,131.0,16.0,8.0,2.0,False,False,False,False,False,False
+^\*\[\s*(.+?)\s*\]\s*\(\s*([^)]+)\s*\)\*$,True,121.0,14.0,9.0,2.0,False,False,False,False,False,False
+^\*?\[?(\d+\s+)?[A-Za-zÀ-ú\s]+\]?\s*\d+\s*:\s*\[?\d+\]?(-\[?\d+\]?)?\s*\([^)]+\)\*?$,True,57.0,7.0,0.0,1.0,False,False,False,False,False,False
+^\[?(\d+\s+)?[A-Za-zÀ-ú\s]+\]?\s*\d+\s*:\s*\[?\d+\]?(-\[?\d+\]?)?\s*\([^)]+\)$,True,78.0,8.0,2.0,1.0,False,False,False,False,True,False
+^@(\d+).(\d+).(\d+).(\d+)/(\d+) ,True,85.0,9.0,2.0,1.0,False,False,False,False,True,True
+"(?:^|\n)\s*(?:•|\-|\d+\.)?\s*([^\(\|\n]+?)\s*\(([^)]+)\)\s*\|\s*(?:Level|Tingkat)\s*:\s*([^\|\n,]+?)\s*\|\s*(?:Durasi|Duration)\s*:\s*([^\|\n,]+)",True,29.0,5.0,0.0,1.0,False,False,False,False,False,True
+"(?:^|\n)\s*(?:•|\-|\d+\.)?\s*([^—\n]+?)\s+—\s+([^\|\n]+?)\s*\|\s*(?:Level|Tingkat)\s*:\s*([^\|\n,]+?)\s*\|\s*(?:Durasi|Duration)\s*:\s*([^\|\n,]+)",True,35.0,5.0,0.0,1.0,False,False,False,False,False,True
+"(?:^|\n)\s*(?:•|\-|\d+\.)?\s*([^\(\|\n]+?)\s*\(([^)]+)\)\s*\|\s*([A-Za-zÀ-ÿ ]{3,30})\s*\|\s*([0-9A-Za-z ]{1,20})",True,25.0,5.0,0.0,1.0,False,False,False,False,True,False
+"(?:^|\n)\s*(?:•|\-|\d+\.)?\s*([^—\n]+?)\s+—\s+([^\|\n]+?)\s*\|\s*([A-Za-zÀ-ÿ ]{3,30})\s*\|\s*([0-9A-Za-z ]{1,20})",True,52.0,11.0,0.0,2.0,False,False,False,False,True,False
+"^\s*([^\(\|\n]+?)\s*\(([^)]+)\)\s*\|\s*(?:Level|Tingkat)\s*:\s*([^\|\n,]+?)\s*\|\s*(?:Durasi|Duration)\s*:\s*([^\|\n,]+)",True,104.0,14.0,0.0,2.0,False,False,False,False,True,True
+how\s+many\s+(.*?)(?:\s+are|\s+with|\s+in|\s+is|\s+do|\?|$),True,62.0,10.0,1.0,1.0,False,False,False,False,True,True
+count\s+(?:of\s+)?(.*?)(?:\s+in|\s+with|\s+that|\?|$),True,51.0,5.0,0.0,1.0,False,False,False,False,False,False
+total\s+(?:number\s+of\s+)?(.*?)(?:\s+in|\s+with|\s+that|\?|$),True,20.0,4.0,0.0,1.0,False,False,False,False,False,False
+number\s+of\s+(.*?)(?:\s+in|\s+with|\s+that|\?|$),True,19.0,4.0,0.0,0.0,False,False,False,False,False,False
+for\s*\([^)]*in\s*(.*?)\s*\.\.\s*(.*?)\),True,57.0,9.0,0.0,1.0,False,False,False,False,True,False
+\s*([^:]+?)\s*:\s*(.+),True,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+"phone_postfix"">.*?(\d+).*?<",True,21.0,1.0,1.0,1.0,False,False,False,False,False,False
+build.*\{[^}]*[^}]*\},True,55.0,2.0,0.0,1.0,False,False,False,False,True,True
+"^(\d{2}/\d{2}/\d{4})\s+(.+?)(?:\s+([\d.,]+))?\s+([\d.,]+)\s+([\d.,]+)\s*$",True,16.0,1.0,0.0,1.0,False,False,False,False,False,False
+"(\d{2}/\d{2}/\d{4})\s+(.+?)\s+([\d.,]+)\s+([\d.,]+)\s*$",True,24.0,5.0,0.0,1.0,False,False,False,False,True,False
+"(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2})\s+(\S+)\s+(.+?)\s+([\d.,]+)\s+([\d.,]+)\s+([\d.,]+)\s*$",True,15.0,1.0,0.0,1.0,False,False,False,False,False,False
+"(\d{2}[/-]\d{2}[/-]\d{2,4})\s+(.+?)\s+([\d.,]+)\s*$",True,11.0,2.0,0.0,1.0,False,False,False,False,False,False
+(\w+)\s+#(\d+)\s+([A-Z.\s'-]+?)\s+(.+?)\((\d+)\s*min\),True,37.0,0.0,0.0,0.0,False,False,False,False,True,False
+(\w+)\s+#(\d+)\s+([A-Z.\s'-]+?)\s+(?:OPPONENT-)?BLOCKED,True,15.0,0.0,0.0,0.0,False,False,False,False,False,False
+<function=([a-zA-Z0-9_]+)>\s*(.*?)\s*</function>\s*</tool_call>,True,33.0,5.0,0.0,1.0,False,False,False,False,False,False
+<parameter=([a-zA-Z0-9_]+)>\s*(.*?)\s*</parameter>,True,27.0,2.0,0.0,1.0,False,False,False,False,False,False
+"(\w+)\s+#(\d+)\s+([A-Z.\s'-]+?)\s+HIT\s+(\w+)\s+#(\d+)\s+([A-Z.\s'-]+?)(?:,|$)",True,72.0,4.0,2.0,1.0,False,False,False,False,False,False
+"/(?:\w+/)+(?P<court_level>\w+)/(?P<task>(?:\w+_)+?)(?P<llm>\w+)_results_temp=(?P<temperature>-?(?:\d{1,2}|0.999))_?(?P<correctness_labeler>\w+)?\.csv",True,8.0,0.0,0.0,0.0,False,False,False,False,True,True
+\n?\s*<br([\s|/][^>]*)*>\s*\n?,True,27.0,5.0,0.0,1.0,False,False,False,False,False,False
+"^\s*[\d\s,\.\-/]+\s*$",True,17.0,2.0,0.0,0.0,False,False,False,False,True,False
+^\s*([^(]+)\s*(?:\(([^)]+)\))?,True,16.0,0.0,0.0,0.0,False,False,False,False,True,True
+\*\s*Hist\s*#\d+:\s*ActivityRecord\{[^ ]+\s*[^ ]+\s*([^ ]+)\s*t(\d+)},True,21.0,3.0,0.0,0.0,False,False,False,False,False,False
+^\s*([A-Za-z\u00c0-\u017f ]+?)\s*:\s*(.+?)\s*$,True,32.0,3.0,0.0,1.0,False,False,False,False,False,False
+^\s*(.+?)\s+(?:is|will be)\s+unavailable\b,True,14.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\s*(.+?)\s+no\s+disponible\b,True,30.0,3.0,1.0,1.0,False,False,False,False,False,False
+^\s*(.+?)\s+indisponible\b,True,8.0,1.0,0.0,0.0,False,False,False,False,False,True
+\[\[_TOC_\]\]\s*\n+\s*# \*\*[^*]+\*\*,True,52.0,7.0,0.0,2.0,False,False,False,False,False,False
+^License :* *.* *:+ (.*)( \(.*\))?$,True,24.0,1.0,0.0,0.0,False,False,False,False,True,True
+"^\[?(\d{1,2}/\d{1,2}/\d{2,4}),\s*(\d{1,2}:\d{2}(?::\d{2})?)(?:\s*(AM|PM|am|pm))?\]?\s*(?:-)?\s*([^:]+?):\s*(.*)$",True,61.0,3.0,2.0,1.0,False,False,False,False,False,False
+"(?:a|an|my|the)\s+([^,.\n]+?)\s+(?:project|app|application|system|platform)",True,58.0,5.0,0.0,1.0,False,False,False,False,False,False
+^(\s*---[\r\n]+)([\S\s]*?)([\r\n]+---(\r\n|\n|$)),True,9.0,0.0,0.0,0.0,False,False,False,False,True,True
+"\b(?:account(?:\s*number)?|acct(?:ount)?)\s*(?:#|no\.?)?\s*:?\s*(?P<tok>[0-9Xx\*\-\s]{3,30})\b",True,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^(#{1,6})\s+(.+?)(?:\s+#{1,6})?$",True,23.0,2.0,1.0,0.0,False,False,False,False,False,False
+^\s*\[(?P<start>[\d\.]+)\s*[→\-]\s*(?P<end>[\d\.]+)\]\s*(?P<label>[^:]+)\s*:\s*(?P<text>.*)$,True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+##\s+.*(?:📑?\s*本章目录|📖?\s*目录|Table of Contents),True,34.0,8.0,0.0,1.0,False,False,False,False,False,False
+<h(\d)(?>.*?)>?(?:\s)*(?:<.*?>)?(?:\s)*(.*?)(?:\s)*</(.*?)h\d>,True,7.0,1.0,0.0,0.0,False,False,False,False,False,True
+<h(\d).*?>.*?>?(?:\s)*(?:<.*?>)?(?:\s)*(.*?)(?:\s)*</.*?h\d>,True,33.0,8.0,3.0,1.0,False,False,True,True,False,False
+<[hH](\d).*?>.*?>?(?:\s)*(?:<.*?>)?(?:\s)*(.*?)(?:\s)*</[hH]\d>,True,28.0,3.0,0.0,0.0,False,False,False,False,True,True
+0*((?=[\da-f])\d*(?<=\d)[\da-f]*)h,True,20.0,3.0,0.0,1.0,False,False,False,False,False,False
+"(?:Trailing P/E|P/E \(TTM\)|P/E Ratio \(TTM\))(?:.*?)\s*[:=]?\s*(\d+[\.,]\d+)",True,9.0,0.0,0.0,1.0,False,False,False,False,True,False
+"(?<!Forward\s)(?<!Fwd\s)(?:P/E|Price[- ]to[- ]Earnings)(?:.*?)(?:Ratio)?\s*[:=]?\s*(\d+[\.,]\d+)",True,75.0,0.0,8.0,1.0,False,False,False,False,True,False
+"(?:Forward P/E|Fwd P/E)(?:.*?)\s*[:=]?\s*(\d+[\.,]\d+)",True,30.0,7.0,0.0,3.0,False,False,False,False,False,False
+"(?:P/B|Price[- ]to[- ]Book)(?:.*?)(?:Ratio)?\s*[:=]?\s*(\d+[\.,]\d+)",True,32.0,1.0,0.0,0.0,False,False,False,False,True,False
+"(?:EV/EBITDA|Enterprise Value/EBITDA)(?:.*?)\s*[:=]?\s*(\d+[\.,]\d+)",True,9.0,2.0,0.0,1.0,False,False,False,False,True,True
+US\s+revenue\s+.*?\s+(\d+(?:\.\d+)?)%,True,12.0,2.0,0.0,0.0,False,False,False,False,True,True
+North\s+America\s+revenue\s+.*?\s+(\d+(?:\.\d+)?)%,True,31.0,7.0,0.0,2.0,False,False,False,False,False,True
+<%\s*(.*?)\s*%>,True,64.0,6.0,2.0,1.0,False,False,False,False,False,False
+<%!\s*(.*?)\s*%>,True,24.0,2.0,0.0,0.0,False,False,False,False,False,True
+\r?\n=+.+=+ *\r?\n,True,10.0,3.0,0.0,1.0,False,False,False,False,False,False
+"\(\s*[, -]*\s*\)",True,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+```(?:json)?\s*(.*?)\s*```,True,40.0,5.0,0.0,1.0,False,False,False,False,False,True
+<tool_call>\s*<function=(?P<name>[a-zA-Z_][\w]*)>\s*(?P<body>.*?)\s*</function>\s*</tool_call>,True,65.0,8.0,3.0,3.0,False,False,False,False,True,True
+<parameter=(?P<key>[a-zA-Z_][\w]*)>\s*(?P<value>.*?)\s*</parameter>,True,16.0,0.0,1.0,1.0,False,False,False,False,True,False
+\s*(\[\s*\d*\s+\d*\s*\]\s*\d*),True,27.0,3.0,0.0,0.0,False,False,False,False,True,False
+Curso[:\s]+([A-ZÀ-Ÿ\s/\\-]+?)(?:\s+Status:|$),True,42.0,1.0,0.0,1.0,False,False,False,False,False,False
+^([A-ZÀ-ÿ][A-ZÀ-ÿ\s0-9\-]+(?:DE\s+[A-ZÀ-ÿ\s0-9\-]*)*(?:\s+[A-ZÀ-ÿ\s0-9\-]*)*)\s*$,True,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+(?:Dr\.|Dra\.|MSc\.|Prof\.|Professor|Professora)?\s*([A-ZÀ-ÿ\s\.]+?)\s*\((\d+)h\),True,33.0,7.0,1.0,2.0,False,False,True,True,False,False
+"Cumpriu\s+([A-Z]{2,}\d{3,})\s*-\s*([A-ZÀ-Ÿ\s0-9]+?)\s*\((\d+)h\)\s*através\s*de\s*([A-Z]{2,}\d{3,})\s*-\s*([A-ZÀ-Ÿ\s0-9]+?)\s*\((\d+)h\)",True,21.0,2.0,1.0,1.0,False,False,False,False,False,False
+"^\s+([A-ZÀ-Ÿ\s0-9]+(?:DE\s+[A-ZÀ-Ÿ\s0-9]*)*)\s+(\d+)\s*h\s+([A-Z]{2,}\d{3,})(?:\s+(Matriculado|Matriculado em Equivalente))?",True,22.0,2.0,0.0,1.0,False,False,False,False,False,False
+"^\s+([A-ZÀ-Ÿ\sÇÃÕÁÉÍÓÚÂÊÎÔÛ0-9]+?)\s+(\d+)\s+h\s+([A-Z]{2,}\d{3,})(?:\s+(Matriculado|Matriculado em Equivalente))?$",True,25.0,1.0,0.0,1.0,False,False,False,False,False,False
+"\bSum\s*[:\-]?\s+([\d\.\,\s]{4,}?)\s*(€|TL|₺|USD|EUR|euro|\$)",True,22.0,4.0,0.0,1.0,False,False,False,False,False,True
+"(?:Toplam\s*(?:Tutar|Fiyat)?|Teklif\s*Tutarı|Genel\s*Toplam)\s*[:\-]?\s*(?:\([^\)]*\))?\s*([\d\.\,\s]{4,}?)\s*(€|TL|₺|USD|EUR|euro)",True,26.0,4.0,0.0,0.0,False,False,False,False,False,False
+"(?:Grand\s*Total|Total\s*(?:Price|Amount|Cost))\s*[:\-]?\s*(?:\([^\)]*\))?\s+([\d\.\,\s]{4,}?)\s*(€|TL|₺|USD|EUR|euro|\$)",True,8.0,0.0,0.0,0.0,False,False,False,False,True,True
+"href=""(/forums/\d+/topics/[^""]+)""[^>]*>\s*([^<]+?)\s*</a>",True,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+^\s*IF\s+(?P<condition>.+?)\s+THEN\s+(?P<then>APPROVE|ASK_FOR_APPROVAL|REJECT),True,26.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\s*IF\s+(?P<condition>.+?)\s+THEN\s+(?P<outcome>APPROVE|ASK_FOR_APPROVAL|REJECT)\s*$,True,27.0,0.0,3.0,1.0,False,False,False,False,True,False
+^\s*(.) (\[?[\w\s\.$@]+\]?)\s+(.+) -> ([^\s]+)(    \(.*\)?$)?,True,14.0,1.0,1.0,1.0,False,False,False,False,False,False
+^---\s+(.*?)\s+---\s*(.*),True,27.0,3.0,3.0,1.0,False,False,False,False,True,True
+Nullable\s*\(\s*(.+)\s*\)\s*$,True,52.0,6.0,1.0,1.0,False,False,False,False,True,False
+LowCardinality\s*\(\s*(.+)\s*\)\s*$,True,48.0,4.0,2.0,1.0,False,False,False,False,False,False
+^\{\s*([^}]*)\s*\}\s*(.*),True,37.0,2.0,3.0,1.0,False,False,False,False,False,False
+^(\s*)def\s+(\w+)\s*\(([^)]*)\)(?:\s*->\s*(.+))?\s*:,True,88.0,14.0,0.0,1.0,True,False,True,True,True,True
+"^(?P<speaker>[A-Za-z][A-Za-z\s\-\.]+?)\s*(?:\[(?P<timestamp>\d{1,2}:\d{2}:\d{2})\])?\s*:\s*(?P<text>.+)$",True,13.0,2.0,1.0,1.0,False,False,False,False,False,False
+^require\s+(?P<action>.+?)\s+after\s+(?P<flow>flow\s*\d+|\w+)$,True,34.0,9.0,0.0,2.0,False,False,False,False,False,False
+<formhub>\s*<uuid>\s*([^<]+)\s*</uuid>\s*</formhub>,True,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+\sfor\s+(.+?)\s+in\s,True,36.0,0.0,0.0,0.0,False,False,False,False,False,False
+with\s+.*?\s+select,True,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+^\?(?:[0-9]*;?)*h,True,51.0,5.0,0.0,2.0,False,False,False,False,True,False
+^\?(?:[0-9]*;?)*l,True,28.0,4.0,0.0,1.0,False,False,False,False,False,True
+^(?:[0-9]*;?)*m,True,19.0,1.0,0.0,1.0,False,False,False,False,False,False
+\$\s+(.+?)(\n\s*\n|\n\+\n),True,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+<!--\s*kpi:\s*(.+?)\s*-->,True,162.0,0.0,21.0,3.0,False,True,False,False,True,True
+^(?P<var_name>[\w\$]+)\s*\(\s*(?P<return_type>[^)]+)\s*\)\s*=,True,415.0,9.0,0.0,1.0,False,False,False,False,False,False
+^(?P<var_name>[\w\$]+)\s*\(\s*(?P<type>[^)]+)\s*\)\s*=\s*,True,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+if\s+(.+?)\s+goto,True,46.0,0.0,3.0,0.0,False,False,False,False,False,False
+(?:end_of_chorus|eoc),False,12.0,0.0,1.0,1.0,False,False,False,False,False,False
+^([abcdefghijklmnopqrstuvwxyz234567]{16}\.onion):(\d+)$,False,32.0,4.0,1.0,1.0,False,False,False,False,True,False
+"fig-alt=""([^""]*)",False,20.0,1.0,0.0,0.0,False,False,False,False,False,False
+^(?=.*EMG)(?=.*\(IM\)).*,False,18.0,2.0,0.0,0.0,False,False,False,False,False,False
+\\de\{([^}]+)\},False,17.0,6.0,0.0,0.0,False,False,False,False,False,False
+(\d+)\s*min,False,28.0,1.0,0.0,0.0,False,False,False,False,True,True
+^Traceback \(most recent call last\):,False,14.0,0.0,0.0,0.0,False,False,False,False,True,True
+reserved at the,False,26.0,2.0,0.0,1.0,False,False,False,False,False,False
+\s*([IXV]+)\s+\((\w+)\)\s*SESIJOS,False,24.0,1.0,0.0,1.0,False,False,False,False,False,False
+(?<=[^a-z])({:s})(?=[^a-z]),False,11.0,1.0,0.0,0.0,False,False,False,False,False,False
+<html>(?P<mathstart>\\\[|\\\()(?P<latex>.*)(?P<mathend>\\\]|\\\))</html>,False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+^ELM327$,False,29.0,2.0,0.0,1.0,False,False,False,False,False,False
+\{.*\},False,10.0,0.0,0.0,0.0,False,False,False,False,False,False
+[0-9]{4}\.run,False,11.0,3.0,0.0,1.0,False,False,False,False,True,False
+^MB WLAN,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+(?:module|interface)\s+(\w+)\s*(?:\(.*?\))?\s*(.+?),False,25.0,0.0,2.0,0.0,False,False,False,False,False,False
+^\$\((.+)\)$,False,19.0,1.0,0.0,0.0,False,False,False,False,True,False
+[^b]og,False,17.0,0.0,1.0,0.0,False,False,False,False,False,False
+key_item\s+:\s+(.*?)\n,False,30.0,3.0,0.0,1.0,False,False,False,False,True,True
+(_{2})([\s\S]+?)(_{2})(?!_),False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+(\d+):([\dA-Fa-f]+):,False,16.0,4.0,0.0,1.0,False,False,False,False,False,False
+(.*?)\[(.*?)\],False,10.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\d{4}\s?Escalade,False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^Greyhound WiFi$,False,21.0,2.0,0.0,1.0,False,False,False,False,False,False
+Query rate exceeded,False,36.0,3.0,0.0,1.0,False,False,False,False,False,False
+"\b10\.\d{4,9}/[-._;()/:A-Z0-9]+\b",False,32.0,4.0,0.0,1.0,False,False,False,False,False,False
+"(\w+)\s*=\s*\((\w+),\s*(\w+)\)",False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+(\d+)_(\d+)_(\d+),False,12.0,2.0,0.0,0.0,False,False,False,False,False,False
+/20\d{2}/\d{2}/\d{2}/,False,15.0,1.0,0.0,0.0,False,False,False,False,True,True
+https?://(?:www\.)?cnnturk\.com/,False,19.0,5.0,0.0,1.0,False,False,False,False,True,True
+(?:[^a-zA-Z]+),False,28.0,2.0,6.0,1.0,False,False,False,False,False,False
+(\x9B|\x1B\[)[0-?]*[ -/]*[@-~],False,6.0,1.0,0.0,1.0,False,False,False,False,True,False
+;[ \t]*$,False,26.0,0.0,0.0,0.0,False,False,False,False,False,False
+"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)",False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+^WiFi-AP-[0-9a-fA-F]{6}$,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+(tests/[\w/]+\.py::test_[\w\[\]_]+)\s+(passed|failed|skipped),False,29.0,0.0,0.0,0.0,False,False,False,False,False,False
+"([A-Z0-9._%+-])([A-Z0-9._%+-]*)(@)([A-Z0-9.-]+\.[A-Z]{2,})",False,15.0,1.0,0.0,1.0,False,False,False,False,False,False
+^BoltBus$,False,11.0,0.0,0.0,0.0,False,False,False,False,True,True
+"\#{1,10}",False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+"subjectTitle"":""(.*)"",""subjectType"":""(.)"",""status",False,16.0,1.0,0.0,0.0,False,False,False,False,True,True
+</?think>|</?tool_call>,False,22.0,5.0,0.0,1.0,False,False,False,False,True,True
+description\s+:\s+(.*?)\n,False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+"@@ -\d*\,*\d* \+(\d*)\,*(\d*) @@.*",False,16.0,2.0,0.0,1.0,False,False,False,False,False,False
+^VLPROFTHREAD (\d+)$,False,24.0,2.0,0.0,1.0,False,False,False,False,False,False
+-[\d]+$,False,75.0,2.0,2.0,1.0,False,False,False,False,False,False
+"//.*?$|/\*.*?\*/|""(?:\\.|[^\\""])*",False,17.0,1.0,0.0,1.0,False,False,False,False,False,False
+^https?://[^\s/$.?#].[^\s]*$,False,23.0,2.0,1.0,1.0,False,False,False,False,False,False
+.*[封|野]印.*,False,19.0,4.0,0.0,2.0,False,False,False,False,False,False
+"@(\w{3,32})\[(.+?)\]",False,34.0,5.0,1.0,1.0,False,False,False,False,False,False
+"^(.*?)""""""\s*(#.*)?$",False,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+^(record),False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+^Subaru (Crosstrek|Outback|Forester|Ascent|Legacy|Impreza|WRX|Solterra|BRZ),False,25.0,0.0,1.0,1.0,False,False,False,False,False,False
+(\w+)(?::(\w+)(?:\((\w+)\))?)?,False,63.0,6.0,4.0,1.0,False,False,False,False,True,False
+^top_\d+_features_avg_importance,False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+"^""(.*?)""$",False,28.0,0.0,2.0,0.0,False,False,False,False,False,False
+^[A-Z]+-\d+$,False,13.0,1.0,0.0,0.0,False,False,False,False,True,True
+####\s*([\-]?\d+(?:\.\d+)?)\s*$,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+.*\\sqrt\[(.*)\]+.*,False,41.0,5.0,0.0,2.0,False,False,False,False,True,True
+(?:DROP TABLE|CREATE\s+TABLE|Table\s+structure\s+for).+`([^`]+)`,False,22.0,2.0,0.0,1.0,False,False,False,False,False,False
+"[a-zA-Z0-9_@+.-]{1,150}$",False,20.0,1.0,1.0,1.0,False,False,False,False,False,False
+(.*) +(.*),False,21.0,4.0,0.0,0.0,False,False,False,False,True,True
+SIG[a-zA-Z]+,False,17.0,1.0,0.0,0.0,False,False,False,False,False,False
+(?im)^(\s*DATE OF PROCEDURE\s*:\s*)(.+)$,False,19.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^(\s*([a-z0-9:_]+|""[a-z0-9:_]+"")(\s+(desc|asc))?\s*(,|$))+(?<!,)$",False,10.0,0.0,0.0,1.0,False,False,False,False,False,False
+^KING (5G|2\.4G),False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+^Lexus .+-\d+[gG]_[a-f0-9]+,False,7.0,1.0,0.0,0.0,False,False,False,False,True,False
+drive\.google\.com/file/d/([a-zA-Z0-9_-]+),False,51.0,2.0,0.0,1.0,False,False,False,False,False,False
+[ !@#%&*+-],False,11.0,0.0,3.0,1.0,False,False,False,False,False,False
+"\$(\d+(?:,\d{3})*(?:\.\d{1,2})?)|",False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+\b(20\d{2}|19\d{2})\b,False,19.0,1.0,0.0,0.0,False,False,False,False,True,True
+<secret>(.*?)</secret>,False,34.0,5.0,0.0,1.0,False,False,False,False,False,True
+User (.*) already exists.,False,41.0,5.0,0.0,2.0,False,False,False,False,True,True
+\[(?P<header>.+?)]\w*$,False,23.0,1.0,1.0,1.0,False,False,False,False,False,False
+\b\d{4}\s*[--]\s*\b\d{4}\b,False,15.0,1.0,0.0,1.0,False,False,False,False,False,False
+^Acadia$,False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b(\d{2}-\d{2}-\d{4})\b,False,44.0,3.0,0.0,1.0,False,False,False,False,True,True
+"mul\((\d{1,3}),(\d{1,3})\)",False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(M300S|PG17|M63|GS63H)[-_],False,18.0,1.0,0.0,0.0,False,False,False,False,True,True
+[0-9]+(LL|ULL),False,56.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(lo|bond\d+|face|.+\.\d+)$,False,49.0,6.0,2.0,2.0,False,False,False,False,False,False
+segment_(\d+)\.csv,False,20.0,2.0,0.0,1.0,False,False,False,False,True,False
+^Event\s+(\d+)\s+(Women|Men)\s+([13])\s+mtr\s+Diving,False,37.0,4.0,2.0,1.0,False,False,False,False,True,True
+/downloads/release/python-[0-9.]+(?:a|b|rc)\d+/?,False,22.0,0.0,0.0,0.0,False,False,False,False,True,False
+```\{(?:python|r|julia|ojs)\}[^\n]*\n,False,45.0,5.0,0.0,1.0,False,False,False,False,False,False
+^[^\W\d_]+(?:[ '\-\.][^\W\d_]+)*\s+\d+[A-Za-z]?\s+\d{4}\s+[^\W\d_]+(?:[ '\-][^\W\d_]+)*$,False,17.0,1.0,0.0,1.0,False,False,False,False,False,False
+(.*?\.)(\s|&),False,42.0,9.0,0.0,2.0,False,False,False,False,False,False
+([a-zA-Z]+).*?(\d+)(.*\D.*?(\d+))?,True,15.0,0.0,0.0,0.0,False,False,False,False,True,False
+^[Ss][Ww][Dd]_\w+,False,19.0,3.0,0.0,1.0,False,False,False,False,False,False
+[\r\n\x00-\x08\x0b\x0c\x0e-\x1f\x7f],False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+%\(([^)]*)\)s,False,75.0,6.0,0.0,1.0,False,False,False,False,False,False
+^((https?:\/\/)?github\.com\/([^\/]+)\/([^\/]+))\/?,False,28.0,3.0,0.0,1.0,False,False,False,False,True,True
+第([零一二三四五六七八九十百]+)条\s*(.*?)$,False,19.0,4.0,0.0,0.0,False,False,False,False,True,True
+"\[([^\]\n]{1,80})\]",False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Nissan RSE,False,27.0,4.0,1.0,1.0,False,False,False,False,False,False
+^(red|p(ink|urple)|deep_(purple|orange)|indigo|b(lue(|_gr[ae]y)|rown)|li(ght_(blue|green)|me)|cyan|teal|gr(e(en|y)|ay)|yellow|amber|orange)(50|[1-9]00|a[1247]00)$,False,15.0,4.0,0.0,0.0,False,False,False,False,True,True
+"subjectTitle"":""(.*)"",""subjectType"":""(.)"",""status"":null,""answer"":null,""totalRight"":null,""totalWrong"":null,""difficultyLevel"":null,""createTime"":null,""examFlag"":null,""subjectId"":null,""optionInfoList"":\[{""id"":""(.*)"",""optionTitle"":""(.*)"",""optionType"":""(.)""},{""id"":""(.*)"",""optionTitle"":""(.*)"",""optionType"":""(.)""},{""id"":""(.*)"",""optionTitle"":""(.*)"",""optionType"":""(.)""},{""id"":""(.*)"",""optionTitle"":""(.*)"",""optionType"":""(.)""}\]",False,13.0,1.0,0.0,0.0,False,False,False,False,True,False
+\b(\d+)\s*day(?:s)?\b,False,21.0,4.0,0.0,0.0,False,False,False,False,True,True
+Profissional|Especialidade|M[eé]dico|M[ée]dica,False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+(\bEEG|\b{}),False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+^(.?.?SEGURIDAD)|^(.?.?SGURIDAD),False,14.0,0.0,0.0,0.0,False,False,False,False,True,True
+Status: [ \t]*active,False,55.0,4.0,0.0,1.0,False,False,False,False,False,False
+[sS]\d{2}[eE]\d{2},False,14.0,2.0,0.0,0.0,False,False,False,False,False,False
+/\*===.*?===*?\*/,False,18.0,2.0,2.0,1.0,False,False,False,False,False,False
+^T-Mobile[_ ]Broadband\d{2}$,False,21.0,0.0,1.0,1.0,False,False,False,False,True,False
+^Megabus RIDE$,False,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+[\r\n](COMMENT.*?)[\r\n]\S,False,12.0,2.0,0.0,1.0,False,False,False,False,False,False
+rdtsc time = (\d+) ticks,False,34.0,11.0,0.0,1.0,True,False,True,True,True,True
+\\[a-zA-Z]+,False,14.0,3.0,0.0,1.0,False,False,False,False,True,True
+^Tahoe,False,24.0,4.0,0.0,1.0,False,False,False,False,False,False
+clint:\s*disable=([a-z0-9-]+),False,28.0,3.0,0.0,1.0,False,False,False,False,False,False
+backstore_,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(.?.?T\d+),False,32.0,2.0,0.0,1.0,False,False,False,False,False,False
+^OBDLink,False,15.0,4.0,0.0,1.0,False,False,False,False,True,True
+author|post-add|copyright,False,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+^B50_[A-Fa-f0-9]{4},False,24.0,4.0,0.0,0.0,False,False,False,False,False,False
+\b2022\b|\b2021\b,False,27.0,2.0,0.0,1.0,False,False,False,False,True,True
+"^(.*)-[0-9]{1,}-g[0-9a-f]{1,}$",False,17.0,1.0,0.0,0.0,False,False,False,False,False,False
+[_/\s],False,14.0,1.0,0.0,0.0,False,False,False,False,False,False
+11\d{4}\+0*(\d+),False,17.0,2.0,0.0,1.0,False,False,False,False,True,True
+[a-z][A-Z],False,23.0,2.0,0.0,0.0,False,False,False,False,False,False
+"\n{3,}",False,16.0,1.0,0.0,1.0,False,False,False,False,True,False
+Database:\s*`([^`]+)`,False,18.0,1.0,3.0,0.0,False,False,False,False,False,False
+!\[([^\]]*)\]\(([^)]+)\)\{([^\}]+)\},False,16.0,1.0,0.0,1.0,False,False,False,False,False,False
+(\w+)\s+startswith\s*\(([^)]+)\),False,28.0,2.0,0.0,1.0,False,False,False,False,False,False
+--[^>]*>,False,28.0,6.0,0.0,1.0,False,False,False,False,False,False
+https?://\S+,False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+^[Mm]akefile.*$,False,14.0,0.0,0.0,0.0,False,False,False,False,True,True
+^(.*?)'''\s*(#.*)?$,False,25.0,6.0,0.0,2.0,False,False,False,False,False,False
+(//|\#|<--|<!--|/\*|;|--)\s*,False,43.0,4.0,0.0,1.0,False,False,False,False,True,True
+^#(.*),False,26.0,5.0,1.0,0.0,False,False,False,False,False,True
+Start training for iter %s,False,64.0,12.0,0.0,1.0,False,False,False,False,True,False
+\\ru\{\\textit\{([^}]+)\}\},False,16.0,2.0,0.0,0.0,False,False,False,False,True,True
+^myBuick,False,21.0,2.0,0.0,1.0,False,False,False,False,False,False
+is available for registration,False,18.0,2.0,0.0,1.0,False,False,False,False,True,True
+\\fr\{([^}]+)\},False,19.0,2.0,0.0,1.0,False,False,False,False,False,False
+^setup\.py$,False,54.0,6.0,0.0,2.0,False,False,False,False,False,False
+^70mai_,False,21.0,2.0,0.0,0.0,False,False,False,False,False,False
+^SYNC_[A-Z0-9]+$,False,14.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^""""""(.*?)""""""\s*(#.*)?$",False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+(?i)browse/(?:%s),False,15.0,1.0,0.0,0.0,False,False,False,False,True,False
+([0-9]+\.[0-9]+),False,51.0,2.0,1.0,1.0,False,False,False,False,True,False
+([/:][a-zA-Z]*)0+([0-9]),False,19.0,1.0,0.0,2.0,False,False,False,False,False,True
+docs\.google\.com/(?:document|spreadsheets|presentation)/d/([a-zA-Z0-9_-]+),False,28.0,3.0,0.0,0.0,False,False,False,False,True,False
+jd.com/(\d+).html,False,44.0,4.0,0.0,1.0,True,False,True,True,True,True
+(?:comment_box|cb):(.*),False,13.0,1.0,1.0,0.0,False,False,False,False,True,True
+[^/-]+(?=(-\d+)?\Z),False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+(\w+) (inc|dec) (-?\d+) if (.+)\s*,False,10.0,1.0,0.0,0.0,False,False,False,False,True,False
+^Escalade[_\s]?\d,False,30.0,4.0,1.0,1.0,False,False,False,False,False,False
+^Dash-,False,39.0,4.0,0.0,2.0,False,False,False,False,True,True
+-oBatchMode[= ](yes|true),False,14.0,3.0,0.0,1.0,False,False,False,False,False,False
+^\s*seit\s*(\d{2}/\d{4})\s*bis\s*(dato|JETZT|Jetzt|jetzt|heute),False,28.0,1.0,0.0,1.0,False,False,False,False,True,True
+\b(\d{2}/\d{2}/\d{4})\b,False,20.0,2.0,0.0,1.0,False,False,False,False,False,False
+trending|popular|recommended,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^Audi\d{4,6}$",False,10.0,2.0,0.0,0.0,False,False,False,False,False,False
+^CatBoost_,False,23.0,1.0,0.0,1.0,False,False,False,False,True,True
+^([a-z][a-z0-9]*)(?:-+([a-z][a-z0-9]*))*$,False,21.0,1.0,0.0,1.0,False,False,False,False,False,False
+<search>(.*?)</search>,False,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+(?:start_of_tab|sot),False,83.0,2.0,0.0,1.0,False,False,False,False,False,False
+^A\d{3}\s*–\s*A\d{3}$,False,13.0,1.0,0.0,0.0,False,False,False,False,True,False
+"\b[A-Za-z]{18,}\b",False,43.0,4.0,0.0,0.0,False,False,False,False,True,True
+chatbox-index.*\.js,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+\b({:s})\b,False,8.0,2.0,0.0,0.0,False,False,False,False,False,False
+^YI[-_],False,13.0,1.0,0.0,0.0,False,False,False,False,True,True
+^\w+://,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+https://www\.youtube\.com/watch\?v=([a-zA-Z0-9_-]+),False,20.0,2.0,0.0,0.0,False,False,False,False,True,True
+"(and|,|-| )",False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+[^\d.]+,False,29.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\w{3} %s %s %s %s$,False,19.0,1.0,0.0,1.0,False,False,False,False,True,True
+VLPROF arg\s+(\S+)\s+([0-9.]*)\s*$,False,23.0,1.0,0.0,0.0,False,False,False,False,True,False
+^([a-z][a-z0-9]*)(?:_+([a-z][a-z0-9]*))*$,False,48.0,3.0,1.0,1.0,False,False,False,False,False,False
+(?:start_of_chorus|soc),False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+\\ru\{([^}]+)\},False,30.0,2.0,0.0,1.0,False,False,False,False,False,False
+"([\d,]+)",False,26.0,4.0,0.0,1.0,False,False,False,False,False,False
+^[a-zA-Z0-9](?:[a-zA-Z0-9._-]*[a-zA-Z0-9])?$,False,62.0,8.0,0.0,1.0,False,False,False,False,True,True
+\[BODY\]\s*(.*),False,49.0,8.0,0.0,1.0,False,False,False,False,True,False
+is free,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+^PROJ[A-Za-z0-9]+$,False,27.0,3.0,0.0,1.0,False,False,False,False,False,False
+The queried object does not exist: previous registration,False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+(%%|%(?P<len>\d*)(?P<fmtc>[dfoxs])|(?P<text>.+?)),False,16.0,3.0,0.0,1.0,False,False,False,False,True,True
+^(CHUNK_\d+_[A-Z]+):,False,29.0,5.0,0.0,1.0,False,False,False,False,True,False
+^\s*`(ifdef|ifndef|elsif)\s+(\w+)\s*$,False,23.0,2.0,0.0,0.0,False,False,False,False,True,True
+^feature_rank_heatmap_,False,41.0,0.0,0.0,0.0,False,False,False,False,False,False
+\[([\w\S]+)\]\(tg://user\?id=(\d+)\)\[(.+?)\],False,23.0,0.0,1.0,1.0,False,False,False,False,True,False
+[\r\n]     (?=\S),False,12.0,1.0,0.0,0.0,False,False,False,False,True,False
+"(\d{1,2})\s*:\s*(\d{2})(?:\s*:\s*(\d{2}))?",False,8.0,2.0,0.0,1.0,False,False,False,False,False,True
+^[Pp]ep[Ww]ave_,False,46.0,4.0,0.0,0.0,False,False,False,False,False,False
+(?i)^\s*NOTE_ID\s*:,False,9.0,0.0,0.0,0.0,False,False,False,False,True,True
+^witech,False,23.0,3.0,0.0,1.0,False,False,False,False,True,True
+exp-(?P<example>.*)-tutorial-(?P<tutorial>.*)-grammar-(?P<grammar>.*)\.json,False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+^VLPROFEXEC (\S+) (\d+)(.*)$,False,23.0,4.0,0.0,1.0,False,False,False,False,False,False
+^.*?[\x80-\xff].*?$,False,20.0,3.0,0.0,0.0,False,False,False,False,False,False
+[SaUO],False,23.0,1.0,0.0,0.0,False,False,False,False,True,False
+\[FROM\]\s*(.*?)(?:\n\n|\Z),False,59.0,11.0,0.0,2.0,False,False,False,False,False,False
+^.*?[^\t]\t.*?$,False,75.0,13.0,0.0,1.0,False,False,False,False,False,False
+"^BMW\s\d{4,5}",False,51.0,5.0,1.0,1.0,False,False,False,False,True,True
+^[-+]?[0-9]+\.[0-9]+$,False,15.0,1.0,0.0,0.0,False,False,False,False,True,False
+\\textit\{\\fr\{([^}]+)\}\},False,28.0,4.0,1.0,2.0,False,False,False,False,False,False
+^IROAD_,False,31.0,10.0,0.0,1.0,False,False,False,False,False,False
+^/robots\.txt$,False,11.0,0.0,0.0,0.0,False,False,False,False,False,False
+"<span class=""chunk"" id=""(chunk-.+?)"" (.+?)>兄弟你好香</span>",False,32.0,3.0,0.0,1.0,False,False,False,False,True,False
+var %s={.*?}};,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+"(?:\r\n|\r|\n){2,}",False,37.0,4.0,1.0,1.0,False,False,False,False,False,False
+^OSMO_(ACTION|POCKET),False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+member.?only,False,29.0,1.0,5.0,1.0,False,False,False,False,False,False
+.*NR.\s(\d+),False,39.0,3.0,0.0,1.0,False,False,False,False,False,True
+^(\w+)\s+(?:\w+\s+)*(\w+)\(.*?.*?$,False,45.0,8.0,1.0,3.0,False,False,True,True,False,False
+"\b(\d+(?:\.\d+){1,2})\b",False,78.0,9.0,0.0,2.0,False,False,False,False,True,True
+^\d+\.\s+(.+)$,False,15.0,2.0,0.0,0.0,False,False,False,False,True,True
+reg_option\s+:\s+(.*?)\n,False,14.0,4.0,0.0,1.0,False,False,False,False,False,False
+.+?id([-\d]+)_type(\d)_c(\d),False,22.0,1.0,0.0,0.0,False,False,False,False,True,True
+[NYWSKMRDVH],False,19.0,1.0,0.0,0.0,False,False,False,False,False,False
+"<h2 class=""map-name"">(.*?)<small",False,18.0,1.0,0.0,0.0,False,False,False,False,True,True
+^-?\d+(\.\d+)?$,False,11.0,1.0,0.0,0.0,False,False,False,False,True,False
+"waz{3,5}up",False,45.0,4.0,0.0,0.0,False,False,False,False,True,True
+\(\d{2}\)\s?9\d{4}-\d{4},False,16.0,3.0,0.0,0.0,False,False,False,False,False,False
+^url\.(.*)\.insteadof (.*)$,False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+"\b[A-Za-z]{20,}\b",False,42.0,7.0,0.0,2.0,False,False,False,False,True,False
+[0-9]{4}[.]run,False,29.0,4.0,1.0,1.0,False,False,False,False,True,False
+^(.*)_r(.*).root$,False,48.0,3.0,0.0,1.0,False,False,False,False,False,False
+"[A-Z]{2,}[A-Z][a-z]{2,}",False,48.0,5.0,0.0,1.0,False,False,False,False,True,False
+^(5G_)?VIOFO[-_],False,17.0,3.0,0.0,1.0,False,False,False,False,False,False
+正文.*结束|正文下|相关阅读|声明,False,59.0,8.0,0.0,1.0,False,False,False,False,False,False
+"fig-cap=""([^""]*)",False,44.0,8.0,0.0,1.0,False,False,False,False,False,False
+[\r\n](REFERENCE.*?)[\r\n]\S,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+%module(?:\s*\(.*\))?\s+(.+),False,15.0,0.0,0.0,0.0,False,False,False,False,True,False
+^Digi-TX54-,False,55.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Digi Hotspot$,False,25.0,5.0,1.0,1.0,False,False,False,False,True,False
+(\w+(?:\+\d)?)\s*\((.*)\),False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\$\(([A-Za-z_][A-Za-z0-9_]*)\)\s*=\s*(.+)$,False,19.0,3.0,0.0,0.0,False,False,False,False,False,False
+\\[a-zA-Z]+\$.*?\$|\$.*?\$,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\s*(\d+x)\s+([\d.]+)\s+([\d.]+)\s+([\d.]+)x\s+([\d.]+)%\s+(\d+),False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+^/blog/\d{4}/.+$,False,14.0,1.0,0.0,0.0,False,False,False,False,False,True
+diff --git a/(.*?) b/,False,13.0,3.0,0.0,1.0,True,False,False,True,True,True
+^(\d+)([7/])(\d+)$,False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+"([\w\-']+)([\s,.])?",False,17.0,0.0,1.0,0.0,False,False,False,False,False,False
+"🕓 Його не було (?:(?P<h>\d{1,2})год )?(?P<m>\d{1,2})хв",False,34.0,5.0,0.0,1.0,False,False,False,False,True,True
+.+[\u4E00-\u9FFF].+\n,False,20.0,2.0,0.0,1.0,False,False,False,False,False,False
+"\b[A-Z]{3,5}\b",False,58.0,8.0,0.0,1.0,False,False,False,False,True,False
+^CarPlay_,False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+^OnStar[_\s]?\d,False,25.0,3.0,1.0,1.0,False,False,False,False,False,False
+^(python sshdefaultscan.py|\./sshdefaultscan.py).*?,False,21.0,2.0,1.0,1.0,False,False,False,False,True,True
+(\d)((?!\1)\d)(\2)$,False,21.0,2.0,0.0,2.0,False,False,False,False,False,False
+^Toyota .+-\d+[gG]_[a-f0-9]+,False,18.0,0.0,0.0,0.0,False,False,False,False,True,True
+"^[A-Za-zäöüÄÖÜß]+(?:\s[A-Za-zäöüÄÖÜß.,-]+)*$",False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+^[\|\-\:\s]+$,False,20.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b{}\b,False,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+^https?://,False,44.0,7.0,1.0,1.0,False,False,False,False,False,False
+\[SUBJECT\]\s*(.*?)(?:\n\n|\Z),False,7.0,0.0,0.0,0.0,False,False,False,False,True,True
+^([A-Z][a-z0-9]*)(?:([A-Z][a-z0-9]*))*$,False,26.0,1.0,0.0,0.0,False,False,False,False,True,True
+.*_xsrf=(.*?);,False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+^Register ([ABC]): ([0-9]+)$,False,47.0,6.0,0.0,1.0,False,False,False,False,False,False
+<title>(.*?)</title>,False,21.0,2.0,0.0,0.0,False,False,False,False,True,False
+\b2023\b,False,22.0,5.0,0.0,1.0,False,False,False,False,True,True
+<!--.*?-->,False,36.0,4.0,0.0,1.0,False,False,False,False,False,True
+^NX_NEMO_ADDRESS_(\d+)$,False,58.0,10.0,0.0,1.0,False,False,False,False,False,False
+\\footnote\{([^}]+)\},False,14.0,2.0,0.0,0.0,False,False,False,False,False,False
+^\s*GRUB_TIMEOUT=,False,38.0,8.0,1.0,0.0,False,False,False,False,True,True
+"BloatView: ALL \(cumulative\) LEAK AND BLOAT STATISTICS\, ([a-zA-Z]+) process (\d+)",False,37.0,10.0,0.0,1.0,False,False,False,False,False,False
+^SiteSucker.*,False,39.0,4.0,0.0,2.0,False,False,False,False,True,True
+^\s*`pragma\s*protect\s*begin_protected\s*$,False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+^MV2458-,False,43.0,7.0,0.0,2.0,False,False,False,False,False,False
+.* -> .*,False,51.0,1.0,1.0,1.0,False,False,False,False,False,True
+"^BMW_\w{4,8}$",False,57.0,7.0,1.0,1.0,False,False,False,False,True,False
+[^\w\s],False,6.0,1.0,0.0,0.0,False,False,False,False,True,False
+^DIRECT-BMW\s?\d{5}$,False,27.0,3.0,1.0,1.0,False,False,False,False,False,False
+^[Uu]connect,False,22.0,1.0,0.0,0.0,False,False,False,False,False,False
+[\r\n]DEFINITION(.*?)[\r\n]\S,False,62.0,5.0,0.0,0.0,False,False,False,False,True,True
+^#([0-9a-fA-F]{6})$,False,30.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\s*GRUB_CMDLINE_LINUX=,False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+https?://(?:www\.)?(dreamturk|dreamtv)\.com\.tr/,False,40.0,1.0,0.0,0.0,False,False,False,False,False,False
+^XPENG,False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+Run runtime\(sec\):\s*([\d.]+),False,15.0,0.0,0.0,0.0,False,False,False,False,True,True
+type\s+(\w+)\s+struct\s*\{,False,22.0,4.0,1.0,1.0,False,False,False,False,True,True
+[A-Za-z0-9]+,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(?P<part1>\d{4})[-\ ]?(?P<part2>\d{4})[-\ ]?(?P<part3>\d{4})$,False,19.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^\s*(?:[A-Z][a-z]{2,8}\s+\d{1,2},\s+)?(20\d{2})\b",False,41.0,2.0,2.0,0.0,False,False,False,False,False,False
+^FlixBus,False,21.0,3.0,0.0,0.0,False,False,False,False,True,True
+"(?<=[A-Z])(\s)(?=[A-z]{2,})",False,18.0,0.0,1.0,1.0,False,False,False,False,False,False
+^Motive\s,False,19.0,1.0,1.0,1.0,False,False,False,False,False,False
+^(\d+)\.\s+(.+)$,False,56.0,3.0,1.0,1.0,False,False,False,False,False,False
+^\s*(\d+) (\d{2}/\d{2}/\d{4}),False,42.0,2.0,4.0,1.0,False,False,False,False,True,True
+^DIRECT-.{2}-Car_\w{4}$,False,25.0,3.0,0.0,1.0,False,False,False,False,False,False
+[\u0400-\u04FF\u3040-\u30FF\u4E00-\u9FFF],False,13.0,1.0,0.0,0.0,False,False,False,False,True,False
+^VLPROF(THREAD|VERSION),False,48.0,3.0,4.0,1.0,False,True,False,False,True,True
+"^IBR\d{3,4}-",False,27.0,3.0,1.0,1.0,False,False,False,False,False,False
+\w+(=?)$,False,39.0,4.0,0.0,1.0,False,False,False,False,False,False
+"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",False,31.0,3.0,2.0,1.0,False,False,False,False,False,False
+^Wifi327$,False,12.0,0.0,0.0,1.0,False,False,False,False,False,False
+^\s*\\input\{(.*)\}\s*$,False,5.0,2.0,0.0,1.0,False,False,False,False,False,False
+suspended,False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+"(\d+)-(\d+),(\d+)-(\d+)",False,23.0,2.0,1.0,1.0,False,False,False,False,True,False
+\s*foreign\s+key\b.*,False,10.0,1.0,0.0,0.0,False,False,False,False,True,False
+^DIRECT-.{2}-AUDIO_PLUS,False,18.0,2.0,0.0,1.0,False,False,False,False,False,False
+"\b\d{4}\.\d{1,2}\.\d{1,2}(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?\b",False,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+```(?P<lang>\w+)?\s*<<(?P<name>.*?)>>(?P<operator>\+?=)\n(?P<code>.*?)\n```,False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+^([01]?[0-9]|2[0-3]):([0-5]?[0-9]):?([0-5]?[0-9])?$,False,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+^MyLink[_\s]?\d,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+".*\(([^,]+)(?:,\s([^)]+)|)\)",False,41.0,4.0,2.0,0.0,False,False,False,False,False,False
+[-+]?\d*\.?\d+(?:[eE][-+]?\d+)?,False,36.0,1.0,6.0,1.0,False,False,False,False,False,True
+\.\.\.[A-Z],False,14.0,1.0,0.0,0.0,False,False,False,False,False,True
+^\.\.\s+code-block::\s*py(thon)?,False,31.0,4.0,0.0,1.0,True,False,True,True,True,True
+too fast,False,21.0,2.0,0.0,0.0,False,False,False,False,False,False
+\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~]),False,20.0,2.0,0.0,1.0,False,False,False,False,False,False
+\[ova\],False,41.0,6.0,0.0,0.0,False,False,False,False,False,True
+(\d+ | a | b | rc | esr | \.),False,16.0,3.0,0.0,0.0,False,False,False,False,False,False
+"([^@&]+)@([\w_-][\w_\.-]*\.[\w_-]{2,})$",False,25.0,0.0,1.0,1.0,False,False,False,False,False,False
+"((\s{2,}|(-)+>\s+)[0-9]*)*\\x1b\[([0-9];?m?)*",False,54.0,2.0,2.0,2.0,False,False,False,False,False,False
+^_?[A-Za-z][A-Za-z0-9_]*(\[[0-9]+])?(?:\.[A-Za-z_][A-Za-z0-9_]*(\[[0-9]+])?)*$,False,22.0,3.0,1.0,1.0,False,False,False,False,False,False
+^\s*drupal:\s*$,False,15.0,0.0,0.0,0.0,False,False,False,False,True,True
+\+\+\+ b\/(.*),False,27.0,5.0,0.0,1.0,False,False,False,False,False,True
+^My BMW Hotspot \w{4}$,False,18.0,1.0,0.0,0.0,False,False,False,False,True,False
+"[a-z][A-Z][a-z]{2,}",False,14.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^MINI[_\s]\d{4,5}$",False,22.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\s*kernel ,False,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$,False,19.0,3.0,0.0,0.0,False,False,False,False,True,True
+\s+:param\s+\w+:,False,38.0,4.0,1.0,1.0,False,False,False,False,False,False
+\bpython\s+(\d+\.\d+)\b,False,29.0,5.0,0.0,1.0,False,False,False,False,True,False
+"^\s*`define\s+(\w+)(?:\(([\w\s,]*)\))?(.*)",False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\/\*!\d+\sSET\s+(?:SQL|TIME),False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+Unlabeled Accuracy No Punc:[ \t]*([0-9]*.[0-9]*),False,30.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(?P<repo>[^#]+)/pull(-request)?/(?P<pull>[\d]+),False,33.0,8.0,0.0,2.0,False,False,False,False,False,False
+c(?:omment)?:(.*),False,14.0,1.0,0.0,0.0,False,False,False,False,True,False
+Дата окончания:\s*(\d{4}\.\d{2}\.\d{2}\s*\d{2}:\d{2}:\d{2}),False,74.0,5.0,0.0,1.0,False,False,False,False,True,True
+[+](?P<count>[*]?)(?P<value>\w+)(?P<post>.*),False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+response,False,57.0,8.0,0.0,1.0,False,False,False,False,False,False
+^LincolnWay[_ ],False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+"\bSystem alert view is present, so skipping all tests\b",False,37.0,7.0,0.0,1.0,False,False,False,False,False,False
+^\s*(\S+)->(\S+)(\s+.*|$),False,28.0,2.0,0.0,1.0,False,False,False,False,True,True
+[\d\s],False,11.0,0.0,0.0,0.0,False,False,False,False,True,True
+20\d{2}-\d{2}-\d{2},False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+book_blocked,False,14.0,1.0,0.0,0.0,False,False,False,False,True,False
+\b(\d{2}/\d{2}/\d{2})\b,False,26.0,1.0,0.0,0.0,False,False,False,False,True,True
+\.java\:\d+\)$,False,45.0,4.0,0.0,3.0,True,False,False,True,True,False
+^\d+(\.\d+)*$,False,12.0,0.0,0.0,0.0,False,False,False,False,True,True
+^myGMC,False,20.0,3.0,0.0,1.0,False,False,False,False,True,False
+\b2026\b|\b2025\b,False,10.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\[(?P<label>.*)\]:\s*(?P<url>.*)$,False,47.0,0.0,0.0,0.0,False,False,False,False,False,False
+[ ]* ([a-zA-Z]) (.*),False,11.0,3.0,0.0,1.0,False,False,False,False,True,False
+^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) \[([^\]]+)\] (.*\n),False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+"\[([0-9,]+)\]",False,45.0,8.0,0.0,1.0,False,False,False,False,False,False
+"#\|\s*fig-alt:\s*""([^""]*)",False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^\s*`(endif|else)\s*$,False,12.0,1.0,1.0,1.0,False,False,False,False,True,True
+"[; =(,](\w+)\.(\w+)\(",False,10.0,0.0,0.0,0.0,False,False,False,False,False,True
+^AAWirelessDongle$,False,28.0,5.0,0.0,1.0,False,False,False,False,True,False
+#(\w+),False,15.0,2.0,0.0,1.0,False,False,False,False,True,False
+User (.*) not found.,False,28.0,0.0,0.0,0.0,False,False,False,False,False,False
+\b(conf[ií]o|desconf[ií]o|dudo|sirve|no\s+sirve|funciona|no\s+funciona|miedo|dej[eé]|abandon|retom|volv)\w*,False,16.0,0.0,0.0,0.0,False,False,False,False,False,True
+^[a-z][A-Z][a-z]*,False,33.0,2.0,0.0,1.0,False,False,False,False,True,True
+Figure\s+([A-Z\d]+\.\d+)\s*\|\s*Page\s*(\d+),False,152.0,7.0,12.0,1.0,False,True,False,False,False,False
+^OBDII$,False,25.0,3.0,1.0,2.0,False,False,True,True,False,False
+^/apple-touch-icon.*\.png$,False,29.0,3.0,2.0,1.0,False,False,False,False,False,False
+^Thinkware_,False,35.0,0.0,5.0,1.0,False,False,False,False,False,False
+(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2}),False,8.0,1.0,0.0,1.0,False,False,False,False,False,True
+^\d{4}\s?[Ss]ilverado,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+^'''(.*?)'''\s*(#.*)?$,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+VLPROFPROC processor\s*:\s*(\d+)\s*$,False,55.0,3.0,3.0,0.0,False,False,False,False,False,False
+"(\d+)\s+failed,\s+(\d+)\s+error\(s\)\s+of\s+(\d+)\s+tests?",False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+.*packet-.*\.c,False,37.0,2.0,2.0,2.0,False,True,False,False,False,False
+^[-+]?[-0-9]\d*\.\d*|[-+]?\.?[0-9]\d*$,False,9.0,1.0,0.0,1.0,False,False,False,False,False,True
+"([-+]?\d+\.\d+)\s*,\s*([-+]?\d+\.\d+)",False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+^([a-z][a-z0-9]*)(?:([A-Z][a-z0-9]*))*$,False,52.0,4.0,1.0,0.0,False,False,False,False,False,False
+^MofiNetwork,False,24.0,3.0,0.0,2.0,False,False,False,False,False,False
+<answer>\s*([\-]?\d+(?:\.\d+)?)\s*</answer>,False,22.0,0.0,0.0,0.0,False,False,False,False,True,False
+INFO \- leakcheck \| Processing leak log file (.+)$,False,29.0,5.0,0.0,1.0,False,False,False,False,False,False
+^(\s*)#\s*Copied from\s+diffusers\.(\S+\.\S+)\s*($|\S.*$),False,33.0,3.0,0.0,1.0,False,False,False,False,False,False
+^:\w+:,False,8.0,1.0,0.0,1.0,False,False,False,False,True,False
+\b(minutes?|hours?)\s+ago\b,False,10.0,2.0,0.0,0.0,False,False,False,False,True,True
+[A-Za-z_][A-Za-z0-9_]*,False,19.0,0.0,1.0,1.0,False,False,False,False,True,True
+^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$,False,48.0,0.0,5.0,0.0,False,False,False,False,False,False
+(\d*)([xcbB?hHiIlLqQnNefdspP]),False,19.0,1.0,1.0,1.0,False,False,False,True,False,False
+^Miofive_,False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+missing \d+ required positional argument,False,23.0,1.0,0.0,0.0,False,False,False,False,True,True
+\\textit\{\\ru\{([^}]+)\}\},False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+^/favicon\.ico$,False,18.0,1.0,0.0,1.0,False,False,False,False,True,True
+^\s*\)(\s*->.*:|:)\s*$,False,38.0,8.0,0.0,1.0,False,False,False,False,True,False
+refused,False,29.0,4.0,0.0,1.0,False,False,False,False,False,False
+\b\d+\s*day(?:s)?\b,False,23.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b3[- ]?day\b|\b3[- ]?days\b|\b72 hours\b,False,24.0,2.0,0.0,1.0,False,False,False,False,False,False
+"^>{6,8}\s*REPLACE\s*$",False,20.0,1.0,0.0,0.0,False,False,False,False,False,False
+I love (cats|dogs),False,22.0,1.0,1.0,1.0,False,False,False,False,False,False
+(packet|file)-.*\.c,False,24.0,5.0,0.0,1.0,False,False,False,False,True,False
+takes \d+ positional arguments? but \d+ (was|were) given,False,71.0,18.0,0.0,2.0,True,False,True,True,False,False
+^completion(_\d+)?\.(mp3|wav|ogg|m4a|aac)$,False,23.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b(\d{2}\.\d{2}\.\d{4})\b,False,16.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^GMC[A-Z]{2,}",False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+^\s*syntax:\s*(glob|regexp|regex|re|literal)\s*$,False,29.0,5.0,0.0,2.0,False,False,False,False,True,False
+#\|\s*label:\s*(fig-[\w-]+),False,25.0,1.0,1.0,0.0,False,False,False,False,True,True
+https?://(?:www\.)?raiplay\.it/video/.+,False,18.0,0.0,0.0,0.0,False,False,False,False,False,False
+\b(0x[\da-fA-F]+|0[0-7]*|\d+)\b,False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+"[;,(){}\[\]]",False,19.0,1.0,0.0,1.0,False,False,False,False,True,True
+(.*?),False,36.0,4.0,0.0,1.0,False,False,False,False,True,True
+([\d.]+)([km]?),False,14.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(?:[a-zA-Z]\:)?(\\|\/),False,17.0,4.0,0.0,1.0,False,False,False,False,True,True
+^Item\s*\{,False,12.0,3.0,0.0,1.0,False,False,False,False,False,False
+attr\((data-.+?)\),False,41.0,6.0,0.0,1.0,False,False,False,False,False,False
+{@ogp\s+(.*?)\s*},True,40.0,2.0,4.0,1.0,False,False,False,False,True,True
+^Roav[_ ],False,37.0,4.0,0.0,1.0,False,False,False,False,True,True
+"(data-.+?)=""(.+?)",False,17.0,2.0,0.0,0.0,False,False,False,False,True,True
+^Pvt\.WFR_,False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b\d+\s*day\b|\b\d+\s*days\b|\b72 hours\b,False,14.0,1.0,0.0,0.0,False,False,False,False,False,False
+\.(?:png|gif|jpg|jpeg|tif|bmp|webp)$,False,21.0,1.0,0.0,0.0,False,False,False,False,False,False
+mindrecord\d*$,False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+^[^\W\d_]+(?:[ '\-][^\W\d_]+)*$,False,14.0,0.0,0.0,0.0,False,False,False,False,True,True
+"\bpmid[:\s]*\d{5,9}\b",False,10.0,2.0,0.0,0.0,False,False,False,False,False,False
+<think>(.*?)</think>,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+port\s*=\s*(\d+),False,11.0,1.0,0.0,1.0,False,False,False,False,False,False
+".*:.*@\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$",False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+"\+?[0-9 -]{8,15}",False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+-oBatchMode[= ](no|false),False,14.0,1.0,0.0,1.0,False,False,False,False,False,False
+(ErrorReturnCode|SignalException)_((\d+)|SIG[a-zA-Z]+),False,14.0,5.0,1.0,0.0,False,False,False,False,False,False
+"\b(?:by|By)\s+([^,]+),",False,29.0,1.0,2.0,1.0,False,False,False,False,True,True
+^AmtrakConnect$,False,68.0,1.0,2.0,1.0,False,False,False,False,False,True
+":{3,}\s*\{(.*#fig-.*)\}\s*$",False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+^Silverado[_\s]?\d,False,34.0,1.0,0.0,0.0,False,False,False,False,False,True
+[.*\$(\d+).*]+,False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+url\s*\(\s*[^\s)]+?\s*\)\s*,False,57.0,8.0,0.0,1.0,False,False,False,False,False,False
+"VERSION_ID=""(\d+\.\d+)",False,34.0,2.0,0.0,1.0,False,False,False,False,False,False
+"\b\d+(?:\.\d+){1,2}\b",False,45.0,1.0,3.0,1.0,False,False,False,False,True,False
+^\d{4}-\d{2}-\d{2}$,False,10.0,4.0,0.0,0.0,False,False,False,False,True,True
+(?:[A-Za-z]:)?[\\/][\w\-. \\\/]+\.\w+|,False,11.0,2.0,0.0,1.0,False,False,False,False,False,False
+"^@@ -(\d+),\d+ \+(\d+),\d+ @@",False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+_VANTRUE_,False,38.0,4.0,0.0,1.0,False,False,False,False,False,False
+^IOSiX,False,25.0,3.0,1.0,1.0,False,False,False,False,False,False
+Run operations\(ops\):\s*(\d+),False,18.0,3.0,0.0,0.0,False,False,False,False,False,False
+(?:(\w+:)?(\w+):)?(\w+)(\.\w+)?\Z,False,11.0,1.0,0.0,0.0,False,False,False,False,False,False
+^LOCUS[^\r\n]*,False,19.0,3.0,0.0,1.0,False,False,False,False,False,True
+"^.*: ([^,]+, bootblocksize [0-9]+, romsize [0-9]+, offset 0x[0-9A-Fa-f]+)$",False,13.0,3.0,0.0,1.0,False,False,False,False,False,False
+^Blackvue,False,15.0,2.0,0.0,1.0,False,False,False,False,False,True
+odoo\.tests\.stats:\s+(\S+):\s+(\d+)\s+tests?\s+([\d.]+)s,False,22.0,2.0,0.0,1.0,False,False,False,False,False,False
+[^a-z],False,11.0,1.0,0.0,0.0,False,False,False,False,False,False
+Ran\s+(\d+)\s+tests?\s+in\s+([\d.]+)s,False,11.0,1.0,1.0,1.0,False,False,False,False,True,False
+^dbstore_(.*)_rev_(.*).root$,False,34.0,0.0,4.0,1.0,False,False,False,False,True,False
+^tasks\.py$,False,18.0,3.0,0.0,0.0,False,False,False,False,True,False
+"£([0-9\,]*[0-9]+)",False,17.0,3.0,0.0,1.0,False,False,False,False,True,True
+^[Cc]ar[_-]\w+,False,23.0,1.0,0.0,0.0,False,False,False,False,True,True
+"^\w{6,9}, %s-%s-%s %s GMT$",False,58.0,16.0,1.0,1.0,False,False,False,False,False,False
+^# (StandardizedVariants(-\d+(\.\d+)*)?\.txt),False,13.0,3.0,0.0,1.0,False,False,False,False,True,True
+^manage\.py$,False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+^\s*path:\s*([^\s]+),False,13.0,1.0,0.0,1.0,False,False,False,False,True,False
+\bMadrid\b,False,58.0,11.0,0.0,2.0,False,False,False,False,False,False
+"\d\d:\d\d:\d\d,\d\d\d --> \d\d:\d\d:\d\d,\d\d\d",False,41.0,2.0,1.0,1.0,False,False,False,False,True,True
+"^(\w\S+?),?",False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+32\.\.00\+(\d{8}),False,24.0,1.0,0.0,0.0,False,False,False,False,False,False
+(?:meta:)?\s*(?P<command>%s):?\s*(?P<args>.*),False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+[ \t]+,False,34.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(_.*|init)$,False,9.0,0.0,0.0,0.0,False,False,False,False,True,True
+_test\.py$,False,13.0,0.0,1.0,0.0,False,False,False,False,False,False
+^---\s*\n(.*?)\n---\s*\n(.*),False,9.0,2.0,0.0,0.0,False,False,False,False,False,False
+^t(?:itle):(.*),False,17.0,1.0,1.0,1.0,False,False,False,False,False,False
+after release from the queue,False,342.0,44.0,26.0,4.0,False,False,False,False,True,False
+\ben franc[eé]s$,False,29.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^[a-z]([-a-z0-9]{0,29}[a-z0-9])?$",False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+(?:expiration|expires|expiry|renewal|expire|paid-till|valid until|exp date|vencimiento|validity|registry fee due|fecha de corte).*?[:\]]\s*(.*?)(?:\n|$),False,13.0,2.0,0.0,1.0,False,False,False,False,True,False
+\b(_)((?:__|[^_])+?)(_)\b,False,20.0,0.0,1.0,1.0,False,False,False,False,False,False
+33(?:5168|6168|2108)\+(\d{8}),False,13.0,3.0,0.0,1.0,False,False,False,False,False,False
+\b(2009|2010|2011|2012|2022|2023)\b,False,10.0,0.0,0.0,0.0,False,False,False,False,False,True
+-r(\d+)$,False,7.0,1.0,0.0,0.0,False,False,False,False,True,False
+^Audi_MMI_,False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+^CHEVROLET,False,71.0,5.0,0.0,0.0,False,False,False,False,False,True
+"https?://[^\s<>""{}|\\^`\[\]]+|www\.[^\s<>""{}|\\^`\[\]]+",False,16.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Samsara,False,21.0,5.0,0.0,1.0,False,False,False,False,True,True
+"(\x03(\d+,\d+|\d)|[\x0f\x02\x16\x1f])",False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+ap/(\d+)$,False,37.0,2.0,1.0,1.0,False,False,False,False,False,False
+author,False,15.0,1.0,0.0,0.0,False,False,False,False,True,True
+"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b",False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+"(\+?\d[\d\-\s().]{7,}\d)",False,14.0,2.0,0.0,0.0,False,False,False,False,False,False
+^average_feature_rank_,False,13.0,0.0,1.0,0.0,False,False,False,False,False,False
+"(\d{1,2})\s*시\s*(\d{1,2})\s*분",False,30.0,4.0,0.0,1.0,False,False,False,False,False,False
+"(?<=jpgPath:"")[0-9a-zA-Z\/]+(?="")",False,34.0,2.0,9.0,0.0,False,False,False,False,False,False
+^(\s*)\S,False,9.0,2.0,0.0,0.0,False,False,False,False,False,False
+"^={5,}\s*$",False,9.0,4.0,0.0,0.0,False,False,False,False,False,False
+^WiFi[_-]OBD(II|2)$,False,13.0,1.0,0.0,0.0,False,False,False,False,True,True
+hydrogenated|corn.syrup|aspartame|sucralose|msg|,False,25.0,0.0,3.0,1.0,False,False,False,False,False,False
+<p>(\s|&nbsp;)*</p>,False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+(\w+)_,False,20.0,1.0,0.0,1.0,False,False,False,False,False,False
+"^[^\x00-\x1F<>]{0,256}$",False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+^jomupi-eld,False,43.0,3.0,3.0,1.0,False,False,False,False,False,False
+^/([A-Za-z])/(.*)$,False,43.0,4.0,3.0,2.0,False,False,False,False,True,False
+^\s*func\s+(?:\([^)]+\)\s+)?(\w+)\s*\(,False,26.0,1.0,0.0,0.0,False,False,False,False,True,False
+type\s+(\w+)\s+interface\s*\{,False,23.0,2.0,0.0,1.0,False,False,False,False,False,False
+handler not found: (.*),False,20.0,2.0,0.0,1.0,False,False,False,False,False,False
+(<think>)(.*?)(</think>),False,35.0,3.0,0.0,1.0,False,False,False,False,False,False
+Sorry.*not using Tor,False,18.0,4.0,1.0,1.0,False,False,False,False,True,False
+0x[0-9a-fA-F]+(LL|ULL),False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+^(?=.*EMG)(?!.*\(IM\)).*,False,11.0,3.0,0.0,1.0,False,False,False,False,False,False
+"(?:^[A-Z ,]+\s*(?:[A-Z]+\s*)*(?:[A-Z, ]*\n)*(?:[A-Z]+\s*)*\n(?:.*\n)*?)",True,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+PlasmaComponents(\d+)\.,False,26.0,2.0,0.0,1.0,False,False,False,False,False,False
+Dumping routines,False,25.0,2.0,0.0,1.0,False,False,False,False,False,False
+^YADA_BEON,False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+^(.*?)[（(]?数量[：:]\s*(\d+)[)）],False,8.0,0.0,1.0,1.0,False,True,False,False,True,True
+^```[a-zA-Z0-9_-]*$|^```$,False,32.0,3.0,0.0,1.0,False,False,False,False,True,True
+Server is busy now,False,21.0,0.0,3.0,1.0,False,False,False,False,False,False
+{(.*)},False,70.0,12.0,1.0,1.0,False,False,False,False,True,False
+^process_num_(\d+)$,False,18.0,0.0,0.0,1.0,False,False,False,False,False,True
+^\s*([a-zA-Z][a-zA-Z0-9_]*)\s*=(.+)$,False,66.0,11.0,1.0,1.0,False,False,False,False,True,True
+(.*)@(.*)@(.*),False,7.0,0.0,0.0,1.0,False,False,False,False,False,False
+^[\-\*\+]\s+(.+)$,False,13.0,0.0,0.0,0.0,False,False,False,False,True,True
+.*[\\/]+(.*),False,20.0,0.0,0.0,0.0,False,False,False,False,True,False
+\$\{(?P<id>[^}]*?)(?P<modifier>:[^}]*)?\},False,134.0,9.0,0.0,1.0,False,False,False,False,False,False
+^MY\s?(QX60|QX80|QX50|Q50|Q60)[A-Z0-9]+$,False,14.0,0.0,0.0,0.0,False,False,False,False,False,False
+^\$([A-Za-z_][A-Za-z0-9_]*)\s*=\s*.*$,False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+^EXP-\d{8}-\d{4}$,False,10.0,2.0,0.0,1.0,False,False,False,False,True,False
+@(\w+),False,47.0,5.0,0.0,1.0,False,False,False,False,False,False
+"\b[A-Z]{2,6}\b",False,30.0,8.0,0.0,1.0,False,False,False,False,False,False
+\x1b\[[0-9;]*[a-zA-Z],False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+^bootmod3,False,24.0,0.0,0.0,0.0,False,False,False,False,False,False
+^conftest\.py$,False,101.0,2.0,3.0,1.0,False,False,False,False,False,False
+/\d+\.\d+/,False,53.0,0.0,4.0,1.0,False,True,False,False,False,False
+\bNone\b,False,6.0,2.0,0.0,0.0,False,False,False,False,False,False
+(?sim)speed,False,29.0,3.0,0.0,0.0,False,False,False,False,False,False
+^WIFIAV,False,6.0,0.0,0.0,0.0,False,False,False,False,True,True
+(?i)^\s*SOURCE_FILE\s*:,False,40.0,3.0,0.0,1.0,False,False,False,False,True,True
+"href=""/([^""]+)",False,20.0,3.0,0.0,2.0,False,False,False,False,True,False
+//.*|/\*.*?\*/,False,12.0,2.0,0.0,0.0,False,False,False,False,False,False
+^staging_.+\.(json|yaml|xml)$,False,14.0,1.0,0.0,0.0,False,False,False,False,True,False
+TEST-UNEXPECTED-FAIL \| leakcheck large nsGlobalWindowInner \| (.+)$,False,20.0,1.0,0.0,0.0,False,False,False,False,True,True
+^myChevrolet,False,83.0,10.0,4.0,1.0,False,False,False,False,False,False
+[a-z0-9.]+@student\.unhas\.ac\.id$,False,34.0,3.0,2.0,1.0,False,True,False,False,True,True
+<@[^>]+>,False,7.0,2.0,0.0,1.0,False,False,False,False,False,False
+(\S+\.tests\S*)[\s:]+Starting\s+\S+?\.(test_\S+)\s+\.\.\.,False,22.0,3.0,0.0,1.0,False,False,False,False,False,False
+"\A@charset ""(?P<encoding>[\w-]+)"";",False,33.0,4.0,0.0,1.0,False,False,False,False,False,True
+^DIRECT-.{2}-my(Chevrolet|GMC|Buick|Cadillac),False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+^.*?//.*?$,False,28.0,6.0,0.0,0.0,False,False,False,False,False,False
+(\w+) (\d+),False,8.0,3.0,0.0,0.0,False,False,False,False,True,False
+^KeepTruckin,False,95.0,7.0,4.0,1.0,False,True,False,False,False,False
+audit_policy_subcategory\s+:\s+(.*?)\n,False,22.0,3.0,0.0,0.0,False,False,False,False,False,False
+"#\|\s*fig-cap:\s*""([^""]*)",False,14.0,0.0,0.0,0.0,False,False,False,False,False,False
+[^@]+@[^@]+\.[^@]+,False,22.0,4.0,0.0,1.0,False,False,False,False,False,False
+\b20\d{2}\b,False,19.0,3.0,0.0,1.0,False,False,False,False,False,False
+DOOL_OPTS:\s?(.+?)$,False,19.0,1.0,0.0,1.0,False,False,False,False,False,False
+(\d+)(?!.*\d),False,80.0,15.0,1.0,2.0,False,False,False,False,False,False
+.*\.js\[(.*)\]$,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+\]([^\[]+)\[([^\]]+)\],False,15.0,2.0,0.0,0.0,False,False,False,False,False,False
+[\r\n] {21},False,17.0,1.0,0.0,1.0,False,False,False,False,False,False
+^(a|b)/(.*),False,25.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(ONE X|One RS|X[2-5]|GO [23]|Ace),False,11.0,2.0,0.0,0.0,False,False,False,False,True,True
+^\d{4}-\d{2}-\d{2},False,18.0,1.0,1.0,1.0,False,False,False,False,False,False
+^([^:]+):\s*(.*)$,False,66.0,6.0,1.0,1.0,False,False,False,False,True,False
+"^[^\x00-\x1F<>]{0,512}$",False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+(?:\A|\s*)\s*(\w+)\s+(?:#\s*\(.*?\)\s*)?(\w+)\s*\(.*?\)\s*,False,21.0,2.0,0.0,1.0,False,False,False,False,False,True
+^\d+(\.\d+)?$,False,24.0,1.0,0.0,0.0,False,False,False,False,True,True
+\b\d{4}\b,False,29.0,8.0,0.0,1.0,False,False,False,False,False,False
+^(NVT_)?CARDV,False,20.0,1.0,0.0,1.0,False,False,False,False,False,False
+"\b\d{4}年\d{1,2}月\d{1,2}日(?:\s*\d{1,2}:\d{2}(?::\d{2})?)?\b",False,25.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(tty|com):([a-zA-Z0-9]+):([a-zA-Z0-9]+)$,False,18.0,4.0,1.0,1.0,False,False,False,False,False,False
+\b2024\b,False,86.0,14.0,1.0,1.0,False,False,False,False,True,False
+Congratulations.*use Tor,False,26.0,2.0,0.0,1.0,False,False,False,False,False,False
+^EZLYNK[_-],False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+https?://(?:www\.)?teve2\.com\.tr/,False,19.0,1.0,0.0,0.0,False,False,False,False,True,True
+^BusWiFi$,False,48.0,6.0,0.0,1.0,False,False,False,False,False,False
+story|article,False,21.0,1.0,0.0,0.0,False,False,False,False,False,False
+```.*?```,False,10.0,2.0,0.0,0.0,False,False,False,False,True,False
+\b20(?:0\d|1\d)\b,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+^\s*(\b(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)|Nov(?:ember)|Dez(?:ember)?)\.?\s\d{4})\s*[-–]\s*(\b(?:heute|JETZT|Jetzt|jetzt|(?:Jan(?:uar)?|Feb(?:ruar)|Mär(?:z)|Apr(?:il)|Mai|Jun(?:i)|Jul(?:i)|Aug(?:ust)|Sep(?:tember)|Okt(?:ober)|Nov(?:ember)|Dez(?:ember)?)\.?\s\d{4})?),False,13.0,0.0,0.0,0.0,False,False,False,False,True,False
+\d\d-[A-Z][A-Z][A-Z]-\d\d\d\d,False,12.0,2.0,0.0,1.0,False,False,False,False,True,True
+try again,False,13.0,2.0,0.0,1.0,False,False,False,False,False,False
+^[^\r\n]+(.*),False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+\b(202[4-9]|203\d)\b,False,30.0,4.0,0.0,1.0,False,False,False,False,False,False
+uses\s+(.*?);,False,35.0,8.0,0.0,1.0,False,False,False,False,False,False
+-py\d\.\d$,False,14.0,2.0,0.0,1.0,False,False,False,False,True,False
+^cpu\d+,False,8.0,0.0,0.0,1.0,False,False,False,False,False,False
+<#[^>]+>,False,14.0,0.0,2.0,1.0,False,True,False,False,False,False
+[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}$,False,33.0,8.0,0.0,2.0,True,False,False,True,False,False
+redemptionPeriod,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+^.*?(DUK_D+PRINT).*?$,False,19.0,1.0,0.0,0.0,False,False,False,False,True,True
+^test_,False,13.0,0.0,0.0,0.0,False,False,False,False,True,True
+"\b59 Temple Place(,| *-) *Suite 330\b",False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^[\w\d_\.\/-]+$,False,13.0,0.0,0.0,0.0,False,False,False,False,True,False
+^ROVE_R2,False,15.0,0.0,1.0,0.0,False,False,False,False,False,False
+<FILL\s+[^>]*>,False,14.0,2.0,0.0,1.0,False,False,False,False,False,False
+content|story,False,53.0,5.0,3.0,1.0,False,False,False,False,False,False
+(\w+)\s+endswith\s*\(([^)]+)\),False,33.0,2.0,0.0,0.0,False,False,False,False,True,True
+==|!=|<=|>=|&&|\|\||[+\-*/%=<>&|!],False,37.0,5.0,0.0,1.0,False,False,False,False,False,False
+.* \[.*\],False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+/\*.*?\*/,False,16.0,0.0,0.0,0.0,False,False,False,False,True,False
+^[a-z0-9_.]+$,False,48.0,4.0,2.0,1.0,False,False,False,False,False,False
+(\bEOG|\bE\d|\bROC|\bLOC),False,28.0,4.0,0.0,1.0,False,False,False,False,False,False
+^DDPAI_,False,14.0,1.0,0.0,0.0,False,False,False,False,True,False
+"([0-9][0-9\,]+[0-9])",False,106.0,0.0,9.0,1.0,False,False,False,False,False,False
+\\fr\{\\textit\{([^}]+)\}\},False,38.0,5.0,1.0,1.0,False,False,False,False,False,False
+\b(\d{4})\s*-\s*(HEUTE|Jetzt|jetzt|heute)\b,False,18.0,1.0,0.0,0.0,False,False,False,False,True,False
+^(\s*def\s)|(.*(?<!\w)lambda(:|\s))|^(\s*@),False,50.0,9.0,0.0,1.0,False,False,False,False,False,False
+^DIRECT-.{2}-PREMIUM_AUDIO,False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+webkit_revision\D*(\d+),False,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+"\$([0-9\.\,]*[0-9]+)",False,53.0,0.0,6.0,2.0,False,False,False,False,True,True
+https?://(?:www\.)?kanald\.com\.tr/,False,15.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(---|\+\+\+) (.*),False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+<[^>]+>,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+(#+)(?!.*#),False,7.0,2.0,0.0,0.0,False,False,False,False,False,False
+^Digi-WR54-,False,55.0,0.0,7.0,0.0,False,False,False,False,False,True
+[\r\n](SEGMENT.*?)[\r\n]\S,False,9.0,1.0,0.0,0.0,False,False,False,False,True,True
+[\r\n](CONTIG.*?)[\r\n]\S,False,22.0,4.0,0.0,1.0,False,False,False,False,False,False
+[?!][A-Z],False,18.0,0.0,0.0,0.0,False,False,False,False,True,True
+^(usb|)$,False,54.0,3.0,1.0,1.0,False,False,False,False,True,True
+"^usb(:[0-9]{1,3})(:[0-9]{1,3})?$",False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+(\bA1|\bA2|\bM1|\bM2),False,34.0,3.0,0.0,1.0,False,False,False,False,True,True
+"^\d{4}-\d{2}-\d{2}\s[\d:,]+\s+\d+\s+(FAIL|ERROR)\s+\S+\s+\S+\.tests\S*",False,11.0,1.0,0.0,1.0,False,False,False,False,False,False
+-(20\d\d\d\d\d\d)$,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^\d{4}-\d{2}-\d{2}\s[\d:,]+\s+\d+\s+(ERROR|CRITICAL)\s+\S+\s+(.+)$",False,37.0,7.0,0.0,1.0,False,False,False,False,True,False
+(\bEMG),False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+^fabfile\.py$,False,24.0,2.0,0.0,1.0,False,False,False,False,False,False
+^[Nn]ext[Bb]ase[-_ ],False,36.0,4.0,0.0,1.0,False,False,False,False,True,False
+I/DocShellAndDOMWindowLeak (..)DOMWINDOW == (\d+) \(([0-9a-fA-F]+)\).*\[pid = (\d+)\] \[serial = (\d+)\] \[[^\]]+\].?(\[url = [^\]]+)?,False,52.0,6.0,0.0,1.0,False,False,False,False,False,False
+\b02111-1307\b,False,43.0,4.0,0.0,1.0,False,False,False,False,True,True
+#(fig-[\w-]+),False,82.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(\w+:/)?/,False,17.0,2.0,0.0,0.0,False,False,False,False,False,False
+(?<!\{)\{\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*\}(?!\}),False,11.0,2.0,0.0,2.0,False,False,False,False,False,False
+(\*{2})([\s\S]+?)(\*{2})(?!\*),False,44.0,0.0,0.0,1.0,False,False,False,False,False,False
+"@\w{1,15}",False,36.0,2.0,0.0,1.0,False,False,False,False,False,False
+is undergoing proceeding,False,17.0,3.0,0.0,0.0,False,False,False,False,False,False
+INFO \- TEST-INFO \| leakcheck \| [a-zA-Z]+ leaked ([0-9]+) (nsGlobalWindowInner|nsGlobalWindowOuter),False,19.0,1.0,3.0,1.0,False,False,False,False,False,False
+(guideline|guidelines|management|disease|dengue)[a-z],False,37.0,3.0,0.0,1.0,False,False,False,False,False,False
+.*->.*,False,24.0,1.0,0.0,0.0,False,False,False,False,True,True
+"\barxiv[:\s]*\d{4}\.\d{4,5}\b",False,18.0,2.0,1.0,1.0,False,False,False,False,True,False
+^OBD2$,False,12.0,2.0,0.0,1.0,False,False,False,False,False,False
+^usb(:[0-9a-fA-F]{4})(:[0-9a-fA-F]{4})?$,False,17.0,1.0,0.0,2.0,False,False,False,False,True,False
+^([^\[]*)(\[(.*)\])?,False,19.0,1.0,0.0,1.0,False,False,False,False,False,False
+\[.+\]\(.+\),False,24.0,2.0,0.0,0.0,False,False,False,False,False,False
+^KENWOOD\s+DRV,False,39.0,10.0,2.0,1.0,False,False,False,False,False,False
+^Wi-Fi-Hotspot .{2}$,False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+\b\d{2}/\d{4}\s*[--]\s*\d{2}/\d{4}|\b\d{2}/\d{4}\s*[-–]\s*(heute|JETZT|Jetzt|jetzt),False,71.0,5.0,3.0,2.0,False,False,False,False,False,False
+\[\d{2}\],False,34.0,6.0,0.0,2.0,False,False,False,False,True,True
+^\s*syntax:\s*(glob|regexp|re)\s*$,False,39.0,3.0,0.0,1.0,False,False,False,False,True,True
+(.*?)\s,False,31.0,4.0,0.0,1.0,False,False,False,False,False,False
+"\b(?:\d[ -]?){13,19}\b",False,20.0,1.0,0.0,0.0,False,False,False,False,True,True
+VLPROFPROC ([a-z_ ]+)\s*:\s*(.*)$,False,18.0,3.0,1.0,0.0,False,False,False,False,True,True
+{}-(\d+),False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+"\bvol\s*\d+\s*,\s*no\s*\d+\b",False,12.0,0.0,0.0,0.0,False,False,False,False,True,False
+^.*?:\s*,False,19.0,2.0,0.0,1.0,False,False,False,False,False,False
+\b(feels? like|feels?-like|feels?-like temperature|feels? like temperature|real feel)s?\s+(\d+),False,44.0,1.0,4.0,1.0,False,False,False,False,True,False
+第[零一二三四五六七八九十百]+章\s*.*,False,14.0,0.0,0.0,1.0,False,False,False,False,False,False
+modules loaded,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+reg_item\s+:\s+(.*?)\n,False,53.0,3.0,1.0,2.0,False,False,False,False,True,False
+"\+?\d[\d\s\-()]{6,}",False,23.0,4.0,1.0,2.0,False,False,True,True,False,False
+\\textbf\{([^}]+)\},False,21.0,0.0,1.0,1.0,False,False,False,False,True,False
+"\b\d{4}-\d{1,2}-\d{1,2}(?:[ T]\d{1,2}:\d{2}(?::\d{2})?)?(?:Z|[+-]\d{2}:\d{2})?\b",False,22.0,0.0,0.0,0.0,False,False,False,False,False,False
+\b202[4-9]\b,False,23.0,4.0,0.0,0.0,False,False,False,False,False,False
+"<{6,8}\s*SEARCH",False,29.0,1.0,0.0,0.0,False,False,False,False,True,True
+temperature (\d+),False,15.0,1.0,0.0,0.0,False,False,False,False,True,True
+[0-9a-f]* ([a-zA-Z]) (.*),False,107.0,2.0,12.0,1.0,False,False,False,False,True,True
+"^[-*_]{3,}$",False,52.0,3.0,0.0,1.0,False,False,False,False,True,True
+(?:end_of_tab|eot),False,19.0,0.0,1.0,0.0,False,False,False,False,False,False
+^(?P<label1>[a-zA-Z\-_0-9]+):.*|^\[(?P<label2>[a-zA-Z\-_0-9]+)\].*,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+^TOYOTA\s,False,26.0,2.0,1.0,1.0,False,False,False,False,False,False
+(.*)[/\\]index.html?$,False,40.0,8.0,0.0,0.0,False,False,False,False,False,False
+^[ \t\xa0\u3000\ufeff]+$,False,11.0,0.0,0.0,0.0,False,False,False,False,True,True
+(\d*d)?(\d+)([-+*]\d+)?(d\d)?,False,12.0,1.0,0.0,0.0,False,False,False,False,True,False
+for the tag '\!(\w+),False,24.0,0.0,1.0,1.0,False,False,False,False,False,False
+[\r\n](ORIGIN.*?)[\r\n]\S,False,33.0,5.0,0.0,1.0,False,False,False,False,True,False
+(\w+) *::(\w+|\\*),False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+"^\d{4}-\d{2}-\d{2}\s[\d:,]+\s+\d+\s+(FAIL|ERROR)\s+\S+\s+\S+\.tests\S*[\s:]+(test_\S+)",False,15.0,2.0,1.0,1.0,False,False,False,False,True,False
+/whatsnew/(\d+\.\d+)\.html,False,21.0,1.0,0.0,0.0,False,False,False,False,False,False
+^BUICK\d,False,41.0,4.0,0.0,0.0,False,False,False,False,True,True
+^[0-9a-f]{40}\.png$,False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})-,False,57.0,11.0,0.0,2.0,False,False,False,False,False,False
+\x1B\[[0-9;]*[A-Za-z],False,14.0,1.0,0.0,0.0,False,False,False,False,True,True
+^[\w@.+-]+,False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+/[0-9]+,False,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+^Cadillac\s\d,False,13.0,2.0,0.0,1.0,False,False,False,False,False,False
+^[Pp]?(\d+)$,False,52.0,2.0,2.0,1.0,False,False,False,False,True,False
+\{\{(.+?)\}\},False,69.0,9.0,2.0,2.0,False,False,False,False,True,False
+[^A-Za-z0-9],False,15.0,3.0,0.0,1.0,False,False,False,False,False,False
+(\w+)\s+contains\s*\(([^)]+)\),False,52.0,5.0,0.0,2.0,False,False,False,False,True,True
+"\(?\s*(\d{1,2})\s*:\s*(\d{2})\s*\)?",False,35.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(\s*)class\s*,False,27.0,1.0,0.0,1.0,False,False,False,False,False,False
+([\]\[]),False,12.0,0.0,0.0,0.0,False,False,False,False,True,True
+\b(a|an|the)\b,False,21.0,3.0,0.0,1.0,False,False,False,False,False,False
+\s*([^\s=]+)\s*=\s*(\S+(\s*\S+)*),False,16.0,0.0,1.0,0.0,False,False,False,False,False,False
+</span>,False,17.0,1.0,1.0,1.0,False,False,False,False,True,False
+^[a-z_][a-z0-9_$]*$,False,16.0,2.0,0.0,1.0,False,False,False,False,False,False
+^noxfile\.py$,False,89.0,12.0,6.0,1.0,False,False,False,False,True,True
+^\d{4}\s?[Cc]hevy,False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+[^\n]+,False,30.0,1.0,0.0,1.0,False,False,False,False,False,False
+^FordPass[_ ],False,18.0,4.0,0.0,1.0,False,False,False,False,False,False
+\bwho\b|\bcdc\b,False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+ (\([^G]?G?\)),False,29.0,5.0,0.0,1.0,False,False,False,False,False,False
+\b\d{4}\b\s*[--]\s*(bis\s*)?(heute|JETZT|Jetzt|jetzt),False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$,False,73.0,4.0,11.0,2.0,False,False,False,False,False,False
+(\d{4})[-./\s]*(\d{2})[-./\s]*(\d{2}),False,12.0,2.0,0.0,1.0,False,False,False,False,False,False
+^M5[56]0_,False,19.0,2.0,0.0,1.0,False,False,False,False,False,False
+^Porsche[_ ]WLAN,False,80.0,0.0,11.0,2.0,False,False,False,False,True,True
+\b(?:answer|category|intent)\s*:\s*([a-z/ -]+)\b,False,45.0,6.0,0.0,1.0,False,False,False,False,False,False
+(\d+\.)?(\d+\.)?monitor\.csv,False,41.0,3.0,0.0,1.0,False,False,False,False,False,False
+^EmailSiphon.*,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+(sidebar|toc|table-of-contents|breadcrumb|search|headerlink|navigation|related|theme-toggle|sphinxsidebar),False,24.0,4.0,0.0,1.0,False,False,False,False,False,False
+\b([a-z]{3})\s*(?:/|to)\s*([a-z]{3})\b,False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^RUT[A-Z0-9]{1,4}_",False,28.0,2.0,0.0,2.0,False,False,False,False,False,False
+<<<<<<< HEAD\n(.*?)\n?=======\n.*?\n?>>>>>>>.*?\n?,False,55.0,5.0,2.0,2.0,False,False,False,False,True,False
+\\de\{\\textit\{([^}]+)\}\},False,41.0,10.0,0.0,1.0,False,False,False,False,False,False
+--[^\n\r]*,False,25.0,4.0,0.0,2.0,False,False,False,False,False,False
+^(/Satoshi:0.13.(1|2|99)/|/Satoshi:0.14.(0|1|2|99)/)$,False,27.0,3.0,0.0,1.0,False,False,False,False,False,False
+[A-C][n-p][a-c],False,16.0,1.0,0.0,0.0,False,False,False,False,True,True
+read-time,False,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+^Driveri,False,40.0,7.0,1.0,1.0,False,False,False,False,False,True
+\(.+?\),False,66.0,11.0,1.0,1.0,False,False,False,False,True,True
+[/\\]|\.md$|\.py$|\.txt$|\.json$|\.yaml$|\.yml$|\.toml$,False,9.0,0.0,0.0,0.0,False,False,False,False,False,False
+^LR\d{6}$,False,17.0,1.0,0.0,0.0,False,False,False,False,True,False
+\s*(\d+) (\d{2}:\d{2}),False,39.0,7.0,0.0,1.0,False,False,False,False,True,True
+^Teltonika_Router$,False,11.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(?P<family>note_\d{3})_(?P<split>train|valid)\.jsonl$,False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+\$[0-9],False,13.0,2.0,0.0,0.0,False,False,False,False,False,False
+^Class-Path: (?P<classpath>.*)\s*$,False,31.0,2.0,0.0,1.0,False,False,False,False,False,False
+\$\{(\w+)\},False,12.0,1.0,0.0,0.0,False,False,False,False,True,False
+\n\n\n+,False,58.0,0.0,2.0,0.0,False,False,False,False,False,False
+^\s*[\w\-.]?\s*(\d{4}\s*[--]\s*\d{4}),False,41.0,6.0,0.0,2.0,True,False,True,True,True,False
+^myCadillac,False,22.0,1.0,0.0,1.0,False,False,False,False,True,True
+\b([a-z]{3})([a-z]{3})\b,False,29.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Class-Path-Separator: (?P<sep>.)\s*$,False,32.0,1.0,2.0,1.0,False,False,False,False,True,True
+^(?P<repo>[^#]+)/tree/(?P<branch>.+),False,12.0,4.0,0.0,1.0,False,False,False,False,False,True
+[\r\n]VERSION     (.+?)\.(\d)\s+GI:(\d+)\s*?[\r\n]\S,False,7.0,1.0,0.0,0.0,False,False,False,False,False,True
+^(?P<tagname>[a-zA-Z\-]+):(?P<tagvalue>.*)$,False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+"subjectTitle"":""(.*)"",""subjectType"":""(.)"",""status"":null,""answer"":""(.*)"",""totalRight",False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+[^a-zA-Z0-9\-\+]+,False,6.0,0.0,0.0,0.0,False,False,False,False,True,False
+(\w+ (\d+)),False,10.0,2.0,0.0,1.0,False,False,False,False,False,False
+ide/host(\d)/bus(\d)/target(\d)/lun(\d)/disc,False,10.0,0.0,0.0,0.0,False,False,False,False,True,True
+/(\d+\.\d+)/whatsnew/changelog\.html,False,7.0,2.0,0.0,0.0,False,False,False,False,True,True
+\w+:\w+:\w+\.\w\Z,False,13.0,1.0,0.0,0.0,False,False,False,False,True,True
+[0-9]+(st|nd|rd|th),False,57.0,13.0,0.0,2.0,False,False,False,False,True,False
+id (\d+) predictStart (\d+) cpu (\d+),False,63.0,1.0,0.0,1.0,False,False,False,False,False,True
+"^\w{3}, %s %s %s %s GMT$",False,9.0,1.0,0.0,0.0,False,False,False,False,True,True
+^(?:http|ftp)s?://,False,8.0,0.0,0.0,0.0,False,False,False,False,True,True
+(?:key):(.*),False,25.0,3.0,0.0,1.0,False,False,False,False,False,True
+^(\d)\1((?!\1)\d),False,28.0,2.0,0.0,1.0,False,False,False,False,True,True
+/d/([a-zA-Z0-9_-]+),False,12.0,1.0,0.0,0.0,False,False,False,False,True,True
+/whatsnew/\d+\.\d+\.html,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+"(\+|\-)?\d+\.\d+\s*,\s*(\+|\-)?\d+\.\d+",False,22.0,3.0,1.0,1.0,False,False,False,False,False,False
+^AndroidAP_,False,19.0,2.0,0.0,1.0,False,False,False,False,False,False
+(?:\x1B[@-Z\\-_]|[\x80-\x9A\x9C-\x9F]|(?:\x1B\[|\x9B)[0-?]*[ -/]*[@-~]),False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(\d+(?:\.\d+)?)([bkmgtp])?[a-z]*$,False,19.0,1.0,0.0,1.0,False,False,False,False,False,False
+^\$\(([A-Za-z_][A-Za-z0-9_]*)\)\s*=\s*$,False,7.0,2.0,0.0,0.0,False,False,False,False,False,False
+VLPROF stat\s+(\S+)\s+([0-9.]+),False,36.0,5.0,3.0,1.0,False,False,False,False,True,True
+^DIRECT-MBUX\s\d{5}$,False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+^-\d+$|^-\d*\.\d+$,False,27.0,2.0,0.0,1.0,False,False,False,False,False,False
+^ElasticNet_,False,20.0,3.0,0.0,0.0,False,False,False,False,True,True
+^sohu-search,False,32.0,5.0,0.0,1.0,False,False,False,False,False,False
+"[-\s:]*([0-9]{1,6})",False,49.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(codex|gemini|opencode|claude|droid)-(\d+)-,False,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+g(\w+)\.,False,9.0,1.0,0.0,1.0,False,False,False,False,True,True
+cciss/(c\dd\d),False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+\b2025\b,False,9.0,0.0,0.0,0.0,False,False,False,False,True,False
+^https?://(maps\.app\.goo\.gl|(www\.)?google.com)/\.*,False,11.0,1.0,0.0,0.0,False,False,False,False,True,False
+"(?:W/)?""((?:\\.|[^""])*)",False,30.0,3.0,1.0,2.0,True,False,True,True,False,False
+^[A-Za-z]:([/\\\\]|$),False,38.0,3.0,0.0,1.0,False,False,False,False,False,False
+request limit exceeded,False,10.0,0.0,0.0,0.0,False,False,False,False,True,False
+\(\d{2}\)\s?\d{5}-\d{4},False,24.0,4.0,0.0,1.0,False,False,False,False,False,False
+^WiFi Hotspot [A-Za-z0-9]{4}$,False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+^CLK\s?Devices$,False,27.0,2.0,0.0,1.0,False,False,False,False,False,False
+^MY\s?(PATHFINDER|ROGUE|ARMADA|ALTIMA|SENTRA|FRONTIER|MURANO|KICKS|ARIYA|LEAF|MAXIMA|VERSA|TITAN)[A-Z0-9]+$,False,26.0,1.0,0.0,0.0,False,False,False,False,False,False
+^https?://www\.youtube\.com/timedtext_video\?v=(.*)$,False,26.0,2.0,0.0,1.0,False,False,False,False,False,False
+story|search-result,False,23.0,0.0,2.0,0.0,False,False,False,False,False,False
+"\d{1,8}",False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+(?:comment_italic|ci):(.*),False,20.0,2.0,0.0,0.0,False,False,False,False,True,False
+\*\*\s+TEST\s+EXECUTE\s+SUCCEEDED\s+\*\*,False,8.0,1.0,0.0,1.0,False,False,False,False,False,True
+^AndroidAP$,False,48.0,4.0,3.0,1.0,False,False,False,False,True,False
+^\s*timeout=,False,7.0,0.0,0.0,0.0,False,False,False,False,True,True
+(\.cache|conda-bld)[/\\],False,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^@@ -(\d+),(\d+) \+(\d+),(\d+) @@",False,25.0,0.0,3.0,1.0,False,False,False,False,True,False
+^MB Hotspot,False,22.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(?P<asn>\d+) |,False,14.0,1.0,0.0,0.0,False,False,False,False,False,False
+[A-Za-z]\d{4}[A-Za-z],False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+^\s*`pragma\s*protect\s*end_protected\s*$,False,17.0,0.0,0.0,0.0,False,False,False,False,False,False
+cancelled,False,49.0,1.0,0.0,1.0,False,False,False,False,False,False
+"\b\d{4}/\d{1,2}/\d{1,2}(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?\b",False,9.0,2.0,1.0,1.0,False,False,False,False,False,False
+^[a-zA-Z0-9]+$,False,14.0,1.0,0.0,1.0,False,False,False,False,False,False
+<span>,False,11.0,0.0,0.0,0.0,False,False,False,False,True,False
+@[0-9a-f]{8},False,16.0,2.0,0.0,0.0,False,False,False,False,True,False
+(.*):(.*): (.*) ==> (.*)$,False,17.0,1.0,0.0,1.0,False,False,False,False,False,False
+Serial.+:(.+),False,54.0,4.0,3.0,1.0,False,False,False,False,False,False
+^\\s*(trust_level|approval_policy|sandbox_mode)\\s*=,False,39.0,3.0,0.0,1.0,False,False,False,False,True,True
+^(?P<repo>[^#]+)(##(?P<hash>.+)|#pr#(?P<pull>[\d]+)|#(?P<branch>.+))?,False,46.0,5.0,0.0,1.0,False,False,False,False,False,False
+"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+(?:\r\n)?[ \t]+,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^((\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})):(\d+)$",False,18.0,0.0,0.0,0.0,False,False,False,False,False,True
+(?P<time>\d{2}:\d{2}) Світло зникло,False,7.0,3.0,0.0,0.0,False,False,False,False,False,True
+\\textit\{\\de\{([^}]+)\}\},False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+^WIFICAMERA$,False,32.0,5.0,0.0,1.0,False,False,False,False,False,False
+"([^;, ]+@[^,; ]+)[,]?",False,16.0,5.0,0.0,2.0,False,False,False,False,True,False
+subtitle|summary,False,8.0,2.0,0.0,0.0,False,False,False,False,False,False
+^(My\s)?GMC(\s|$),False,21.0,3.0,0.0,1.0,False,False,False,False,True,True
+.*\\sqrt\[(.?)\],False,20.0,2.0,1.0,1.0,False,False,False,False,False,False
+^([hsv]d[a-z]+\d+|cciss/c\d+d\d+p\d+|dm-\d+|md\d+|mmcblk\d+p\d0|VxVM\d+|nvme\d+n\d+p\d+)$,False,15.0,0.0,0.0,0.0,False,False,False,False,False,False
+[0-9]+,False,73.0,15.0,0.0,1.0,False,False,False,False,False,False
+\$\(([A-Za-z_][A-Za-z0-9_]*)\),False,29.0,3.0,0.0,1.0,False,False,False,False,False,False
+type\s+:\s+(.*?)\n,False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+^TYPE_S_,False,37.0,1.0,3.0,1.0,False,False,False,False,False,False
+"\(\d{2}\)(?:\s?)\d{4,5}-\d{4}",False,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+\[(.+)\],False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+"\b(\d{2}\s*(JAN|FEV|MAR|ABR|MAI|JUN|JUL|AGO|SET|OUT|NOV|DEZ)\s*\d{2,4})\b",False,40.0,7.0,0.0,1.0,False,False,False,False,True,True
+([%s]?[%s]+),False,9.0,1.0,0.0,0.0,False,False,False,False,True,False
+image_\d+.(\d+).out,False,11.0,0.0,0.0,0.0,False,False,False,False,False,False
+^(/Satoshi:0.14.(0|1|2|99)/|/Satoshi:0.15.(0|1|2|99)|/Satoshi:0.16.(0|1|2|99)/)$,False,21.0,1.0,0.0,0.0,False,False,False,False,True,True
+(\S+\.tests\.\S+):\s+(test_\S+)\s+\.\.\.\s+ok,False,24.0,2.0,0.0,1.0,False,False,False,False,True,True
+<art[ei]fact\s([^>]*)>(.*?)</art[ei]fact>,False,16.0,1.0,1.0,0.0,False,False,False,False,False,False
+\bwho\b,False,27.0,2.0,1.0,1.0,False,False,False,False,False,False
+right_type\s+:\s+(.*?)\n,False,49.0,2.0,5.0,3.0,False,True,False,False,True,True
+ItemID:.*,False,24.0,3.0,0.0,1.0,False,False,False,False,False,False
+(\d)((?!\1)\d)(\2)((?!\2)\d),False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+^(?:(.)|(\\u[0-9a-fA-F]{4})) \u2192 (?:\'(.+)\'|(.+)) ;,False,21.0,4.0,0.0,1.0,False,False,False,False,False,False
+[-+]?[0-9]+[.]?[0-9]*([eE][-+]?[0-9]+)?%?,False,22.0,2.0,0.0,0.0,False,False,False,False,False,False
+"`(\w+)(?:\(([\w\s,]*)\))?",False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+"(?<=[A-Z])(\s)(?![A-z]{2,})",False,13.0,2.0,0.0,1.0,False,False,False,False,False,False
+^AXON-[A-Z0-9]+$,False,8.0,2.0,0.0,0.0,False,False,False,False,False,False
+^\s*GRUB_DEFAULT=,False,17.0,3.0,0.0,1.0,False,False,False,False,True,True
+\s+([\d]+:[\d]+\.[\d]+|[\d]+\.[\d]+)\s*$,False,17.0,1.0,0.0,1.0,False,False,False,False,False,False
+^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{6})?(Z|[+-]\d{2}:\d{2})$,False,13.0,2.0,0.0,0.0,False,False,False,False,False,False
+[^a-zA-Z],False,75.0,6.0,0.0,1.0,False,False,False,False,True,True
+^Traverse[_\s]?\d,False,32.0,3.0,0.0,0.0,False,False,False,False,False,False
+"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,20}$",False,17.0,3.0,0.0,2.0,False,False,True,True,False,False
+[\x00-\x20],False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^Tesla,False,7.0,2.0,1.0,0.0,False,False,False,False,True,True
+\s+:returns?:,False,46.0,2.0,0.0,0.0,False,False,False,False,False,False
+<revert_art[ei]fact\s([^>]+)/?>,False,35.0,0.0,2.0,1.0,False,False,False,False,True,False
+^\s*default=,False,28.0,0.0,3.0,1.0,False,False,False,False,False,False
+Failed to connect to remote host|Socket closed|Broken pipe,False,87.0,11.0,4.0,3.0,False,False,False,False,True,True
+^#pragma\s+avarix_tpl\s+((?:.*\\$)*.*)$\n,False,31.0,3.0,1.0,1.0,False,False,False,False,False,False
+^/mnt/([A-Za-z])/(.*)$,False,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+is queued up for registration,False,18.0,3.0,0.0,0.0,False,False,False,False,False,False
+^%s_staging_.+\.(json|yaml|xml)$,False,8.0,1.0,0.0,1.0,False,False,False,False,False,True
+/\*(.*?)\*/$,False,11.0,1.0,0.0,1.0,False,False,False,False,False,False
+A\d{3}$,False,6.0,2.0,0.0,0.0,False,False,False,False,False,False
+^Mazda_,False,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+^XGBoost_,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+^My VW,False,31.0,1.0,2.0,1.0,False,False,False,False,False,False
+src='(.*?),False,19.0,2.0,0.0,1.0,False,False,False,False,False,False
+^Traverse$,False,27.0,2.0,1.0,1.0,False,False,False,False,False,False
+^.*?\s$,False,19.0,5.0,0.0,1.0,False,False,False,False,False,False
+^[a-f0-9]{8}$,False,22.0,5.0,0.0,0.0,False,False,False,False,False,False
+^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?,False,7.0,1.0,0.0,0.0,False,False,False,False,True,True
+### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to (.+)$,False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+(?<=ssid:.)\d{8},False,19.0,6.0,0.0,0.0,False,False,False,False,False,False
+^V-?LINK$,False,19.0,1.0,0.0,0.0,False,False,False,False,False,False
+^weedle$,False,68.0,8.0,1.0,1.0,True,False,True,True,True,True
+Current Version:\s*(.*?)$,False,10.0,3.0,0.0,1.0,False,False,False,False,False,False
+^axb1\.([0-9a-f]{32})\.(.+)$,False,9.0,2.0,0.0,0.0,False,False,False,False,False,False
+"^GP\d{6,10}$",False,26.0,1.0,0.0,1.0,False,False,False,False,False,False
+^LightGBM_,False,43.0,4.0,0.0,1.0,False,False,False,False,False,False
+#\s*fmt\s*:\s*(on|off),False,38.0,2.0,1.0,1.0,False,False,False,False,False,False
+UTC_(\d{8})_(\d{6}),False,18.0,1.0,0.0,0.0,False,False,False,False,True,True
+\b(\d+)\s*day\b,False,16.0,0.0,0.0,0.0,False,False,False,False,True,False
+\\textit\{([^}]+)\},False,24.0,4.0,0.0,1.0,False,False,False,False,False,False
+//.*?\n,False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+^ds:(.+)\|na:(\d+)\|(.*)\|(.*) (.*)$,False,6.0,1.0,0.0,0.0,False,False,False,False,True,True
+^[a-zA-Z0-9._-]+$,False,56.0,10.0,0.0,2.0,False,False,False,False,False,False
+"(\d[\d,\s]*)\s*kg",False,8.0,2.0,0.0,1.0,False,False,False,False,False,False
+name '(.*?)' is not defined,False,23.0,1.0,0.0,1.0,False,False,False,False,False,False
+"^<{6,8}\s*SEARCH\s*$",False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+{@([^_]*?)_(\d*?)_([A-Z1-9]{3})},False,88.0,13.0,3.0,4.0,False,False,False,False,False,False
+drive\.google\.com/uc\?[^#]*\bid=([a-zA-Z0-9_-]+),False,24.0,2.0,0.0,1.0,False,False,False,False,False,False
+\bnct\d{8}\b,False,22.0,1.0,0.0,0.0,False,False,False,False,True,True
+^(\d+)\1$,False,11.0,2.0,1.0,1.0,False,False,False,False,False,False
+([0-9]+),False,23.0,3.0,0.0,1.0,False,False,False,False,True,True
+^Cayenne_,False,41.0,0.0,0.0,0.0,False,False,False,False,False,False
+^NaverBot.*,False,35.0,7.0,0.0,1.0,False,False,False,False,False,False
+!\[((?:[^\[\]]|\[[^\]]*\])*)\],False,9.0,2.0,0.0,0.0,False,False,False,False,False,False
+(?P<time>\d{2}:\d{2}) Світло з'явилося,False,38.0,1.0,0.0,1.0,False,False,False,False,False,False
+^landrover,False,8.0,0.0,0.0,0.0,False,False,False,False,True,True
+value_data\s+:\s+(.*?)\n,False,33.0,7.0,0.0,1.0,False,False,False,False,True,False
+\[([^\]]*)\]\s*,False,17.0,1.0,0.0,0.0,False,False,False,False,False,False
+[\r\n](FEATURES.*?)[\r\n]\S,False,12.0,3.0,0.0,2.0,False,False,False,False,False,False
+\b[_a-zA-Z][_a-zA-Z0-9]*\b,False,21.0,5.0,0.0,1.0,False,False,False,False,False,False
+id (\d+) predictCost (\d+),False,47.0,6.0,1.0,2.0,False,True,False,False,False,True
+\bacc\b|\baha\b|acc/aha,False,17.0,3.0,0.0,1.0,False,False,False,False,False,True
+\([^)]*\),False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^DR\d{3,4}[A-Z]?[-_]",False,42.0,8.0,0.0,2.0,True,False,True,True,False,False
+ap(\d+)$,False,28.0,3.0,1.0,2.0,False,True,False,False,False,False
+^\s*\b\d{4}\b\s*[--]\s*(heute|JETZT|Jetzt|jetzt),False,29.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Lexus$,False,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+[A-Za-z0-9_]+,False,16.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(G840[HS]|G930|G900|i07),False,27.0,5.0,0.0,2.0,False,False,False,False,False,True
+<answer>(.*?)</answer>,False,25.0,3.0,0.0,1.0,False,False,False,False,True,True
+[A-Z][a-z0-9]*,False,10.0,2.0,0.0,0.0,False,False,False,False,False,False
+"([a-z0-9._%+\-]+)@([a-z0-9.\-]+\.[a-z]{2,})",False,38.0,6.0,2.0,1.0,False,False,False,False,False,False
+^Furrion,False,49.0,6.0,0.0,1.0,False,False,False,False,False,False
+Deadline Exceeded,False,16.0,3.0,0.0,1.0,False,False,False,False,False,False
+drive\.google\.com/drive/folders/([a-zA-Z0-9_-]+),False,19.0,2.0,0.0,0.0,False,False,False,False,False,True
+(\d+|\D+),False,13.0,0.0,0.0,0.0,False,False,False,False,False,False
+UV index (\d+),False,31.0,3.0,1.0,1.0,False,False,False,False,False,False
+^LEXUS[\s_],False,19.0,1.0,0.0,1.0,False,False,False,False,True,False
+^\s*install\s*\(,False,25.0,1.0,0.0,0.0,False,False,False,False,True,True
+"ISODate\(""(.*)""\)",False,37.0,3.0,0.0,0.0,False,False,False,False,True,True
+\b(psicolog\w*|terapia\w*|terapeuta\w*|psiquiatr\w*)\b,False,46.0,5.0,1.0,1.0,False,False,False,False,False,False
+^Boot-Class-Path: (?P<classpath>.*)\s*$,False,13.0,2.0,0.0,1.0,False,False,False,False,False,False
+https?://(?:www\.)?raiplay\.it/dirette/(\w+)/?,False,16.0,1.0,0.0,0.0,False,False,False,False,False,False
+min read,False,20.0,3.0,0.0,1.0,True,False,True,True,True,True
+"\[""([^""]+)""\]",False,14.0,0.0,0.0,0.0,False,False,False,False,False,False
+ Forest,False,8.0,2.0,0.0,0.0,False,False,False,False,False,False
+Status: AVAILABLE$,False,12.0,3.0,0.0,1.0,False,False,False,False,False,False
+\?+\s*$,False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+^Papago-,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+VLPROF arg\s+(\S+)\+([0-9.]*)\s*,False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+"^(\d+(-\d+)?,?)+",False,36.0,5.0,0.0,2.0,False,False,False,False,True,True
+.*icon.*,False,17.0,2.0,0.0,0.0,False,False,False,False,False,False
+"^(`{3,})\s*python\s*$",False,70.0,6.0,3.0,3.0,False,False,False,False,False,False
+(?:subtitle|st):(.*),False,36.0,3.0,0.0,2.0,False,False,False,False,False,False
+[^a-zA-Z0-9_\-],False,23.0,4.0,0.0,1.0,False,False,False,False,False,False
+(\d{4})\s*-\s*(\d{2})\s*-\s*(\d{2})\s+(\d{2})\s*:\s*(\d{2})\s*:\s*(\d{2}),False,17.0,3.0,0.0,1.0,False,False,False,False,False,False
+CREATE.+PROCEDURE\s*`([^`]+)`,False,73.0,6.0,3.0,1.0,False,False,False,False,True,False
+^Kajeet,False,22.0,0.0,0.0,0.0,False,False,False,False,False,False
+INFO \- TEST-(START|SKIP|OK) \| (\S+),False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+reg_key\s+:\s+(.*?)\n,False,21.0,3.0,0.0,1.0,False,False,False,False,False,False
+\b(20\d{2})\b,False,79.0,16.0,0.0,1.0,False,False,False,False,True,True
+^(2.*? \[.*\] )?(?P<lev_name>[A-Z]+) .*$,False,35.0,6.0,0.0,1.0,False,False,False,False,False,False
+^GMC\d{4},False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+publication,False,26.0,0.0,0.0,0.0,False,False,False,False,False,False
+^Wi-Fi Hotspot \d{5}$,False,6.0,1.0,0.0,1.0,False,False,False,False,False,False
+^\[([0-9a-z:]+)\]:(\d+)$,False,35.0,1.0,0.0,0.0,False,False,False,False,True,True
+https?://|www\\.,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+([a-f0-9]{64}|[A-F0-9]{64}),False,10.0,0.0,0.0,0.0,False,False,False,False,True,True
+^((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)(\.(?!$)|$)){4}$,False,18.0,1.0,0.0,2.0,False,False,False,False,False,False
+:(\d{2}):(\d{2}):(\d{2}),False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+"\n\s{2,}",False,38.0,2.0,0.0,0.0,False,False,False,False,False,False
+```html\s*(.*?)\s*```,True,27.0,0.0,0.0,0.0,False,False,False,False,False,False
+"mul\(\d{0,3},\d{0,3}\)",False,50.0,4.0,0.0,1.0,False,False,False,False,False,False
+Agent (\w)\w*,False,21.0,0.0,0.0,0.0,False,False,False,False,False,False
+"\s+(SIZE=.+"")",False,18.0,2.0,0.0,1.0,False,False,False,False,False,False
+.*slurm*,False,143.0,10.0,8.0,2.0,False,False,False,False,False,False
+^(.+)@(.+)\.(.+)$,False,56.0,6.0,0.0,1.0,False,False,False,False,True,True
+(\w+)\stells\syou,False,10.0,2.0,0.0,1.0,False,False,False,False,False,False
+<!DOCTYPE.*?>,False,48.0,4.0,0.0,0.0,False,False,False,False,True,True
+^https://github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)/pull/(?P<number>\d+)$,False,34.0,0.0,4.0,0.0,False,False,False,False,False,False
+\b\w*[àèìòùáéíóúÁÉÍÓÚÀÈÌÒ]+\w*\b,False,28.0,3.0,0.0,0.0,False,False,False,False,False,False
+((?:[^\n][\n]?)+),False,54.0,8.0,0.0,1.0,False,False,False,False,False,False
+[0-9]*,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+^ +| +$,False,13.0,0.0,1.0,0.0,False,False,False,False,False,False
+https://www\.food\.com/recipe/[\w-]+-[\w-]+-\d,False,13.0,3.0,0.0,1.0,False,False,False,False,False,False
+^Draw|^(Trying|Falsifying) example:,False,18.0,1.0,0.0,1.0,False,False,False,False,False,False
+(NOUN|VERB|ADVERB|ADJECTIVE),False,51.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^(((?P<s1>[IXCM]){1,3}|(?P<s2>[VLD]){1}|(?P<s3>[VLD]){3})(?!(?P=s1)|(?P=s2)|(?P=s3)))+$",False,8.0,0.0,0.0,1.0,False,False,False,False,False,False
+(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~],False,23.0,5.0,0.0,1.0,False,False,False,False,False,False
+(\d{6}).*?(\d{6}),False,9.0,2.0,1.0,1.0,False,False,False,False,False,False
+"\d{1,3}\.?\d{0,2}%",False,31.0,1.0,0.0,0.0,False,False,False,False,False,False
+(.*).py$,False,23.0,3.0,0.0,0.0,False,False,False,False,False,False
+while (.+):,False,14.0,2.0,0.0,1.0,False,False,False,False,False,False
+.*run*,False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+mixamorig\d+:,False,17.0,1.0,0.0,1.0,False,False,False,False,True,False
+Начало:,False,77.0,3.0,10.0,1.0,False,False,False,False,True,True
+(Mr\.|Mrs\.|Ms\.) ([a-z])[a-z]+,False,29.0,4.0,0.0,1.0,False,False,False,False,False,False
+([0-9a-zA-Z]{1})\1+,False,41.0,5.0,0.0,1.0,False,False,False,False,True,True
+([a-f0-9]{40}|[A-F0-9]{40}),False,17.0,3.0,0.0,0.0,False,False,False,False,False,False
+\s*(\d+)\s+(\d+)\s*,False,25.0,3.0,2.0,1.0,False,False,False,False,False,False
+"[\s]?""""""\n?.*\n?""""""\n?",False,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+^9999+$,False,28.0,4.0,0.0,1.0,False,False,False,False,False,False
+\[(\d+)-(\d+)\],False,14.0,1.0,0.0,0.0,False,False,False,False,False,False
+\)*:\s*\w+\<*\w*\>*,False,17.0,4.0,0.0,2.0,False,False,False,False,False,False
+.*[a-z]\@gmail\.com,False,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+$,False,20.0,2.0,0.0,0.0,False,False,False,False,False,False
+/\*(.*)\*/,False,13.0,0.0,0.0,0.0,False,False,False,False,False,False
+<!--*?-->,False,16.0,0.0,1.0,0.0,False,False,False,False,False,False
+Mission text message (\d+),False,15.0,3.0,0.0,0.0,False,False,False,False,False,False
+"(\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b)",False,22.0,3.0,0.0,1.0,False,False,False,False,False,False
+: (\d+) msec to (?:merge|write) points,False,28.0,2.0,0.0,0.0,False,False,False,False,False,False
+^[a-z_][a-z0-9_]*$,False,75.0,8.0,4.0,2.0,False,False,False,False,False,False
+^[\u4e00-\u9fa5],False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+\$HREF\{(.*?)\}\{(.*?)\},False,33.0,5.0,0.0,1.0,False,False,False,False,False,False
+(\d{2})/(\d{2})/(\d{4}),False,18.0,1.0,0.0,1.0,False,False,False,False,False,False
+^.\d+$,False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+"(?=^[A-Za-z0-9]{10}$)(?=(.*[A-Z].*){2,})(?=(.*\d.*){3,})",False,14.0,3.0,0.0,1.0,False,False,False,False,True,False
+.+\/(.+),False,27.0,6.0,0.0,0.0,False,False,False,False,True,True
+"@([a-zA-Z][\w\d]{4,31})",False,15.0,2.0,0.0,0.0,False,False,False,False,True,True
+[UZOB],False,17.0,0.0,0.0,0.0,False,False,False,False,False,False
+"[(][+-]?(([0-8]\d?(\.\d+)?)|(90(\.0+)?)), [+-]?(((\d|1[0-7])\d(\.\d+)?)|(180(\.0+)?))[)]",False,34.0,3.0,0.0,2.0,False,False,False,False,False,False
+"mul\(([0-9]*),([0-9]*)\)",False,33.0,1.0,0.0,1.0,False,False,False,False,False,False
+"^[a-z][a-z0-9-]{1,32}$",False,11.0,1.0,0.0,1.0,False,False,False,False,False,False
+(^\s+|\s+$),False,37.0,2.0,2.0,2.0,False,False,False,False,False,False
+^(\d+)-(\d+) (.): (.*)$,False,62.0,0.0,8.0,1.0,False,False,False,False,False,False
+your.access.to.this.site.has.been.limited,False,98.0,14.0,0.0,2.0,False,False,False,False,False,False
+<i[^>]*>(.*?)</i>+<a[^>]*>(.*?)</a>,False,69.0,7.0,0.0,1.0,False,False,False,False,False,False
+a+[a-z]+b,False,31.0,5.0,0.0,1.0,False,False,False,False,True,False
+monaco-vscode-([^-]+)-service-override,False,16.0,4.0,1.0,1.0,False,False,False,False,False,False
+^[0-9.]$,False,21.0,2.0,0.0,1.0,False,False,False,False,False,False
+^(?=.*[A-Z])(?=.*[a-z])(?!.*\s).*,False,53.0,5.0,0.0,1.0,False,False,False,False,True,True
+"version=""[\d.]+"",",False,41.0,4.0,0.0,1.0,False,False,False,False,False,False
+(?=(M\w*\*)),False,28.0,4.0,2.0,1.0,False,False,False,False,True,True
+(?P<vid>\d+)\s+\S+\s+,False,12.0,1.0,0.0,0.0,False,False,False,False,True,True
+(?P<date>(\d+[\/\-]\d+|\d+[\/\-]\d+[\/\-]\d+))$,False,16.0,1.0,0.0,1.0,False,False,False,False,False,False
+From: (.*) <.*?>$,False,19.0,2.0,0.0,1.0,False,False,False,False,True,True
+[a-zA-Z]+,False,38.0,6.0,0.0,2.0,True,False,True,True,False,False
+(?<=\n)((\s*)[^:\s]+:)\n((?:\2 +- .*?\n)+),False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+((https|http)://)?(?:www\.)?,False,17.0,1.0,0.0,0.0,False,False,False,False,True,True
+.\bcloudwebsec.radware.com\b.,False,20.0,1.0,0.0,1.0,False,False,False,False,False,False
+[1-9]\d{3},False,84.0,4.0,2.0,2.0,False,True,False,False,False,False
+\-\-([\w]+)=(.+),False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+"(^[a-z]+(-[a-z]+)?)?[,.!]?$",False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^([\d\.]+)\s+([_\w\.\-]+),False,38.0,1.0,0.0,1.0,False,False,False,False,False,False
+^[\t ]*([%s\-–—])\s*(.*)$,False,12.0,2.0,0.0,1.0,False,False,False,False,False,False
+.*\bn2\b.*,False,15.0,2.0,1.0,0.0,False,False,False,False,False,True
+(?:https?://\S+|www\.\S+|\b\w+\.\w+\b),False,18.0,3.0,0.0,1.0,False,False,False,True,False,False
+"(?P<time>\[\d{2}:\d{2}\.\d{2,6}\])(?P<content>.*)",False,19.0,3.0,0.0,2.0,False,False,False,False,False,False
+"[^""]*""([^""]*)"".*",False,8.0,2.0,0.0,0.0,False,False,False,False,False,False
+\d+@[a-zA-Z]+\.com$,False,16.0,2.0,0.0,0.0,False,False,False,False,False,False
+.>wordfence<.,False,13.0,2.0,0.0,1.0,False,False,False,False,True,True
+(\x9b|\x1b\[)[0-?]*[ -\/]*[@-~],False,7.0,1.0,0.0,1.0,False,False,False,False,False,False
+^(.+) bags contain ,False,13.0,3.0,0.0,1.0,False,False,False,False,False,False
+^[ㄱ-ㅎㅏ-ㅣ가-힣a-zA-Z0-9_.]+$,False,17.0,3.0,0.0,1.0,False,False,False,False,False,False
+"^[A-Za-z0-9_-]+@[A-Za-z0-9]+\..{1,3}$",False,9.0,1.0,0.0,1.0,False,False,False,False,False,False
+"0*([0-9]+)m {0,2}0*([0-9][0-9\.]+)([^0-9\.]|$)",False,13.0,1.0,1.0,1.0,False,False,False,False,False,False
+(?<=[.;!?])\n,False,16.0,1.0,0.0,0.0,False,False,False,False,False,False
+[^a-zA-Z0-9_\-]+,False,13.0,2.0,0.0,1.0,False,False,True,True,False,False
+^([a-zA-Z0-9]+\s?)*$,True,59.0,7.0,4.0,2.0,True,False,False,True,False,False
+[^0-9A-Za-z_-],False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+\d+\s\w+,False,18.0,4.0,0.0,0.0,False,False,False,False,False,False
+"(\w+)=""(.+?)",False,19.0,2.0,1.0,1.0,False,False,False,False,True,True
+if (.+):,False,39.0,6.0,0.0,2.0,True,False,False,True,True,True
+81\d2\d*80,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+\Aall\Z,False,72.0,4.0,0.0,1.0,False,False,False,False,False,False
+(.+)\[,False,16.0,0.0,0.0,0.0,False,False,False,False,False,False
+^([a-z]*://)([^/:]+)((:[0-9]+)?/.*)$,False,15.0,2.0,0.0,0.0,False,False,False,False,False,False
+.*5.4.7-.*.tar.gz,False,28.0,5.0,2.0,1.0,True,False,True,True,False,False
+((git|ssh|http(s)?)|(git@[\w\.]+))(:(//)?)([\w\.@\:/\-~]+)(\.git)?(/)?,False,19.0,1.0,0.0,2.0,False,False,False,False,False,False
+"#include\s+""([A-Za-z0-9_-]+\.h(pp)?)",False,18.0,1.0,0.0,0.0,False,False,False,False,False,False
+"Tag=""(.*?)"" File=""(.*?)",False,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+_(\d+\.\d+\.\d+)_,False,8.0,1.0,1.0,0.0,False,False,False,False,False,False
+"^(?:https?|ftp):\/\/[-A-Za-z0-9+&@#\/%?=~_|!:,.;]*[-A-Za-z0-9+&@#\/%=~_|]",False,13.0,2.0,0.0,1.0,False,False,False,False,False,False
+\d\d\d-\d\d\d-\d\d\d\d,False,15.0,0.0,1.0,0.0,False,False,False,False,False,False
+"\d{7,}",False,11.0,1.0,0.0,0.0,False,False,False,False,False,False
+###\sAbout(.*?)\s*###,False,13.0,0.0,0.0,0.0,False,False,False,False,False,False
+^[+]?[78]?[ ]?[-]?[ ]?[(]?[0-9]{3}[)]?[-]?[ ]?[0-9]{3}[-]?[0-9]{2}[-]?[0-9]{2}$,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+it:\s+(\d+)\s+x2:\s*([\w.]*)[\w\s]*,False,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+[\w']+,False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+\(\d\d\d\) \d\d\d-\d\d\d\d,False,28.0,3.0,1.0,2.0,False,False,False,False,False,False
+(%s).+,False,28.0,0.0,5.0,1.0,False,False,False,False,False,False
+"^[a-z0-9][a-z0-9.\-]{1,61}[a-z0-9]$",False,6.0,1.0,0.0,0.0,False,False,False,False,False,True
+sistemas,False,17.0,0.0,0.0,0.0,False,False,False,False,False,False
+^RSET\r\n$,False,10.0,2.0,0.0,1.0,False,False,False,False,False,False
+(?=(PythonPython)),False,25.0,2.0,0.0,0.0,False,False,False,False,False,False
+\b\w+\b,False,29.0,2.0,0.0,0.0,False,False,False,False,False,False
+SG\\.[a-zA-Z0-9]{22}\\.[a-zA-Z0-9]{43},False,12.0,1.0,1.0,1.0,False,False,False,False,False,False
+>Powered.by.SiteGuard.Lite<,False,29.0,5.0,1.0,1.0,False,False,False,False,True,False
+(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$),False,11.0,0.0,0.0,0.0,False,False,False,False,False,False
+"version = ""\d\.\d\.\d",False,17.0,4.0,1.0,2.0,False,False,True,True,False,False
+"mul\((\d+),(\d+)\)",False,17.0,2.0,0.0,0.0,False,False,False,False,False,False
+\b(?!10\.|192\.168\.|172\.(?:1[6-9]|2[0-9]|3[01])\.)(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}\b,False,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+"^[\w\.-]+@[a-zA-Z\d-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$",False,14.0,2.0,0.0,0.0,False,False,False,False,False,True
+(\w+)=(.+),False,11.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$",False,9.0,2.0,0.0,1.0,False,False,False,False,False,False
+global_meta|model|optim|meta|other,False,21.0,1.0,0.0,1.0,False,False,False,False,True,True
+>\s*<normaloff>.*?</iconset>,False,29.0,1.0,0.0,1.0,False,False,False,False,False,False
+(?P<start>)(?P<text>!\[.*?\]\()(?P<url>.+?)(?P<end>\)),False,22.0,4.0,0.0,2.0,False,False,False,True,False,False
+[^\x20-\x7E],False,15.0,1.0,0.0,0.0,False,False,False,False,False,False
+= 0|No symbol,False,7.0,0.0,0.0,1.0,False,False,False,False,False,False
+(\s*\n\s*){3},False,15.0,6.0,0.0,1.0,False,False,False,False,False,False
+"([a-z])[,;:/](\d+)",False,41.0,4.0,1.0,2.0,True,False,False,True,False,False
+with.the.following.case.number.in.its.subject:.\d+.,False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+hel(%s)o,False,31.0,5.0,0.0,1.0,False,False,False,False,False,False
+([\w]+?)([.?!])([\w]+?),False,24.0,4.0,0.0,1.0,False,False,False,False,True,True
+(\s+|\S+),False,14.0,1.0,0.0,1.0,False,False,False,False,False,False
+<alternatives>.*</alternatives>,False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+\x1B\[[0-?]*[ -/]*[@-~],False,21.0,1.0,0.0,0.0,False,False,False,False,True,True
+<li>(.*?)</li>,False,45.0,7.0,0.0,1.0,False,False,False,False,True,True
+python,False,7.0,2.0,0.0,0.0,False,False,False,False,False,False
+^([a-zA-z0-9]{8}),False,22.0,5.0,0.0,2.0,False,False,False,False,False,False
+^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?: .+$,False,24.0,6.0,0.0,1.0,False,False,False,False,False,False
+(.*)-([0-9]+\.[0-9]+\.[0-9]+),False,15.0,2.0,0.0,0.0,False,False,False,False,False,True
+^MD5 ?\(([^\)]+)\) ?= ?([0-9a-fA-F]{32})$,False,17.0,4.0,0.0,1.0,False,False,False,False,True,False
+\d{3}-\d{3}-\d{4},False,28.0,2.0,0.0,0.0,False,False,False,False,False,False
+(Dr|P.S|e.g)([.?!])(\s+?),False,12.0,2.0,0.0,1.0,False,False,False,False,False,False
+\x1b\[\d+\;1H,False,28.0,0.0,0.0,0.0,False,False,False,False,False,False
+(?P<country>\d+)-(?P<id>\w+),False,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+0x[0-9a-fA-F]+,False,37.0,1.0,0.0,1.0,False,False,False,False,False,False
+.*?(([01]_?){12}),False,20.0,1.0,0.0,0.0,False,False,False,False,False,False
+CVE-\d+-\d+,False,17.0,4.0,0.0,1.0,False,False,False,False,False,False
+DEBUG[\s]*=[\s]*True,False,44.0,4.0,0.0,1.0,False,False,False,False,False,False
+\bryans pub\b,False,16.0,1.0,0.0,0.0,False,False,False,False,False,False
+= 0xc3|No symbol,False,18.0,2.0,0.0,1.0,False,False,False,False,False,False
+\[.*for.*in.*\],False,22.0,0.0,0.0,0.0,False,False,False,False,False,False
+__version__\s+=\s+(.*),False,75.0,8.0,0.0,1.0,False,False,False,True,True,True
+\b[A-Z][a-z]+\ [A-Z][a-z]+\b,False,22.0,1.0,0.0,1.0,False,False,False,False,True,True
+\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b,False,76.0,11.0,0.0,1.0,False,False,False,False,False,False
+{.*}([a-zA-Z]+),False,52.0,5.0,0.0,1.0,False,False,False,False,False,False
+(?<=average loss: )\-*\s*\d*\.\d*,False,48.0,4.0,0.0,0.0,False,False,False,False,True,True
+\\href\{([^\}]*)\},False,15.0,3.0,0.0,1.0,False,False,False,False,False,False
+\$TEXTIT\{(.*?)\},False,14.0,2.0,0.0,1.0,False,False,False,False,True,False
+^(?=.*[0-9]).*,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+^\s*<pre ?.*><code ?.*>\s*$,False,31.0,2.0,0.0,1.0,False,False,False,False,False,False
+^[a-z]+_[0-9]+$,False,60.0,9.0,2.0,3.0,False,False,False,False,False,False
+tTemporarymessage,False,16.0,0.0,0.0,1.0,False,False,False,False,False,False
+do\(\)(.+?(?!=don't\(\)))don't\(\),False,21.0,5.0,0.0,1.0,False,False,False,True,False,False
+(\(\d\d\d\))?[\s-](\d\d\d-\d\d\d),False,18.0,2.0,0.0,0.0,False,False,False,False,False,False
+<!--(.+)-->,False,27.0,2.0,1.0,1.0,False,False,False,False,False,False
+"(mul\((\d+),(\d+)\)|do\(\)|don't\(\))",False,17.0,2.0,0.0,2.0,False,False,False,False,False,False
+\b(SELECT|INSERT|UPDATE|DELETE|DROP|ALTER|CREATE|TABLE|VIEW)\b,False,6.0,2.0,0.0,0.0,False,False,False,False,False,False
+<div[^>]+>\n?\s*(<svg[^>]*>\n?\s*<title>([^<]+)</title>\n?\s*<path[^>]*/>\n?\s*</svg>)\n?\s*</div>,False,11.0,1.0,0.0,0.0,False,False,False,False,False,True
+(?P<day>\d{2})(?P<sep>[-./])(?P<month>[A-Z][a-z]{2})\2(?P<year>\d{4}),False,46.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\s+(async\s+)?function\s+(\w+),False,11.0,2.0,0.0,1.0,False,False,False,False,False,False
+.*:\s*(.+)\|(.+),False,12.0,1.0,0.0,0.0,False,False,False,False,True,True
+<title>(.*?)<\/title>,False,47.0,4.0,0.0,0.0,False,False,False,False,False,False
+^uk_sct2cl_(?P<release>\d+\.\d+\.\d+)_20\d{12}Z\.zip$,False,43.0,3.0,0.0,1.0,False,False,False,False,False,False
+"<tree text=""(.*?)"" action=""cscd/(.*?).xml",False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+^(mp|por|mvc)-\d+(?:--\d+)?$,False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+"^[0-9]{1,6}$",False,9.0,1.0,0.0,0.0,False,False,False,False,True,True
+"<a href=""([^""]+)",False,13.0,3.0,0.0,1.0,False,False,False,False,False,False
+"^(/d{3})-(/d{5,8})$",False,11.0,3.0,0.0,0.0,False,False,False,False,True,False
+"(?:(?:[-a-z0-9]+\.)+)[a-z0-9]+:\d{2,4}",False,18.0,2.0,0.0,0.0,False,False,False,False,False,False
+"href=""([^""]*)",False,32.0,2.0,0.0,1.0,False,False,False,False,True,True
+^[A-Za-z0-9._-]+$,False,21.0,0.0,0.0,0.0,False,False,False,False,False,False
+Sothis Message (\d+),False,26.0,3.0,0.0,0.0,False,False,False,False,False,False
+extended (permit|deny) object-group ((\w*)(-*)(\w*)(\d*)) any (object|object-group) ,False,39.0,1.0,0.0,0.0,False,False,False,False,True,True
+\bdispatch\b,False,7.0,0.0,0.0,0.0,False,False,False,False,True,False
+"\s{2,}",False,61.0,9.0,1.0,2.0,False,False,False,False,False,True
+Accepted Quest Character Message (\d+),False,48.0,11.0,1.0,3.0,False,False,False,False,True,True
+(\d+)\s(\w+),False,12.0,2.0,0.0,0.0,False,False,False,False,False,False
+[1-9]?\d?$|100$,False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+"\d{1,3}(,\d{1,3})+",False,26.0,0.0,0.0,0.0,False,False,False,False,False,False
+(\$\{\{?(\w+)\}?\}),False,15.0,0.0,1.0,0.0,False,False,False,False,False,False
+\+\d{12},False,64.0,3.0,0.0,0.0,False,False,False,False,False,False
+\bhttps?://\S+\b,False,19.0,2.0,0.0,0.0,False,False,False,False,False,False
+^(\d+)-(\d+)$,False,16.0,1.0,0.0,1.0,False,False,False,False,True,True
+"([^""]+)",False,17.0,1.0,0.0,2.0,False,False,False,False,False,False
+(?<=[.!?])\s+,False,34.0,1.0,0.0,0.0,False,False,False,False,False,False
+(\d+)/(\d+)/(\d+),False,36.0,4.0,0.0,1.0,False,False,False,False,False,False
+\[(\d+)\],False,14.0,1.0,0.0,0.0,False,False,False,False,True,True
+([^\w_-]|[+]),False,13.0,0.0,0.0,1.0,False,False,False,False,False,False
+\bten[- ]?four\b,False,7.0,2.0,0.0,0.0,False,False,False,False,False,False
+"([-\s.,;!?])+",False,71.0,9.0,0.0,2.0,False,False,False,False,False,False
+([0-9]+!)?([0-9]+)(\.[0-9]+)*((a|b|rc|\.post|\.dev)[0-9]+)?,False,27.0,4.0,0.0,1.0,False,False,False,False,False,False
+[A-Z]\w+,False,25.0,1.0,0.0,1.0,False,False,False,False,False,False
+\d+\.\d+\.\d+\.\d+,False,30.0,4.0,0.0,1.0,False,False,False,False,True,True
+^[\d]+ .* (st|ave)$,False,51.0,4.0,1.0,0.0,False,False,False,False,False,False
+^([0-9]+\.[0-9]+(\.[0-9]+)?)(\.[^.]*)*$,False,38.0,1.0,0.0,1.0,False,False,False,False,False,False
+[^0-7]+,False,40.0,7.0,1.0,1.0,False,False,False,False,False,False
+"Disc #(\d+) has (\d+) positions; at time=(\d+), it is at position (\d+).",False,101.0,7.0,32.0,1.0,False,True,False,False,False,False
+refuse.to.browse,False,19.0,3.0,0.0,0.0,False,False,False,False,False,False
+Cluster-\d*.\d*,False,23.0,1.0,0.0,1.0,False,False,False,False,False,False
+"\{([^|]+)\|([A-Z]+-\d+,?)+\}",False,9.0,0.0,0.0,1.0,False,False,False,False,False,False
+(?=(N[^P][ST][^P])),False,29.0,4.0,0.0,1.0,False,False,False,False,False,False
+- \./volumes/[^:]+,False,19.0,3.0,0.0,0.0,False,False,False,False,True,True
+### .*?\n\n,False,18.0,1.0,0.0,1.0,False,False,False,False,False,False
+.{%s}|.+,False,28.0,0.0,0.0,0.0,False,False,False,False,False,False
+<!--:(.+?)-->,False,43.0,0.0,0.0,0.0,False,False,False,False,False,False
+Batman|Superman,False,26.0,5.0,0.0,1.0,False,False,False,False,True,True
+[A-Z][a-z]+,False,13.0,5.0,0.0,0.0,False,False,False,False,False,False
+[^aeiouAEIOU],False,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+dw.inj.check,False,10.0,0.0,0.0,0.0,False,False,False,False,False,False
+[a-zA-Z]+@+gmail\.com,False,8.0,1.0,1.0,0.0,False,False,False,False,False,False
+robocop,False,15.0,1.0,0.0,1.0,False,False,False,False,False,False
+\n[ ]*,False,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+(?:[a-mo-su-z]|(?<!\\)[nt])+,False,51.0,2.0,3.0,1.0,False,False,False,False,False,False
+.(png|jpg|jpeg|PNG|JPG|JPEG),False,13.0,0.0,0.0,0.0,False,False,False,False,False,False
+\d{4}$,False,43.0,4.0,2.0,1.0,False,False,False,False,False,False
+[^a-zA-Z0-9\s\-'],False,29.0,1.0,2.0,1.0,False,False,False,False,False,False
+"(Ha){3,5}?",False,48.0,6.0,3.0,2.0,False,False,False,False,False,False
+.*manojpandey1996/posts/*,False,29.0,5.0,0.0,0.0,False,False,False,False,True,True
+Running Aspect:\w+ Column:\w+,False,8.0,1.0,0.0,0.0,False,False,False,False,True,True
+(^|\])[a-z]*,False,9.0,1.0,0.0,1.0,False,False,False,False,False,False
+^[ \t]*([*-+]|[0-9]+\.)[ \t]+,False,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+[\s\[<>=!~],False,56.0,10.0,6.0,2.0,False,True,False,False,True,True
+/\*((?:.|\s)*)\*/,False,21.0,3.0,0.0,1.0,False,False,False,False,False,False
+"CVE-\d{4}-\d{4,7}",False,16.0,3.0,1.0,2.0,True,False,False,True,True,True
+([A-Z]*),False,28.0,3.0,0.0,2.0,False,False,False,False,False,True
+"\d{1,3}\d{10}$",False,33.0,5.0,0.0,1.0,False,False,False,False,False,False
+hello.world,False,28.0,6.0,0.0,2.0,True,False,True,True,False,False
+/(BV.*?)/,False,28.0,0.0,1.0,1.0,False,False,False,False,False,False
+^#undef ([A-Z0-9_]+)$,False,29.0,1.0,3.0,1.0,False,False,False,False,False,False
+process\.env\.([a-zA-Z0-9_]+),False,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+(\d)(?=(\d{3})+(?!\d)),False,20.0,2.0,0.0,0.0,False,False,False,False,True,False
+<!DOCTYPE[^>]+>,False,30.0,5.0,0.0,1.0,False,False,False,False,False,False
+([A-z]),False,16.0,4.0,0.0,1.0,False,False,False,False,False,False
+\*{2}(.*?)\*{2},False,25.0,0.0,3.0,1.0,False,False,False,False,False,False
+(?:User-agent: (\w+)+\n)|(?:(Allow: /)\n),True,43.0,2.0,2.0,1.0,False,False,False,False,False,False
+"\.{2,}",False,14.0,0.0,0.0,0.0,False,False,False,False,False,False
+(?P<first>\w+) (?P<second>\w+)?,False,15.0,2.0,0.0,0.0,False,False,False,False,True,True
+^#define\s+(\w+)\s+(.*)$,False,20.0,0.0,0.0,0.0,False,False,False,False,False,False
+->(cudnn\w+)\(,False,26.0,3.0,0.0,0.0,False,False,False,False,True,True
+(\S+).bom.[\d]*,False,24.0,2.0,0.0,0.0,False,False,False,False,True,False
+"^[a-zA-Z0-9_-]{3,20}$",False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^(\+\d{2,4})-(\d{3})-(\d{3})-(\d{3})(\d{1})?$",False,26.0,1.0,0.0,0.0,False,False,False,False,True,True
+\d*9\d*,False,15.0,1.0,0.0,1.0,False,False,False,False,False,False
+"(-?\d[\d,]*(?:\.\d*)?)",False,19.0,3.0,0.0,1.0,False,False,False,False,False,False
+\s*(\d+)\s+(\d+)\s+(\d+),False,26.0,1.0,0.0,0.0,False,False,False,False,False,False
+\.click\(.*?\)$,False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(\w+):\s*(.+?)\n,False,34.0,3.0,0.0,1.0,False,False,False,False,False,False
+[a-zA-z]+://cs.[^\s][^\_\$]*,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+(.+)\[(.+)\],False,45.0,6.0,0.0,1.0,False,False,False,False,False,False
+[\x00-\x08\x0b\x0c\x0e-\x1f],False,17.0,2.0,0.0,1.0,False,False,False,False,False,False
+"\b[a-z]{8,}\b",False,8.0,1.0,0.0,0.0,False,False,False,False,True,True
+coroutine '([^']+)' was never awaited,False,9.0,1.0,0.0,0.0,False,False,False,False,True,True
+"[A-Za-z0-9\-_]{0,64}",False,68.0,11.0,1.0,3.0,False,False,False,False,False,False
+"`{1,3}(.*?)`{1,3}",False,15.0,1.0,1.0,1.0,False,True,False,False,False,False
+(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[0-9-.]+$),False,24.0,5.0,0.0,1.0,False,False,False,False,False,False
+[\u4e00-\u9fa5]+,False,16.0,1.0,0.0,1.0,False,False,False,False,False,False
+[Verse\s\d+]\s(.*),False,21.0,0.0,0.0,1.0,False,False,False,False,False,False
+generated.by.wordfence,False,61.0,9.0,2.0,1.0,False,False,False,False,False,False
+"^[a-zA-Z0-9_.+-]+@+[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]{2,})*(\.[a-zA-Z0-9-]{2,})*$",False,17.0,2.0,0.0,0.0,False,False,False,False,False,False
+"^([a-zA-Z0-9_]{1,16})$",False,38.0,5.0,0.0,1.0,False,False,False,False,False,False
+"<b>(.*?)<\/b><br>.*?<br>.*?<br>(.+?),\s+(\w{2})\s(\d{5})<br>United States - ",False,95.0,8.0,4.0,3.0,False,False,False,False,False,False
+"<meta +property=""og:description"" +content=""(.+?)"".*>",False,37.0,7.0,0.0,1.0,False,False,False,False,True,True
+^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$,False,44.0,4.0,0.0,1.0,False,False,False,False,False,False
+"(^#{1,6}\s+.*$)",False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+^(?:http)s?://,False,33.0,4.0,2.0,3.0,False,False,False,False,True,True
+[.!?\n],False,20.0,3.0,0.0,0.0,False,False,False,False,True,True
+(http://s.cn.bing.net/.*?\.jpg),False,8.0,1.0,0.0,0.0,False,False,False,False,False,False
+.*\[[+-]?0*(?:[048]|(?:\d*(?:[02468][048]|[13579][26])))\].*,False,83.0,12.0,3.0,1.0,False,False,True,True,True,True
+([^A-Za-z0-9_ ]),False,19.0,1.0,0.0,2.0,False,False,False,False,False,False
+\d{2}( )+\d{4}-\d{4}?,False,29.0,5.0,0.0,1.0,False,False,False,False,False,False
+<.+>wordfence<.+.>,False,22.0,3.0,0.0,2.0,False,False,False,False,False,False
+([a-f0-9]{32}|[A-F0-9]{32}),False,38.0,3.0,0.0,1.0,False,False,False,False,False,False
+(\((\d+)x(\d+)\)),False,91.0,11.0,0.0,1.0,False,False,False,False,False,False
+.*DOS*,False,17.0,1.0,0.0,0.0,False,False,False,False,False,False
+[7-9]\d{9}$,False,44.0,5.0,1.0,1.0,False,False,False,False,True,False
+https:\/\/www\.youtube\.com\/watch\?v=(\S{11}),False,62.0,15.0,0.0,1.0,False,False,False,False,True,True
+(.+)\.tiff?,False,160.0,8.0,8.0,1.0,False,False,False,False,True,True
+^[A-Z0-9_]+$,False,29.0,2.0,3.0,2.0,False,True,False,False,False,False
+"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}",False,15.0,2.0,0.0,1.0,False,False,False,False,False,False
+jsessionid=([0-9A-Z]+\.[0-9A-Z]+_[0-9A-Z]+),False,7.0,1.0,0.0,1.0,False,False,False,False,False,False
+Agent \w+,False,42.0,3.0,1.0,0.0,False,False,False,False,False,False
+123456,False,29.0,0.0,9.0,0.0,False,False,False,False,False,False
+"^.{8,15}$",False,48.0,4.0,0.0,0.0,False,False,False,False,True,True
+\w+(?=\s+AND),False,15.0,0.0,0.0,0.0,False,False,False,False,False,False
+^[\+\-]?\d+,False,23.0,1.0,0.0,1.0,False,False,False,False,False,False
+\[[^]]*]\(/[^)]*\),False,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+"^10.\d{4,9}\/[-._;()\/:A-Z0-9]+$",False,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+[\u200B-\u200D\uFEFF],False,46.0,4.0,1.0,1.0,False,False,False,False,False,False
+[0-9]*----[0-9]*----[0-9]*,False,22.0,2.0,0.0,0.0,False,False,False,False,False,False
+"^[A-Za-zÀ-ÖØ-öø-ÿ0-9\s\-\_'\.,]{1,200}$",False,15.0,0.0,5.0,0.0,False,False,False,False,False,False
+^<html>,False,21.0,5.0,0.0,1.0,False,False,False,False,False,False
+([-]?([0-9]+[.][0-9]*|[0-9]*[.][0-9]+)([eE][-]?[0-9]+)?)(.*)$,False,13.0,2.0,0.0,2.0,False,False,False,False,False,False
+^[+-]?((\d*\.\d+)|(\d+(\.\d*)?))([eE][+-]?\d+)?$,False,180.0,22.0,7.0,4.0,True,False,True,True,True,True
+\b\w*is\w*\b,False,10.0,0.0,0.0,0.0,False,False,False,False,False,False
+s....g\.,False,9.0,1.0,0.0,0.0,False,False,False,False,True,True
+\[9999\]NULL#00＠DummyVoice,False,19.0,3.0,0.0,0.0,False,False,False,False,False,True
+Batman|Tina Fey,False,15.0,0.0,0.0,0.0,False,False,False,False,False,False
+"<component group=""com.nvidia.cuvs"" name=""cuvs-.*?</component>\s*",False,68.0,3.0,0.0,0.0,False,False,False,False,False,False
+BAR_START.+?BAR_END,False,16.0,0.0,2.0,0.0,False,False,False,False,False,False
+^day(?P<num>\d)$,False,85.0,5.0,4.0,2.0,False,False,False,False,True,True
+(.)((?<!\1).)(\1),False,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+"<img alt=""Missing image file"".*\/>",False,73.0,9.0,0.0,0.0,False,False,False,False,True,True
+"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})",False,11.0,1.0,0.0,0.0,False,False,False,False,True,True
+^[a-z0-9]{64}$,False,20.0,1.0,0.0,1.0,False,False,False,False,False,False
+(\d) received,False,19.0,0.0,0.0,0.0,False,False,False,False,False,False
+\[.+?\],False,30.0,5.0,0.0,1.0,False,False,False,False,False,False
+"(?:(?P<college>[A-Z]{3,4})-)?(?P<dept>[A-Z]{2,4})[_-]?(?P<num>[0-9]{3})",False,6.0,0.0,0.0,0.0,False,False,False,False,True,True
+"\b(?:\d{1,3}\.){3}\d{1,3}\b",False,26.0,0.0,0.0,1.0,False,False,False,False,False,False
+http://(.*)\.example\.com,False,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+^([0-9a-fA-F]{32}) [\* ]?(.*)$,False,35.0,4.0,0.0,1.0,False,False,False,False,True,True
+"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b",False,35.0,4.0,3.0,1.0,False,False,False,False,False,False
+Quest Reported Character Message (\d+),False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+"(?:\d+) (.+?) bags?(?:, )?|no other bags",False,13.0,1.0,0.0,0.0,False,False,False,False,True,True
+(\[[^\]]+]|Br?|Cl?|N|O|S|P|F|I|b|c|n|o|s|p|\(|\)|\.|=|#|-|\+|\\|\/|:|~|@|\?|>|\*|\$|\%[0-9]{2}|[0-9]),False,31.0,0.0,3.0,1.0,False,False,False,False,False,False
+[0-9]+[.e]?[0-9]+\b,False,26.0,0.0,3.0,1.0,False,False,False,False,False,False
+<version>(.*)</version>,False,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+(except:),False,6.0,1.0,0.0,1.0,False,False,False,False,True,False
+https?://(www\.)?(\w+)(\.\w+),False,33.0,2.0,0.0,1.0,False,False,False,False,False,False
+^\d{3}-\d{4}-\d{4}$,False,7.0,2.0,0.0,0.0,False,False,False,False,False,False
+Ok\(Coding (\w+)\),False,42.0,4.0,0.0,0.0,False,False,False,False,False,False
+https://roadtrippers.com/us/,False,24.0,4.0,0.0,0.0,False,False,False,False,True,False
+.>unauthorized.activity.has.been.detected<.,False,105.0,16.0,0.0,5.0,True,False,True,True,True,True
+"^(?=.*[A-Z])(?=.*\d).{8,}$",False,83.0,12.0,2.0,1.0,False,False,False,False,True,True
+\d+-?\d+-?\d+,False,25.0,5.0,0.0,1.0,False,False,False,False,False,False
+\b\w*z\w*\b,False,31.0,3.0,0.0,1.0,False,False,False,False,True,True
+test1\.txt,False,41.0,5.0,0.0,1.0,False,False,False,False,False,False
+\r\n?|\n,False,18.0,3.0,2.0,0.0,False,False,False,False,False,False
+カレンダーメッセージ(\d+),False,24.0,1.0,1.0,1.0,False,False,False,False,False,False
+<option.+?>(.+?)</option>,False,17.0,1.0,0.0,1.0,False,False,False,False,True,True
+"(?:api|token|secret|key)[=:\s]([A-Za-z0-9_\-]{12,})",False,36.0,3.0,0.0,1.0,False,False,False,False,False,False
+[^a-zA-Z0-9-],False,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+"mul\((-?\d+),(-?\d+)\)|(do\(\))|(don't\(\))",False,7.0,1.0,0.0,1.0,False,False,False,False,True,False
+\b(multumesc|merci|thanks?)\b,False,13.0,0.0,0.0,0.0,False,False,False,False,False,False
+(^|(?<=\s))-?([0]|[1-9][0-9]*)(\.\d+)?($|(?=\s)),False,18.0,2.0,0.0,1.0,False,False,False,False,False,False
+"^\+\d{1,3}-\d{4}-\d{3}-\d{3}$",False,14.0,2.0,0.0,1.0,False,False,False,False,False,False
+^[0-9]+$,False,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+"(Ha){3,5}",False,14.0,0.0,1.0,1.0,False,False,False,False,True,True
+<coins>.+?<,False,41.0,9.0,0.0,2.0,False,False,False,False,True,True
+^(-|\+)?((\d+\.\d*)|(\d+)|(\d*\.\d+))((e|E)(\+|-|)\d+)?$,False,58.0,5.0,0.0,1.0,False,False,False,False,False,False
+([A-Z][^\.!?]*[\.!?]),False,24.0,3.0,0.0,0.0,False,False,False,False,True,True
+^(0|1(01*0)*1)+$,False,23.0,3.0,0.0,0.0,False,False,False,False,True,True
+lambda-lift(?:-(.+))?\.toml$,False,35.0,2.0,0.0,1.0,False,False,False,False,False,False
+client @\S+ (\d+\.\d+\.\d+\.\d+)#,False,26.0,4.0,0.0,1.0,False,False,False,False,False,False
+",(?=(?:[^""]*""[^""]*"")*[^""]*$)",False,113.0,3.0,0.0,1.0,False,False,False,False,False,False
+\b(cine esti|what are you)\b,False,9.0,4.0,0.0,1.0,False,False,False,False,False,False
+<(DBLP|ARXIV|DOI|GC):([^>]*)>,False,13.0,1.0,0.0,1.0,False,False,False,False,False,False
+[^a-z0-9]+,False,24.0,2.0,1.0,1.0,False,False,False,False,False,False
+^[A-Za-z0-9._%+\-]+@,False,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+(?P<first>\w+)\W+(?P<last>\w+),False,48.0,6.0,3.0,3.0,False,False,False,False,False,False
+(\d+:\d+.*?)\n\n,False,42.0,7.0,0.0,1.0,False,False,False,False,True,True
+\b(salut|buna|hello|hi)\b,False,32.0,4.0,1.0,0.0,False,False,False,False,True,False
+[a-zA-Z0-9-\.]+@[a-zA-Z-\.]*\.(com|edu|net),False,19.0,3.0,0.0,1.0,False,False,False,False,False,False
+[^a-zA-Z0-9\s],False,7.0,1.0,0.0,0.0,False,False,False,False,True,True
+^[\d]+\.[\d]+f$,False,12.0,0.0,0.0,0.0,False,False,False,False,False,False
+\d\d\d\d\d\d\d\d\d\d,False,13.0,2.0,0.0,1.0,False,False,False,False,False,True
+^[^@\s]+@[^@\s]+\.[^@\s]+$,False,14.0,2.0,0.0,0.0,False,False,False,False,False,False
+ \|\| ,False,37.0,4.0,1.0,1.0,False,False,False,False,False,False
+^[^#]*\s\(\s[^)]*\bdie\b,False,7.0,1.0,0.0,0.0,False,False,False,False,False,False
+"\w{2,50}",False,21.0,1.0,0.0,0.0,False,False,False,False,True,True
+"^[a-zA-Z0-9$%#@]{7,}[0-9]$",False,17.0,2.0,0.0,0.0,False,False,False,False,False,False
+"tr\(""([^""]+)""\)",False,31.0,9.0,0.0,1.0,False,False,False,False,False,False
+.*\$\{([^}^{]+)\}.*,False,14.0,2.0,2.0,1.0,True,False,False,True,False,False
+\bocid1\.[a-zA-Z0-9._-]+\b,False,13.0,4.0,0.0,1.0,False,False,False,False,False,False
+(\d+)-(\d+) (\w): (\w+),False,20.0,4.0,0.0,1.0,True,False,False,True,False,False
+=> ([0-9a-fx]+) <\+[0-9]+>:\trdtsc,False,53.0,10.0,1.0,2.0,True,False,True,True,False,False
+1\d{10},False,37.0,7.0,0.0,1.0,False,False,False,False,False,False
+"(?P<min>\d{2}):(?P<sec>\d{2}).(?P<ms>\d{2,6})",False,57.0,11.0,0.0,1.0,False,False,False,False,False,False
+"url"":""(.*?.mp3)"",",False,198.0,17.0,12.0,3.0,True,False,False,True,False,False
+^[\d]+i$,False,458.0,16.0,74.0,6.0,False,False,False,False,False,False
+"^.{3,20}$",False,16.0,5.0,0.0,2.0,False,False,False,False,False,False
+"(.+) bags contain (?:(?:(?:\d+) (.+?) bags?(?:, )?)+|no other bags).",False,36.0,7.0,0.0,1.0,True,False,False,True,True,True
+(\w[\w']*\w|\w),False,29.0,7.0,2.0,2.0,True,False,True,True,False,False
+TBX_API \w* \*?(\w*)\(.*,False,104.0,9.0,0.0,1.0,False,False,False,False,False,False
+=> ([0-9a-fx]+) ,False,40.0,14.0,3.0,2.0,False,False,False,False,False,False
+([A-Z])([A-Z])([A-Z]),False,20.0,5.0,0.0,1.0,False,False,False,False,False,False
+"(?P<time><\d{2}:\d{2}\.\d{2,6}>)(?P<content>.*?)(?=<|\n|$){1}",False,27.0,5.0,0.0,1.0,False,False,False,False,False,False
+\&lt;\'.*?\'\&gt;,False,27.0,4.0,0.0,1.0,True,False,False,True,False,False
+([a-zA-Z _]+) *:  *([0-9.]+)[ a-zA-Z]*,False,20.0,6.0,0.0,1.0,False,False,False,False,False,True
+(\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b),False,93.0,8.0,0.0,2.0,True,False,True,True,True,True
+"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$",False,109.0,10.0,16.0,3.0,False,False,False,False,False,False
+(^[a-zA-Z0-9_.+-]+@[0-9-]+\.[a-zA-Z0-9-.]+$),False,22.0,4.0,0.0,0.0,False,False,False,False,False,False
+print\((.+)\),False,220.0,24.0,0.0,1.0,False,False,False,False,True,True
+^((([a-z]+)|([A-Z]+))|([0-9]+))*$,True,23.0,3.0,0.0,0.0,False,False,False,False,True,True
+^[\S]+@[\S]+\.[\S]+$,False,152.0,19.0,7.0,1.0,False,True,False,False,False,False
+\[[a-z]*,False,17.0,5.0,0.0,1.0,True,False,False,True,False,False
+^(?:[A-Z2-7]{8})*(?:[A-Z2-7]{2}={6}|[A-Z2-7]{4}={4}|[A-Z2-7]{5}={3}|[A-Z2-7]{7}=)?$,False,44.0,3.0,0.0,1.0,True,False,False,True,False,False
+(.)((?<!\1).)(\2\1),False,122.0,31.0,0.0,4.0,False,False,False,False,False,False
+(.+\s)(\d{2}:\d{2}:\d{2})(.+),False,81.0,13.0,0.0,3.0,False,False,False,False,True,True
+(^([^:\n]+:){6}[ \n]?),False,18.0,5.0,0.0,1.0,True,False,False,True,False,False
+\+359([ -])2\1([0-9]{3})\1([0-9]{3})\d,False,17.0,7.0,0.0,1.0,False,False,False,False,False,False
+"modtitlew1""><b>(.*?)</b><br>(.*?)<br>(.*?)<br>(.+?),\s+(\w{2})\s(\d{5})<br>United States - ",False,13.0,4.0,0.0,1.0,False,False,False,False,False,False
+[_a-zA-Z-][\w\.]*,False,206.0,21.0,3.0,2.0,True,False,False,True,False,False
+^(?P<local>[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+),False,72.0,10.0,0.0,1.0,False,False,False,False,False,False
+"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$",False,25.0,3.0,0.0,1.0,True,False,False,True,False,False
+^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$,False,88.0,11.0,3.0,3.0,True,False,False,True,False,True
+((https|ftps|http|ftp)://.*?),False,27.0,3.0,0.0,2.0,False,False,False,True,True,True
+(?<!^)(?=[A-Z]),False,175.0,21.0,8.0,2.0,False,True,False,False,False,False
+(Ha){3},False,35.0,10.0,0.0,0.0,False,False,False,False,False,False
+"[A-Za-z0-9._]+@[A-Za-z0-9]+\.[A-Z|a-z]{2,}",False,58.0,5.0,0.0,2.0,False,False,False,False,True,True
+girl|gir|irl|gi|ir|rl|g|i|r|l,False,44.0,8.0,0.0,2.0,False,False,False,False,False,False
+"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",False,160.0,19.0,5.0,6.0,False,False,False,False,True,True
+/root:/bin/bash,False,46.0,7.0,0.0,4.0,False,False,False,False,True,True
+([a-zA-Z]+) = input\(\),False,22.0,3.0,1.0,2.0,True,False,True,True,False,False
+\/\/[^\n]*,False,150.0,9.0,0.0,1.0,True,False,False,True,False,False
+\d{8}.+\.md,False,1068.0,99.0,107.0,6.0,True,True,True,True,True,True
+[\n\r\t],False,297.0,22.0,14.0,4.0,True,False,False,True,False,False
+(http[s]?|me2\.kr)[:/#\?\.]+[-A-Za-z0-9_\.&/]*,False,66.0,10.0,0.0,3.0,False,False,False,False,True,True
+"mul\(\d{1,3},\d{1,3}\)",False,173.0,39.0,3.0,3.0,False,False,False,False,False,False
+boy|bo|oy|b|o|y,False,34.0,8.0,0.0,2.0,False,False,False,False,True,True
+\$?\s*[\d]+(\.\d{2})?,False,44.0,4.0,0.0,2.0,False,False,False,False,True,True
+(?<=id(?=\s)),False,15.0,3.0,2.0,1.0,True,False,False,True,True,True
+^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$,False,21.0,4.0,0.0,1.0,True,False,False,True,True,True
+informação,False,73.0,16.0,1.0,3.0,False,False,False,False,True,False
+^Q[0-9]+$,False,25.0,4.0,0.0,2.0,False,False,False,False,False,False
+[_.]\d+[a-zA-Z]*_?$,False,20.0,3.0,0.0,1.0,False,False,False,False,True,True
+[\u0980-\u09FF],False,64.0,6.0,5.0,2.0,True,False,True,True,False,False
+"<component group=""org.apache.lucene"" name=""lucene-.*?</component>\s*",False,32.0,5.0,0.0,1.0,False,False,False,False,False,False
+Jane|Beky|Robert,False,94.0,5.0,4.0,1.0,False,False,False,False,False,False
+^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$,False,24.0,3.0,2.0,1.0,True,True,False,True,True,True
+[a-zA-Z0-9]+,False,156.0,12.0,3.0,3.0,True,False,False,True,True,True
+^[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12}$,False,52.0,8.0,0.0,4.0,False,False,False,False,False,False
+^[a-z0-9]+$,False,42.0,6.0,0.0,1.0,False,False,False,False,False,False
+"tuneTitle = ""([^""]+)",False,94.0,13.0,3.0,3.0,True,False,False,True,True,True
+\bscore-container\b,False,49.0,12.0,0.0,0.0,False,False,False,False,False,False
+(?<=test loss: )\-*\s*\d*\.\d*,False,20.0,5.0,1.0,1.0,False,False,False,False,False,False
+^edit$,False,110.0,7.0,1.0,2.0,True,False,True,True,True,True
+(\d\d\d)-(\d\d\d-\d\d\d\d),False,14.0,3.0,0.0,0.0,False,False,False,False,False,False
+\ba\w*,False,167.0,24.0,0.0,3.0,True,False,True,True,True,True
+^STARTCHAR\s+(.+)\nENCODING\s+(.+)$,False,20.0,3.0,0.0,0.0,False,False,False,False,True,True
+(?<!¤)([.!?])[ \t]*(?!\d|\w\.|\n|$),False,87.0,15.0,0.0,1.0,False,False,False,False,False,False
+[^a-zA-Z0-9],False,43.0,4.0,0.0,1.0,True,False,False,True,False,False
+^\w[\w\-\.]*$,False,46.0,6.0,0.0,1.0,False,False,False,False,False,False
+Cat(erpillar|astrophe|ch|egory),False,15.0,4.0,0.0,2.0,True,False,False,True,True,True
+Bat(man|mobile|copter|bat),False,19.0,4.0,1.0,1.0,False,False,False,False,True,True
+"[A-Z]{1,}",False,23.0,3.0,0.0,1.0,False,False,False,False,False,False
+^(\s+),False,32.0,8.0,0.0,1.0,True,False,True,True,False,False
+[a-z][A-Z]{3}([a-z])[A-Z]{3}[a-z],False,190.0,16.0,1.0,4.0,False,False,False,False,True,True
+\[.*?\],False,20.0,3.0,0.0,0.0,False,False,False,False,True,True
+"[A-Za-z]{1}[\w\.]+@[A-Za-z]+\.[A-Za-z]{2,}",False,27.0,7.0,2.0,2.0,True,False,True,True,False,False
+^\d{6}-\d{8}-\d{6}-\d{8},False,57.0,5.0,0.0,2.0,False,False,False,True,False,False
+^((([0-9]+)\.([0-9]+)\.([0-9]+)(?:-([0-9a-z-]+(?:\.[0-9a-z-]+)*))?)(?:\+([0-9a-z-]+(?:\.[0-9a-z-]+)*))?)$,False,41.0,8.0,1.0,1.0,False,False,False,False,False,False
+^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$,False,74.0,12.0,0.0,1.0,False,False,False,False,False,False
+.*=>\s*(?P<libfile>.*)\s*,False,50.0,6.0,0.0,1.0,False,False,False,False,False,False
+^(\d{4})_(.+)_([0-9a-z]+)\.csv$,False,107.0,13.0,0.0,1.0,True,False,True,True,True,True
+\[(?P<name>[^\d]+):[\x20]*(?P<value>.+)\],False,21.0,6.0,0.0,1.0,False,False,False,False,False,False
+\s+\d+\|[0-7]\|\d+,False,11.0,4.0,0.0,0.0,False,False,False,False,False,False
+"(^|\\s)@[A-Za-z0-9_]{2,}",False,49.0,12.0,1.0,1.0,False,False,False,False,False,False
+^\d\d\d\d(\d\d)?$,False,44.0,7.0,2.0,2.0,False,False,False,False,True,True
+https://t\.me/(?P<bot_username>\w+?),False,34.0,10.0,0.0,1.0,True,False,False,True,False,False
+^/media/,False,89.0,18.0,5.0,2.0,True,False,True,True,False,False
+^(\d+)-,False,80.0,8.0,3.0,4.0,False,False,False,False,True,True
+commons/thumb,False,24.0,6.0,0.0,2.0,False,False,False,False,False,False
+"mul\((\d*),(\d*)\)",False,27.0,6.0,1.0,2.0,True,False,True,True,False,False
+"IP"">(.*?)</td>",False,34.0,9.0,1.0,1.0,False,False,False,False,False,False
+"[a-zA-Z]{2,4}",False,89.0,7.0,0.0,3.0,True,False,False,True,True,True
+^(True|False)$,False,121.0,14.0,2.0,1.0,False,False,False,False,False,False
+^(\d+)\.\s*(.+?)\s+(\d{4}(?:[-–]\d{4})?)$,True,14.0,3.0,0.0,2.0,False,False,False,False,False,False
+how long has it been since (?P<date>\d{4}\-\d{2}\-\d{2})\?,False,65.0,14.0,1.0,1.0,False,False,False,False,False,False
+"^.+\.[0-9a-f]{8,12}\..+$",False,74.0,9.0,2.0,3.0,True,False,False,True,True,True
+"^[A-Za-z\d@$!%*?&]{6,}$",False,23.0,7.0,0.0,1.0,False,False,False,False,False,True
+[^A-Z][A-Z]{3}([a-z])[A-Z]{3}[^A-Z],False,91.0,13.0,0.0,3.0,False,False,False,False,False,False
+\b(\w+)\s+adalah\s+(\w+)\b,False,76.0,18.0,0.0,1.0,False,False,False,False,True,True
+"(?<=[qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM])[aeiouAEIOU]{2,}(?=[qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM])",False,32.0,11.0,0.0,1.0,False,False,False,False,False,False
+\*(.*?)\*,False,29.0,9.0,1.0,1.0,True,False,False,True,False,False
+"\b(\d{3,7})\b",False,367.0,40.0,7.0,8.0,True,False,True,True,True,True
+([0-9]|10)([SDT])([*#]?),False,74.0,11.0,0.0,1.0,False,False,False,False,False,False
+B....n,False,122.0,12.0,1.0,4.0,True,False,True,True,True,True
+(^|(?<=\s)-?([0]|[1-9][0-9]*)(\.\d+)?($|(?=\s))),False,41.0,8.0,1.0,1.0,False,False,False,False,False,False
+"^(?=.*[a-z])(?=.*[A-Z])(?=.*[$@#]).{6,16}$",False,164.0,20.0,7.0,1.0,False,True,False,False,False,False
+^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+,False,9.0,4.0,0.0,0.0,False,False,False,False,False,False
+(\d{3}-\d{2}-\d{4}),False,28.0,10.0,0.0,0.0,False,False,False,False,False,False
+^I.*\.$,False,84.0,11.0,2.0,1.0,False,False,False,False,False,False
+[aeiouAEIOU],False,2011.0,47.0,207.0,2.0,False,True,True,True,False,False
+\$\$(.*?)\$\$,False,267.0,53.0,2.0,4.0,False,False,False,False,False,False
+"\W*\b\w{1,2}\b",False,37.0,9.0,2.0,3.0,False,False,False,False,False,False
+\x1b(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~]),False,34.0,8.0,1.0,1.0,False,False,False,False,False,True
+"\d{1,3}",False,19.0,4.0,0.0,1.0,False,False,False,False,False,False
+"^[a-zA-Z0-9_-]{3,30}$",False,30.0,3.0,0.0,1.0,True,False,False,True,False,False
+[\w\.-]+@[\w\.-]+,False,28.0,3.0,0.0,1.0,True,False,False,True,True,True
+"(?i)<embed.*?src.*?=""(.+?)"".*?>",True,102.0,21.0,2.0,3.0,False,False,False,False,True,True
+(\\+|\\s|%20)+,True,33.0,5.0,2.0,2.0,False,False,False,False,False,False
+(/\\*.*?\\*/),True,65.0,14.0,0.0,1.0,False,False,False,False,False,False
+(\S*)+(\u007C)+(\S*),True,29.0,3.0,0.0,0.0,False,False,False,False,True,True
+(\\w+)(?:\\:(\\w+))?@([\\w-]+(?:%)?(?:\\.[\\w-]+)*|%),True,109.0,15.0,0.0,3.0,False,False,False,True,True,True
+" +([0-9]+) , ([0-9]+) *([0-9]+) *(.+)",True,18.0,3.0,0.0,1.0,True,False,False,True,False,False
+<a.+?href\=(?P<link>.+?)(?=[>\s]).*?>(?P<lnkText>.+?)</a>,True,46.0,8.0,1.0,2.0,False,False,False,True,False,False
+"(?P<username>#?[+_a-zA-Z0-9+-]+(\.[+_a-zA-Z0-9+-]+)*)@(?P<domain>[a-zA-Z0-9]+(-(?!-)|[a-zA-Z0-9\.])*?[a-zA-Z0-9]+\.([0-9]{1,3}|[a-zA-Z]{2,3}|(aero|arpa|asia|coop|info|jobs|mobi|museum|name|travel)))",True,24.0,3.0,0.0,0.0,False,False,False,False,True,True
+(<\/?)(?i:(?P<element>a(bbr|cronym|ddress|pplet|rea)?|b(ase(font)?|do|ig|lockquote|ody|r|utton)?|c(aption|enter|ite|(o(de|l(group)?)))|d(d|el|fn|i(r|v)|l|t)|em|f(ieldset|o(nt|rm)|rame(set)?)|h([1-6]|ead|r|tml)|i(frame|mg|n(put|s)|sindex)?|kbd|l(abel|egend|i(nk)?)|m(ap|e(nu|ta))|no(frames|script)|o(bject|l|pt(group|ion))|p(aram|re)?|q|s(amp|cript|elect|mall|pan|t(r(ike|ong)|yle)|u(b|p))|t(able|body|d|extarea|foot|h|itle|r|t)|u(l)?|var))(\s(?P<attr>.+?))*>,True,50.0,6.0,0.0,4.0,False,False,True,True,True,True
+(.*?\\(.*?\\)).*,True,44.0,7.0,0.0,1.0,False,False,False,False,True,True
+^(\S+\.{1})(\S+\.{1})*([^\s\.]+\s*)$,True,82.0,5.0,0.0,2.0,True,False,False,True,False,True
+(\/\*(\s*|.*?)*\*\/)|(\/\/.*),True,70.0,10.0,5.0,1.0,False,False,True,True,False,False
+(?x)\n            [\\r\\n]+(\\S+)\n            [\\r\\n]+(\\S+)\n            [\\r\\n]+.+[\\r\\n]+(\\S+)\n,True,974.0,99.0,102.0,6.0,True,True,True,True,True,True
+"<(?:[^""']+?|.+?(?:""|').*?(?:""|')?.*?)*?>",True,46.0,4.0,0.0,2.0,False,False,False,False,True,True
+\\/\\*\\*(.*?)\\*\\/,True,62.0,10.0,0.0,3.0,False,False,False,False,True,True
+(.*)\\*\\*STRONG_LINE\\*\\*,True,28.0,7.0,1.0,0.0,False,False,False,False,True,False
+\\/\\*Universe: (.+)*\\*\\/,True,264.0,50.0,0.0,1.0,False,False,False,False,False,False
+title\\+?= *(.*?) *$,True,162.0,23.0,17.0,1.0,True,True,False,True,False,False
+"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$",True,65.0,14.0,1.0,1.0,False,False,False,False,False,False
+"(\[(\w+)\s*(([\w]*)=('|"")?([a-zA-Z0-9|:|\/|=|-|.|\?|&]*)(\5)?)*\])([a-zA-Z0-9|:|\/|=|-|.|\?|&|\s]+)(\[\/\2\])",True,148.0,24.0,4.0,1.0,False,False,False,False,True,True
+\\/\\*[\\s\\S]*?\\*\\/,True,103.0,11.0,0.0,2.0,True,False,False,True,True,True
+"^([A-Z]{1,}[a-z]{1,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,}[A-Z]{0,}[a-z]{0,})$",True,46.0,5.0,4.0,1.0,False,False,False,True,True,True
+"^\s*[a-zA-Z0-9,\s]+\s*$",True,54.0,11.0,2.0,2.0,True,False,False,True,True,True
+"(?P<FirstName>[A-Z]\.?\w*\-?[A-Z]?\w*)\s?(?P<MiddleName>[A-Z]\w*|[A-Z]?\.?)\s?(?P<LastName>[A-Z]\w*\-?[A-Z]?\w*)(?:,\s|)(?P<Suffix>Jr\.|Sr\.|IV|III|II|)",True,12.0,3.0,0.0,1.0,False,False,False,False,False,False
+(.*//*)*(.*)\\..*,True,14.0,3.0,0.0,1.0,False,False,False,False,False,False
+[a-zA-Z0-9_\\-]+@([a-zA-Z0-9_\\-]+\\.)+(com),True,24.0,6.0,1.0,2.0,False,False,False,False,False,False
+(<[^>]*?tag[^>]*?(?:identify_by)[^>]*>)((?:.*?(?:<[ \r\t]*tag[^>]*>?.*?(?:<.*?/.*?tag.*?>)?)*)*)(<[^>]*?/[^>]*?tag[^>]*?>),True,22.0,5.0,0.0,1.0,False,False,False,False,False,False
+"^(?:[^@<>;:,.()\s\[\]\\]+(?:\.(?!@))?)+@(?:[\w\-]+(?:\.(?!\.))?)+\.[A-Za-z]{2,6}$",True,22.0,4.0,1.0,1.0,False,False,False,False,False,False
+(\\d+:)*(.*)(_.*)*,True,98.0,22.0,1.0,4.0,False,False,True,True,False,True
+(.*?\\+.*?)x(.*?),True,25.0,5.0,4.0,1.0,True,False,True,True,False,False
+/\\*(.*?)\\*/,True,71.0,8.0,0.0,1.0,True,False,True,True,True,True
+"(http):\\/\\/[\\w\\-_]+(\\.[\\w\\-_]+)+(\\.[\\w\\-_]+)(\\/)([\\w\\-\\.,@?^=%&:/~\\+#]*[\\w\\-\\@?^=%&/~\\+#]+)(\\/)((\\d{8}-)|(\\d{9}-)|(\\d{10}-)|(\\d{11}-))+([\\w\\-\\.,@?^=%&:/~\\+#]*[\\w\\-\\@?+html^])?",True,151.0,16.0,3.0,3.0,True,False,True,True,True,True
+#define[ \t]+([A-Z0-9a-z_]+)[ \t]+([0-9]+)[ \t]*/\\*[ \t]*(.*)[ \t]*\\*/,True,18.0,6.0,0.0,1.0,False,False,False,False,False,False
+[^(\&)](\w*)+(\=)[\w\d ]*,True,37.0,4.0,0.0,1.0,False,False,False,False,True,True
+((^[0-9]*).?((BIS)|(TER)|(QUATER))?)?((\W+)|(^))(([a-z]+.)*)([0-9]{5})?.(([a-z\'']+.)*)$,True,309.0,33.0,1.0,2.0,False,False,False,False,True,True
+^(([a-z])+.)+[A-Z]([a-z])+$,True,141.0,17.0,1.0,2.0,True,False,False,True,False,True
+"(?P<FirstName>[A-Z]\.?\w*\-?[A-Z]?\w*)\s?(?P<MiddleName>[A-Z]\w+|[A-Z]?\.?)\s(?P<LastName>(?:[A-Z]\w{1,3}|St\.\s)?[A-Z]\w+\-?[A-Z]?\w*)(?:,\s|)(?P<Suffix>Jr\.|Sr\.|IV|III|II|)",True,25.0,4.0,0.0,1.0,False,False,False,False,False,False
+\\A[^*]*\\* \\* \\*[^*]*\\* \\* \\*,True,42.0,6.0,1.0,1.0,False,False,False,False,False,False
+"^[a-zA-Z\d]+(([\'\,\.\- #][a-zA-Z\d ])?[a-zA-Z\d]*[\.]*)*$",True,70.0,8.0,1.0,1.0,False,False,False,False,False,False
+(\\W)any\\( *(\\S+) *(\\S+) *(.*?) *\\)(\\W),True,44.0,9.0,2.0,1.0,False,False,False,False,False,False
+"^(([A-Za-z][A-Za-z0-9.+]*?){1,}?)(,\s?([^/\\:*?""<>|]*((,\s?(Version=(\d\.?){1,4}|Culture=(neutral|\w{2}-\w{2})|PublicKeyToken=[a-f0-9]{16})(,\s?)?){3}|))){0,1}$",True,20.0,3.0,0.0,1.0,True,False,False,True,False,False
+^(?:(?:((?![0-9_])[a-zA-Z0-9_]+)\.?)+)(?<!\.)$,True,20.0,3.0,0.0,2.0,False,False,False,False,False,False
+"([^""](?:\\.|[^\\""]*)*)",True,78.0,7.0,1.0,2.0,False,False,False,False,True,True
+([a-zA-Z0-9\_\-\.]+[a-zA-Z0-9\_\-\.]+[a-zA-Z0-9\_\-\.]+)+@([a-zA-z0-9][a-zA-z0-9][a-zA-z0-9]*)+(\.[a-zA-z0-9][a-zA-z0-9][a-zA-z0-9]*)(\.[a-zA-z0-9]+)*,True,155.0,20.0,7.0,4.0,False,True,False,False,True,True
+"^\s*((?:(?:\d+(?:\x20+\w+\.?)+(?:(?:\x20+STREET|ST|DRIVE|DR|AVENUE|AVE|ROAD|RD|LOOP|COURT|CT|CIRCLE|LANE|LN|BOULEVARD|BLVD)\.?)?)|(?:(?:P\.\x20?O\.|P\x20?O)\x20*Box\x20+\d+)|(?:General\x20+Delivery)|(?:C[\\\/]O\x20+(?:\w+\x20*)+))\,?\x20*(?:(?:(?:APT|BLDG|DEPT|FL|HNGR|LOT|PIER|RM|S(?:LIP|PC|T(?:E|OP))|TRLR|UNIT|\x23)\.?\x20*(?:[a-zA-Z0-9\-]+))|(?:BSMT|FRNT|LBBY|LOWR|OFC|PH|REAR|SIDE|UPPR))?)\,?\s+((?:(?:\d+(?:\x20+\w+\.?)+(?:(?:\x20+STREET|ST|DRIVE|DR|AVENUE|AVE|ROAD|RD|LOOP|COURT|CT|CIRCLE|LANE|LN|BOULEVARD|BLVD)\.?)?)|(?:(?:P\.\x20?O\.|P\x20?O)\x20*Box\x20+\d+)|(?:General\x20+Delivery)|(?:C[\\\/]O\x20+(?:\w+\x20*)+))\,?\x20*(?:(?:(?:APT|BLDG|DEPT|FL|HNGR|LOT|PIER|RM|S(?:LIP|PC|T(?:E|OP))|TRLR|UNIT|\x23)\.?\x20*(?:[a-zA-Z0-9\-]+))|(?:BSMT|FRNT|LBBY|LOWR|OFC|PH|REAR|SIDE|UPPR))?)?\,?\s+((?:[A-Za-z]+\x20*)+)\,\s+(A[BLKSZRAP]|BC|C[AOT]|D[EC]|F[LM]|G[AU]|HI|I[ADLN]|K[SY]|LA|M[ABDEHINOPST]|N[BCDEHJLMSTUVY]|O[HKRN]|P[AERW]|QC|RI|S[CDK]|T[NX]|UT|V[AIT]|W[AIVY]|YT)\s+((\d{5}-\d{4})|(\d{5})|([AaBbCcEeGgHhJjKkLlMmNnPpRrSsTtVvXxYy]\d[A-Za-z]\s?\d[A-Za-z]\d))\s*$",True,38.0,7.0,0.0,0.0,False,False,False,False,False,False
+"(?P<expo>public\:|protected\:|private\:) (?P<ret>(const )*(void|int|unsigned int|long|unsigned long|float|double|(class .*)|(enum .*))) (?P<decl>__thiscall|__cdecl|__stdcall|__fastcall|__clrcall) (?P<ns>.*)\:\:(?P<class>(.*)((<.*>)*))\:\:(?P<method>(.*)((<.*>)*))\((?P<params>((.*(<.*>)?)(,)?)*)\)",True,226.0,17.0,4.0,3.0,False,False,False,False,False,False
+^[a-z]+([a-z0-9-]*[a-z0-9]+)?(\.([a-z]+([a-z0-9-]*[a-z0-9]+)?)+)*$,True,86.0,10.0,2.0,2.0,False,False,False,False,False,False
+"<img[\s]+[^>]*?((alt*?[\s]?=[\s\""\']+(.*?)[\""\']+.*?)|(src*?[\s]?=[\s\""\']+(.*?)[\""\']+.*?))((src*?[\s]?=[\s\""\']+(.*?)[\""\']+.*?>)|(alt*?[\s]?=[\s\""\']+(.*?)[\""\']+.*?>)|>)",True,30.0,6.0,0.0,1.0,False,False,False,False,False,True
+"^\s*(\d{0,2})(\.?(\d*))?\s*\%?\s*$",True,42.0,6.0,0.0,4.0,False,False,False,False,False,False
+"^[a-zA-Z]+(([\'\,\.\-][a-zA-Z])?[a-zA-Z]*)*$",True,563.0,31.0,40.0,4.0,True,True,False,True,False,False
+"^""|'+(.*)+""$|'$",True,90.0,12.0,0.0,2.0,False,False,False,False,True,True
+"^([0-9]*)+(,[0-9]+)+$",True,236.0,19.0,24.0,2.0,True,False,True,True,False,False
+"^Content-Type:\s*(\w+)\s*/?\s*(\w*)?\s*;\s*((\w+)?\s*=\s*(("".+"")|(\S+)))?",True,30.0,7.0,1.0,1.0,False,False,False,False,False,True
+([\\w\\.-]+)\\s+([^(]+).*,True,30.0,11.0,1.0,1.0,True,False,True,True,False,False
+^([\d]*[1-9]+[\d]*)$,True,83.0,5.0,0.0,2.0,True,False,False,True,True,True
+\\A(?:\\..*|cylc-suite\\.db.*|log(?:\\..*)*|state|share|work)\\Z,True,44.0,8.0,0.0,2.0,False,False,False,False,False,False
+\\*\\*\\* Error compiling (?:.*),True,18.0,5.0,0.0,1.0,False,False,False,False,False,False
+(?ims)ldap\x3A\x2F\x2F[^\x0A]*(%3f|\x3F)[^\x0A]*(%3f|\x3F)[^\x0A]*(%3f|\x3F)[^\x0A]*(%3f|\x3F),True,15.0,5.0,0.0,0.0,False,False,False,False,False,False
+^\d*[0-9](|.\d*[0-9]|)*$,True,10.0,3.0,0.0,0.0,False,False,False,False,False,False
+"^(ht|f)tp(s?)\:\/\/(([a-zA-Z0-9\-\._]+(\.[a-zA-Z0-9\-\._]+)+)|localhost)(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&%\$#_]*)?([\d\w\.\/\%\+\-\=\&\?\:\\\""\'\,\|\~\;]*)$",True,71.0,10.0,2.0,1.0,False,False,False,False,True,True
+([^0-9]+)(?: release )?([\\d.]+)[^(]*(?:\\((.+)\\))?,True,110.0,17.0,0.0,1.0,True,False,True,True,True,True
+"[ \\t]*([^<>\\s]+?)[ \\t]*<p=""([^""]*""?)""/>",True,46.0,4.0,0.0,2.0,False,False,False,False,True,True
+^([A-Z]|[a-z]|[0-9])(([A-Z])*(([a-z])*([0-9])*(%)*(&)*(')*(\+)*(-)*(@)*(_)*(\.)*)|(\ )[^  ])+$,True,43.0,8.0,1.0,1.0,False,False,False,False,False,False
+"[\d+]{10}\@[\w]+\.?[\w]+?\.?[\w]+?\.?[\w+]{2,4}/i",True,12.0,3.0,0.0,1.0,False,False,False,False,False,False
+/\\*.*?\\*/\\s*|[()],True,162.0,38.0,0.0,4.0,True,False,True,True,True,True
+"^[^\~\`\!\@\#\$\%\^\&\*\(\)\-\_\=\+\\\|\[\]\{\}\;\:\""\'\,\<\./\>\?\s](([a-zA-Z0-9]*[-_\./]?[a-zA-Z0-9]{1,})*)$",True,30.0,5.0,2.0,2.0,False,False,False,False,False,False
+\\/\\*.*\\*\\/,True,68.0,10.0,2.0,2.0,False,False,False,False,True,True
+"^(?P<type>(\w+(\.?\w+)+))\s*,\s*(?P<assembly>[\w\.]+)(,\s?Version=(?P<version>\d+\.\d+\.\d+\.\d+))?(,\s?Culture=(?P<culture>\w+))?(,\s?PublicKeyToken=(?P<token>\w+))?$",True,70.0,11.0,5.0,2.0,False,False,False,True,False,False
+"^\s*[a-zA-Z,\s]+\s*$",True,67.0,8.0,0.0,1.0,False,False,False,False,False,False
+"<meta[\s]+[^>]*?name[\s]?=[\s\""\']+(.*?)[\s\""\']+content[\s]?=[\s\""\']+(.*?)[\""\']+.*?>",True,28.0,9.0,0.0,1.0,False,False,False,False,False,False
+\\-\\-[A-Za-z][\\w\\-]*(\\.[\\w\\-]+)*\\=.*,True,83.0,6.0,0.0,0.0,False,False,False,False,True,True
+([a-z_]+) '(.*)'\\t(.*)\\tLoc=<(.*):(.*):(.*)>,True,212.0,29.0,2.0,4.0,True,False,True,True,False,False
+"^(\d+(,\d+)*)+$",True,175.0,7.0,0.0,2.0,True,False,False,True,False,False
+^\\s*$|^(-+).*(-+)$,True,29.0,5.0,0.0,4.0,False,False,False,False,False,False
+wonder\s*([^$]*)\s*with,True,94.0,11.0,0.0,1.0,False,False,False,False,False,False
+"\\s*:?\\s*([\\w\\.]+\\s*,?\\s*)*",True,311.0,37.0,4.0,8.0,False,False,False,False,True,True
+"^([a-zA-Z0-9][a-zA-Z0-9_]*(\.{0,1})?[a-zA-Z0-9\-_]+)*(\.{0,1})@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|([a-zA-Z0-9\-]+(\.([a-zA-Z]{2,10}))(\.([a-zA-Z]{2,10}))?(\.([a-zA-Z]{2,10}))?))[\s]*$",True,121.0,16.0,1.0,3.0,True,False,True,True,True,True
+^[0-9]*[1-9]+[0-9]*$,True,18.0,2.0,1.0,1.0,True,False,False,True,False,False
+(\/\*(\s*|.*?)*\*\/)|(--.*),True,29.0,3.0,0.0,0.0,False,False,False,False,True,True
+"([\\w\\d_\\.\\-])+\\@(([\\w\\d\\-])+\\.)+([\\w\\d]{2,4})+",True,233.0,15.0,23.0,2.0,True,False,False,True,True,True
+(^\d*\.?\d*[0-9]+\d*$)|(^[0-9]+\d*\.\d*$),True,61.0,14.0,0.0,5.0,False,False,True,True,False,False
+(?ims)%([0-9]+$)?([-+ #0-9]+)?([0-9]+)?\.?([0-9]+)?[hlL]?[cdieEfgGosuxXpn],True,48.0,11.0,1.0,2.0,False,False,False,False,True,True
+Cookie\\:.+\\@([!-\xff]+).*?(.+\\@[!-\xff]+\\.txt),True,52.0,6.0,1.0,2.0,False,False,False,False,False,False
+^[a-zA-Z0-9]+([_.-]?[a-zA-Z0-9]+)?@[a-zA-Z0-9]+([_-]?[a-zA-Z0-9]+)*([.]{1})[a-zA-Z0-9]+([.]?[a-zA-Z0-9]+)*$,True,242.0,20.0,6.0,2.0,True,True,False,True,False,False
+(\d*)'*-*(\d*)/*(\d*),True,198.0,22.0,3.0,3.0,True,False,True,True,True,True
+/\\*.*?\\*/,True,100.0,11.0,0.0,1.0,True,False,True,True,True,True
+(^[+]?\d*\.?\d*[1-9]+\d*$)|(^[+]?[1-9]+\d*\.\d*$),True,31.0,6.0,0.0,1.0,False,False,False,False,False,False
+"^100$|^\s*(\d{0,2})((\.|\,)(\d*))?\s*\%?\s*$",True,62.0,13.0,0.0,1.0,False,False,False,False,False,False
+\\/\\*[^*]*\\*+([^/][^*]*\\*+)*\\/,True,104.0,9.0,1.0,1.0,False,False,False,False,True,True
+(/\*[\d\D]*?\*/)|(\/\*(\s*|.*?)*\*\/)|(\/\/.*)|(/\\*[\\d\\D]*?\\*/)|([\r\n ]*//[^\r\n]*)+,True,32.0,7.0,0.0,1.0,True,False,False,True,False,True
+"^(((\\\\([^\\/:\*\?""\|<>\. ]+))|([a-zA-Z]:\\))(([^\\/:\*\?""\|<>\. ]*)([\\]*))*)$",True,112.0,11.0,0.0,1.0,False,False,False,False,False,False
+(([^-/]+)-?([^/]+)?)/?.*,True,110.0,12.0,1.0,2.0,False,False,False,True,True,True
+"((?:""[^""]+""|[^,""]+)+)\\s*,?",True,31.0,5.0,0.0,1.0,False,False,False,False,False,False
+<a[\s]+[^>]*?.*?>([^<]+|.*?)?<\/a>,True,30.0,8.0,0.0,3.0,False,False,False,False,True,True
+"^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\w]*[0-9a-zA-Z])*\.)+[a-zA-Z]{2,9})$",True,63.0,11.0,0.0,2.0,True,False,True,True,True,True
+"(?ims)MsgBox\s+(\x22[^\x22]*\x22|[^,]*)\s*,\s*[0-9]*\s*,\s*(\x22[^\x22]*\x22|[^,]*)\s*,\s*\x22\x5c\x5c[^\x22]*\x2ehlp\x22",True,,,,,,,,,,
+.*\\((.*)\\).*,True,,,,,,,,,,
+"<a[\s]+[^>]*?href[\s]?=[\s\""\']+(.*?)[\""\']+.*?>([^<]+|.*?)?<\/a>",True,,,,,,,,,,
+^(((\.\.){1}/)*|(/){1})?(([a-zA-Z0-9]*)/)*([a-zA-Z0-9]*)+([.jpg]|[.gif])+$,True,,,,,,,,,,
+(.*?)/(.*?)/(.*?)/(.*)$,True,,,,,,,,,,
+"<a\s*(?:href=[\'""]([^\'""]+)[\'""])?\s*(?:title=[\'""]([^\'""]+)[\'""])?.*?>((?:(?!</a>).)*)</a>",True,,,,,,,,,,
+^\s*([\(]?)\[?\s*\d{3}\s*\]?[\)]?\s*[\-]?[\.]?\s*\d{3}\s*[\-]?[\.]?\s*\d{4}$,True,,,,,,,,,,
+"(?i)<img.*?src.*?=.*?""(.+?)"".*?>",True,,,,,,,,,,
+/\\*([^*]+|\\*+[^/])*(\\*+/)?,True,,,,,,,,,,
+"^(?P<Namespace>(?:[\w][\w\d]*\.?)*)\.(?P<Class>[\w][\w\d<>]*(?:(?:\+[\w][\w\d<>]*)+|))(?:|,\W?(?P<Assembly>(?P<AssemblyName>[^\W/\\:*?""<>|]+)(?:$|(?:,\W?(?:(?P<Version>Version=(?P<VersionValue>(?:\d{1,2}\.?){1,4}))|(?P<Culture>Culture=(?P<CultureValue>neutral|\w{2}-\w{2}))|(?P<PublicKeyToken>PublicKeyToken=(?P<PublicKeyTokenValue>[A-Fa-f0-9]{16})))(?:,\W?)?){3})))$",True,,,,,,,,,,
+"[ \t]*([A-Z0-9a-z_]+)[ \t]*=[ \t]*([-0-9]+)[, \t]*/\\*[ \t]*(.*)[ \t]*\\*/",True,,,,,,,,,,
+"^(?P<link>((?P<prot>http:\/\/)*(?P<subdomain>(www|[^\-\n]*)*)(\.)*(?P<domain>[^\-\n]+)\.(?P<after>[a-zA-Z]{2,3}[^>\n]*)))$",True,,,,,,,,,,
+(^\d*\.?\d*[1-9]+\d*$)|(^[1-9]+\d*\.\d*$),True,,,,,,,,,,
+"(?P<FirstName>[A-Z]\.?\w*\-?[A-Z]?\w*)\s?(?P<MiddleName>[A-Z]\w+|[A-Z]?\.?)\s(?P<LastName>[A-Z]?\w{0,3}[A-Z]\w+\-?[A-Z]?\w*)(?:,\s|)(?P<Suffix>Jr\.|Sr\.|IV|III|II|)",True,,,,,,,,,,
+--+.*?--+,True,,,,,,,,,,
+"\\["".*?\\]+?.*?\\[/"".*?\\]+?",True,,,,,,,,,,
+(^[0-9]*[1-9]+[0-9]*\.[0-9]*$)|(^[0-9]*\.[0-9]*[1-9]+[0-9]*$)|(^[0-9]*[1-9]+[0-9]*$),True,,,,,,,,,,
+"(?P<Address1>(?:[a-zA-Z0-9\x20\x2E\x2D])*(?:CIRCLE|CIR|MOUNTAIN|MTN|PARKWAY|PKWY|PKY|PLAZA|PLZA|PLZ|RIDGE|RDG|ROUTE|RTE|TURNPIKE|TURNPK|TPKE|TPK|WAY|WY|SOUTHEAST|SOUTHWEST|SOUTH|EAST|NORTHEAST|NORTHWEST|NORTH|WEST|ARCADE|ARC\x2E|ARC|AVENUE|AVE\x2E|AVE|BOULEVARD|BVD\x2E|BVD|BLVD\x2E|BLVD|CLOSE|CL\x2E|CL|CRESENT|CRES\x2E|CRES|DRIVE|DR\x2E|DR|ESPLANADE|ESP\x2E|ESP|GROVE|GR\x2E|GR|HIGHWAY|HWY\x2E|HWY|LANE|LN\x2E|LN|PARADE|PDE\x2E|PDE|PLACE\x2E|PLACE|PL\x2E|PL|ROAD|RD\x2E|RD|SQUARE|SQ\x2E|SQ|STREET|ST\x2E|ST|TERRACE|TCE\x2E|TCE|S\x2E|W\x2E|N\x2E|E\x2E|N|E|W|S))[,]*\t*\s(?P<AptBldg>UNIT[a-zA-Z0-9\x20\x2D\x3A]*|BASEMENT[a-zA-Z0-9\x20\x2D\x3A]*|BSMT[a-zA-Z0-9\x20\x2D\x3A]*|BUILDING[a-zA-Z0-9\x20\x2D\x3A]*|DEPARTMENT[a-zA-Z0-9\x20\x2D\x3A]*|DEPT[a-zA-Z0-9\x20\x2D\x3A]*|FLOOR[a-zA-Z0-9\x20\x2D\x3A]*|FL[a-zA-Z0-9\x20\x2D\x3A]*|PENTHOUSE[a-zA-Z0-9\x20\x2D\x3A]*|PH[a-zA-Z0-9\x20\x2D\x3A]*|ROOM[a-zA-Z0-9\x20\x2D\x3A]*|RM[a-zA-Z0-9\x20\x2D\x3A]*|SLIP[a-zA-Z0-9\x20\x2D\x3A]*|SPACE[a-zA-Z0-9\x20\x2D\x3A]*|SPC[a-zA-Z0-9\x20\x2D\x3A]*|SUITE[a-zA-Z0-9\x20\x2D\x3A]*|\x23[a-zA-Z0-9\x20\x2D\x3A]*|APT[a-zA-Z0-9\x20\x2D\x3A]*|BLDG[a-zA-Z0-9\x20\x2D\x3A]*|PO\sBOX\x3A[a-zA-Z0-9\x20\x2D]*|P\x2EO\x2E\sBOX[a-zA-Z0-9\x20\x2D]*|PO\sBOX[a-zA-Z0-9\x20\x2D]*|BOX[a-zA-Z0-9\x20\x2D]*|\x20*)\x2C*\x2E*\t*(?P<City>[a-zA-Z\x20]*)[,]*\t*\x20*(?P<State>AL|ALABAMA|AK|ALASKA|AZ|ARIZONA|AR|ARKANSAS|CA|CALIFORNIA|CO|COLORADO|CT|CONNECTICUT|DE|DELAWARE|FL|FLORIDA|GA|GEORGIA|HI|HAWAII|ID|IDAHO|IL|ILLNOIS|IN|INDIANA|IA|IOWA|KS|KANSAS|KY|KENTUCKY|LA|LOUISIANA|ME|MAINE|MD|MARYLAND|MA|MASSACHUSETTS|MI|MICHIGAN|MN|MINNESOTA|MS|MISSISSIPPI|MO|MISSOURI|MT|MONTANA|NE|NEBRASKA|NV|NEVADA|NH|NEW HAMPSHIRE|NJ|NEW JERSEY|NM|NEW MEXICO|NY|NEW YORK|NC|NORTH CAROLINA|ND|NORTH DAKOTA|OH|OHIO|OK|OKLAHOMA|OR|OREGON|PA|PENNSYLVANIA|RI|RHODE ISLAND|SC|SOUTH CAROLINA|SD|SOUTH DAKOTA|TN|TENNESSEE|TX|TEXAS|UT|UTAH|VT|VERMONT|VA|VIRGINIA|WA|WASHINGTON|DC|DISTRICT OF COLUMBIA|WASHINGTON DC|[a-zA-Z]{2})\x2C*\t*\s*(?P<ZipCode>[0-9\x2D\x20]{5,10}|\x20*)",True,,,,,,,,,,
+"\s*([a-z\. ]+)\s*\n\s*([a-z0-9\. #]+)\s*\n\s*([a-z \.]+)\s*,\s*([a-z \.]+)\s*\n?(?:\s*(\d{1,15}(?:-\d{1,4})?)\s*\n)?(?:\s*(\+?(?:1\s*[-\/\.]?)?(?:\((?:\d{3})\)|(?:\d{3}))\s*[-\/\.]?\s*(?:\d{3})\s*[-\/\.]?\s*(?:\d{4})(?:(?:[ \t]*[xX]|[eE][xX][tT])\.?[ \t]*(?:\d+))*))?",True,,,,,,,,,,
+(/\\*([^*]|(\\*+[^*/]))*\\*+/)|(//.*),True,,,,,,,,,,
+u'(.*)\\s*(?://.*|/\\*.*\\*/\\s*)$,True,,,,,,,,,,
+([0-9]+).*?([0-9]+),True,,,,,,,,,,
+[a-zA-Z\\d]+(\\.[a-zA-Z\\d]+)+,True,,,,,,,,,,
+"^<\!\-\-(.*)+(\/){0,1}\-\->$",True,,,,,,,,,,
+^\s*(((\d*\.?\d*[0-9]+\d*)|([0-9]+\d*\.\d*) )\s*[xX]\s*){2}((\d*\.?\d*[0-9]+\d*)|([0-9]+\d*\.\d*))\s*$,True,,,,,,,,,,
+([^*{}\\s]@|[^*{}@\\s]|\\*(?!/))+,True,,,,,,,,,,
+\d+?(.)\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+\1\d+,True,,,,,,,,,,
+"^\s*[a-zA-Z0-9,\s\-\'\.]+\s*$",True,,,,,,,,,,
+"^((([a-z0-9])+([\w.-]{1})?)+([^\W_]{1}))+@((([a-z0-9])+([\w-]{1})?)+([^\W_]{1}))+\.[a-z]{2,3}(\.[a-z]{2,4})?$",True,,,,,,,,,,
+([1-9][0-9]*)*(.*),True,,,,,,,,,,
+"(^(\+?\-? *[0-9]+)([,0-9 ]*)([0-9 ])*$)|(^ *$)",True,,,,,,,,,,
+"^\s*[a-zA-Z0-9,&\s]+\s*$",True,,,,,,,,,,
+^([a-zA-Z](?:(?:(?:\w[\.\_]?)*)\w)+)([a-zA-Z0-9])$,True,,,,,,,,,,
+"^(\+[0-9]{2,}[0-9]{4,}[0-9]*)(x?[0-9]{1,})?$",True,,,,,,,,,,
+"([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$",True,,,,,,,,,,
+"//.*?$|/\\*.*?\\*/|\\\'(?:\\\\.|[^\\\\\\\'])*\\\'|""(?:\\\\.|[^\\\\""])*",True,,,,,,,,,,
+"^\s*((?:(?:\d+(?:\x20+\w+\.?)+(?:(?:\x20+STREET|ST|DRIVE|DR|AVENUE|AVE|ROAD|RD|LOOP|COURT|CT|CIRCLE|LANE|LN|BOULEVARD|BLVD)\.?)?)|(?:(?:P\.\x20?O\.|P\x20?O)\x20*Box\x20+\d+)|(?:General\x20+Delivery)|(?:C[\\\/]O\x20+(?:\w+\x20*)+))\,?\x20*(?:(?:(?:APT|BLDG|DEPT|FL|HNGR|LOT|PIER|RM|S(?:LIP|PC|T(?:E|OP))|TRLR|UNIT|\x23)\.?\x20*(?:[a-zA-Z0-9\-]+))|(?:BSMT|FRNT|LBBY|LOWR|OFC|PH|REAR|SIDE|UPPR))?)\,?\s+((?:(?:\d+(?:\x20+\w+\.?)+(?:(?:\x20+STREET|ST|DRIVE|DR|AVENUE|AVE|ROAD|RD|LOOP|COURT|CT|CIRCLE|LANE|LN|BOULEVARD|BLVD)\.?)?)|(?:(?:P\.\x20?O\.|P\x20?O)\x20*Box\x20+\d+)|(?:General\x20+Delivery)|(?:C[\\\/]O\x20+(?:\w+\x20*)+))\,?\x20*(?:(?:(?:APT|BLDG|DEPT|FL|HNGR|LOT|PIER|RM|S(?:LIP|PC|T(?:E|OP))|TRLR|UNIT|\x23)\.?\x20*(?:[a-zA-Z0-9\-]+))|(?:BSMT|FRNT|LBBY|LOWR|OFC|PH|REAR|SIDE|UPPR))?)?\,?\s+((?:[A-Za-z]+\x20*)+)\,\s+(A[LKSZRAP]|C[AOT]|D[EC]|F[LM]|G[AU]|HI|I[ADLN]|K[SY]|LA|M[ADEHINOPST]|N[CDEHJMVY]|O[HKR]|P[ARW]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY])\s+(\d+(?:-\d+)?)\s*$",True,,,,,,,,,,
+"^[a-zA-Z]+(([\'\,\.\- ][a-zA-Z ])?[a-zA-Z]*)*$",True,,,,,,,,,,
+"^/{1}(((/{1}\.{1})?[a-zA-Z0-9 ]+/?)+(\.{1}[a-zA-Z0-9]{2,4})?)$",True,,,,,,,,,,
+^\\s*//.*|^\\s*/\\*[^*]*\\*/,True,,,,,,,,,,
+<VideoID>(.*)</VideoID>\\s*.*\\s*.*\\s*.*\\s*.*<ProgrammeName>(.*)</ProgrammeName>\\s*.*\\s*.*\\s*<EpisodeTitle>(.*)</EpisodeTitle>\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*.*\\s*<ItemMediaUrl>(.*)</ItemMediaUrl>,True,,,,,,,,,,
+[p|P][\s]*[o|O][\s]*[b|B][\s]*[o|O][\s]*[x|X][\s]*[a-zA-Z0-9]*|\b[P|p]+(OST|ost|o|O)?\.?\s*[O|o|0]+(ffice|FFICE)?\.?\s*[B|b][O|o|0]?[X|x]+\.?\s+[#]?(\d+)*(\D+)*\b,True,,,,,,,,,,
+"<a[\s]+[^>]*?href[\s]?=[\s\""\']*(.*?)[\""\']*.*?>([^<]+|.*?)?<\/a>",True,,,,,,,,,,
+"^[^']*?\<\s*Assembly\s*:\s*AssemblyVersion\s*\(\s*""(\*|[0-9]+.\*|[0-9]+.[0-9]+.\*|[0-9]+.[0-9]+.[0-9]+.\*|[0-9]+.[0-9]+.[0-9]+.[0-9]+)""\s*\)\s*\>.*$",True,,,,,,,,,,
+"^(http(s?)\:\/\/)*[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&%\$#_]*)?$",True,,,,,,,,,,
+^<\s*(td|TD)\s*(\w|\W)*\s*>(\w|\W)*</(td|TD)>$,True,,,,,,,,,,
+^\w+(([-+']|[-+.]|\w+))*@\w+([-.]\w+)*\.\w+([-.]\w+)*$,True,,,,,,,,,,
+/\\*(.*)\\*/,True,,,,,,,,,,
+(.*)-----*(.*),True,,,,,,,,,,
+((/\\*.*?\\*/)|(//.*?$)),True,,,,,,,,,,
+([^!]*)!?([^@]*)@?(.*),True,,,,,,,,,,
+u'([^ ]+) *(\\+\\+|--),True,,,,,,,,,,
+"(?:(?:http|https)://(?:(?:[^/&=()/§, ]*?)*\.)+(?:\w{2,3})+?)(?:/+[^ ?,'§$&()={\[\]}]*)*(?:\?+.*)?$",True,,,,,,,,,,
+\\d+\\|[^|]+(?:\\|[^|]+)*,True,,,,,,,,,,
+"^([a-zA-Z]+[\'\,\.\-]?[a-zA-Z ]*)+[ ]([a-zA-Z]+[\'\,\.\-]?[a-zA-Z ]+)+$",True,,,,,,,,,,
+"^(([A-Za-z0-9\!\#\$\%\&\'\*\+\-\/\=\?\^_\`\{\|\}\~]+\.*)*[A-Za-z0-9\!\#\$\%\&\'\*\+\-\/\=\?\^_\`\{\|\}\~]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6})$",True,,,,,,,,,,
+(.*?)\\?(.*?):(.*),True,,,,,,,,,,
+^([^\.]+).([^\.]+).([^\.]+).([^\.]+)$,True,,,,,,,,,,
+^(?P<Date>.+\s\d+\s\d+\:\d+\:\d+).+\:.+\:(?P<Traffic>.+)\:(?P<Rule>.+)\:IN\=(?P<InboundInterface>.+)\sOUT\=(?P<OutboundIntercace>.*?)\s(?:MAC\=(?P<MacAddress>.+)\s|)SRC\=(?P<Source>.+)\sDST\=(?P<Destination>.+)\sLEN\=.+TOS\=.+PROTO\=(?P<Protocol>.+)\sSPT\=(?P<SourcePort>.+)\sDPT\=(?P<DestinationPort>.+)\s.+$,True,,,,,,,,,,
+"([\\w.!~*'|;:&=+$,-]+@)?(([A-Za-z0-9]+[A-Za-z0-9\\-]*[A-Za-z0-9]+\\.)*([A-Za-z0-9]+\\.)*)*([A-Za-z]+[A-Za-z0-9\\-]*[A-Za-z0-9]+)\\.?(:\\d*)*$",True,,,,,,,,,,
+"Merge: +([0-9a-f]+ *){2,}",True,,,,,,,,,,
+.*lib(stdc\\+\\+|gcc_s).* => (.*) \\(.*\\),True,,,,,,,,,,
+"(^[0][.]{1}[0-9]{0,}[1-9]+[0-9]{0,}$)|(^[1-9]+[0-9]{0,}[.]?[0-9]{0,}$)",True,,,,,,,,,,
+"<[^>]*\n?.*=(""|')?(.*\.jpg)(""|')?.*\n?[^<]*>",True,,,,,,,,,,
+"([A-Za-z0-9.]+\s*)+,",True,,,,,,,,,,
+\\((.*)/(.*)/(.*)\\),True,,,,,,,,,,
+"^[\.\wæøå-]+@([a-zæøå0-9]+([\.-]{0,1}[a-zæøå0-9]+|[a-zæøå0-9]?))+\.[a-z]{2,6}$",True,,,,,,,,,,
+"^(?P<path>(/?(?P<step>\w+))+)(?P<predicate>\[(?P<comparison>\s*(?P<lhs>@\w+)\s*(?P<operator><=|>=|<>|=|<|>)\s*(?P<rhs>('[^']*'|""[^""]*""))\s*(and|or)?)+\])*$",True,,,,,,,,,,
+"<[^>]*name[\s]*=[\s]*""?[^\w_]*""?[^>]*>",True,,,,,,,,,,
+(?ims)\x3c[^\x3e]+((\x22cai\x3a[^\x3e]*?\x2522[^\x3e\x22]*-launcher[^\x3e\x22]*\x22)|(\x27cai\x3a[^\x3e]*?(\x2522|\x22)[^\x3e\x27]*-launcher[^\x3e\x27]*\x27)|(cai\x3a[^\x3e]*?(\x2522|\x22)[^\x3e]*-launcher[^\x3e]*?\s+))\s*\x3e,True,,,,,,,,,,
+(^([0-9]*[.][0-9]*[1-9]+[0-9]*)$)|(^([0-9]*[1-9]+[0-9]*[.][0-9]+)$)|(^([1-9]+[0-9]*)$),True,,,,,,,,,,
+(\\d*):?(.*)-(.*)-(.*)\\.(.*)$,True,,,,,,,,,,
+(.+) release ([\\d.]+)[^(]*(?:\\((.+)\\))?,True,,,,,,,,,,
+"((?<!(href|.src|data)=[\'""])((http|https|ftp)\\://([a-zA-Z0-9\\.\\-]+(\\:[a-zA-Z0-9\\.&amp;%\\$\\-]+)*@)*((25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])|localhost|([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\.(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(\\:[0-9]+)*(/($|[a-zA-Z0-9\\.\\,\\?\'\\\\+&amp;%\\$#\\=~_\\-]+))*))",True,,,,,,,,,,
+^(([0-2]*[0-9]+[0-9]+)\.([0-2]*[0-9]+[0-9]+)\.([0-2]*[0-9]+[0-9]+)\.([0-2]*[0-9]+[0-9]+))$,True,,,,,,,,,,
+[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)+(?:\.)+(?:[A-Z]{2}|aero|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|xxx|us)\b,True,,,,,,,,,,
+u'\\s*(?:/\\*.*\\*/\\s*|//.*)$,True,,,,,,,,,,
+"\w?<\s?\/?[^\s>]+(\s+[^""'=]+(=(""[^""]*"")|('[^\']*')|([^\s""'>]*))?)*\s*\/?>",True,,,,,,,,,,
+/[*]+(?:[^*]+|[*]+[^/*])*[*]+/,True,,,,,,,,,,
+"^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$",True,,,,,,,,,,
+(\\W)all\\( *(\\S+) *(\\S+) *(.*?) *\\)(\\W),True,,,,,,,,,,
+.*'(.*)'.*'(.*)'.*,True,,,,,,,,,,
+<\s*?[^>]+\s*?>,True,,,,,,,,,,
+/\\*.*\\*/,True,,,,,,,,,,
+\\*(.*?)\\*,True,,,,,,,,,,
+^([A-Z]+[a-zA-Z]*)(\s|\-)?([A-Z]+[a-zA-Z]*)?(\s|\-)?([A-Z]+[a-zA-Z]*)?$,True,,,,,,,,,,
+"^.*[_A-Za-z0-9]+[\t ]+[\*&]?[\t ]*[_A-Za-z0-9](::)?[_A-Za-z0-9:]+[\t ]*\(( *[ \[\]\*&A-Za-z0-9_]+ *,? *)*\).*$",True,,,,,,,,,,
+^([\u00c0-\u01ffa-zA-Z'\-]+[ ]?[\u00c0-\u01ffa-zA-Z'\-]*)+$,True,,,,,,,,,,
+^[a-zA-Z0-9]+(([_][a-zA-Z0-9])?[a-zA-Z0-9]*)*$,True,,,,,,,,,,
+(^-\d*\.?\d*[1-9]+\d*$)|(^-[1-9]+\d*\.\d*$),True,,,,,,,,,,
+.*\\(.*\\).*,True,,,,,,,,,,
+^[-]?P(?!$)(?:(?P<year>\d+)+Y)?(?:(?P<month>\d+)+M)?(?:(?P<days>\d+)+D)?(?:T(?!$)(?:(?P<hours>\d+)+H)?(?:(?P<minutes>\d+)+M)? (?:(?P<seconds>\d+(?:\.\d+)?)+S)?)?$,True,,,,,,,,,,
+([^*{}\\s]@|[^*{}@]|\\*(?!/))+,True,,,,,,,,,,
+"^\+?[a-z0-9](([-+.]|[_]+)?[a-z0-9]+)*@([a-z0-9]+(\.|\-))+[a-z]{2,6}$",True,,,,,,,,,,
+"(^(\d|,)*\.?\d*[1-9]+\d*$)|(^[1-9]+(\d|,)*\.\d*$)|(^[1-9]+(\d|,)*\d*$)",True,,,,,,,,,,
+[\\s\\S]*root[\\s]*([\\d]+)[\\s]*(?:[\\w]*[\\s]*){6}/system/b2g/b2g,True,,,,,,,,,,
+"(?i)<a.*?href.*?=""(.+?)"".*?>",True,,,,,,,,,,
+"^[a-zA-Z0-9]+[\s]*[a-zA-Z0-9.\-\,\#]+[\s]*[a-zA-Z0-9.\-\,\#]+[a-zA-Z0-9\s.\-\,\#]*$",True,,,,,,,,,,
+"(?P<STag><)[/\?\s]*(?P<Prefix>\w*:)*(?P<TagName>\w*)\s*(?P<Attributes>(?P<Attribute>((?P<AttributePrefix>\w*)\s*:\s*)*(?P<AttributeName>\w*)\s*=\s*(?P<AttributeValue>""[^""]*""|'[^']*'|[^>\s]*)\s*)*)\s*/?(?P<ETag>>)",True,,,,,,,,,,
+\n          <\n           (?:mailto:)?\n          (\n              [-.\\w]+\n              \\@\n              [-\\w]+(\\.[-\\w]+)*\\.[a-z]+\n          )\n          >\n        ,True,,,,,,,,,,
+([\\d.]+)[^(]*(?:\\((.+)\\))?,True,,,,,,,,,,
+"<a [a-zA-Z0-9 =""'.:;?]*href=*[a-zA-Z0-9 =""'.:;>?]*[^>]*>([a-zA-Z0-9 =""'.:;>?]*[^<]*<)\s*/a\s*>",True,,,,,,,,,,
+"^(/(?:(?:(?:(?:[a-zA-Z0-9\\-_.!~*'():\@&=+\$,]+|(?:%[a-fA-F0-9][a-fA-F0-9]))*)(?:;(?:(?:[a-zA-Z0-9\\-_.!~*'():\@&=+\$,]+|(?:%[a-fA-F0-9][a-fA-F0-9]))*))*)(?:/(?:(?:(?:[a-zA-Z0-9\\-_.!~*'():\@&=+\$,]+|(?:%[a-fA-F0-9][a-fA-F0-9]))*)(?:;(?:(?:[a-zA-Z0-9\\-_.!~*'():\@&=+\$,]+|(?:%[a-fA-F0-9][a-fA-F0-9]))*))*))*))$",True,,,,,,,,,,
+"^([0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*[@](?:[0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*\.[a-zA-Z]{2,}|(?:\d{1,}\.){3}\d{1,}))$",True,,,,,,,,,,
+"([^\\\\""]+|\\\\.)*",True,,,,,,,,,,
+"^\s*[a-zA-Z0-9&\-\./,\s]+\s*$",True,,,,,,,,,,
+"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+([a-z0-9-]*[a-z0-9]+)*(\.[a-z0-9]+([a-z0-9-]*[a-z0-9]+)*)*\.([a-z]{2}|xn\-{2}[a-z0-9]{4,18}|arpa|aero|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|xxx)$",True,,,,,,,,,,
+([^*]|\\*(?!/))+,True,,,,,,,,,,
+"(?:[\w]*) *= *""(?:(?:(?:(?:(?:\\\W)*\\\W)*[^""]*)\\\W)*[^""]*"")",True,,,,,,,,,,
+^[+]?((\d*[1-9]+\d*\.?\d*)|(\d*\.\d*[1-9]+\d*))$,True,,,,,,,,,,
+\\+\\+\\+\\s.+\\s+\\((working copy|revision \\d+)\\),True,,,,,,,,,,
+"((http|ftp|https):\/\/w{3}[\d]*.|(http|ftp|https):\/\/|w{3}[\d]*.)([\w\d\._\-#\(\)\[\]\\,;:]+@[\w\d\._\-#\(\)\[\]\\,;:])?([a-z0-9]+.)*[a-z\-0-9]+.([a-z]{2,3})?[a-z]{2,6}(:[0-9]+)?(\/[\/a-z0-9\._\-,]+)*[a-z0-9\-_\.\s\%]+(\?[a-z0-9=%&\.\-,#]+)?",True,,,,,,,,,,
+"^([\!#\$%&'\*\+/\=?\^`\{\|\}~a-zA-Z0-9_-]+[\.]?)+[\!#\$%&'\*\+/\=?\^`\{\|\}~a-zA-Z0-9_-]+@{1}((([0-9A-Za-z_-]+)([\.]{1}[0-9A-Za-z_-]+)*\.{1}([A-Za-z]){1,6})|(([0-9]{1,3}[\.]{1}){3}([0-9]{1,3}){1}))$",True,,,,,,,,,,
+"^([a-zA-Z0-9]+)([\._-]?[a-zA-Z0-9]+)*@([a-zA-Z0-9]+)([\._-]?[a-zA-Z0-9]+)*([\.]{1}[a-zA-Z0-9]{2,})+$",True,,,,,,,,,,
+\d+(.)\d+\1\d+\1\d+\1\d+\1\d+\1,True,,,,,,,,,,
+"(UPDATE\s+)(\w+)\s+(SET)\s+([\w+\s*=\s*\w+,?\s*]+)\s+(WHERE.+)",True,,,,,,,,,,
+"^(ht|f)tp(s?)\:\/\/[a-zA-Z0-9\-\._]+(\.[a-zA-Z0-9\-\._]+){2,}(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&%\$#_]*)?$",True,,,,,,,,,,
+(\w+[\.\_\-]*)*\w+@[\w]+(.)*\w+$,True,,,,,,,,,,
+\[(?P<GroupName>.*)\](?P<GroupContent>[^\[]+)       --------        [\s]*(?P<Key>.+)[\s]*=[\s]*(?P<Value>[^\r]+),True,,,,,,,,,,
+^(958([0-9])+([0-9])+([0-9])+([0-9])+([0-9])+([0-9])+)|(958-([0-9])+([0-9])+([0-9])+([0-9])+([0-9])+([0-9])+)$,True,,,,,,,,,,
+= *([0-9]*.+[0-9]*) ([a-zA-Z]*),True,,,,,,,,,,
+^((?:.*(?!\d))*(?:\D*)?)(\d+)$,True,,,,,,,,,,
+"^(?:[\w]+[\&\-_\.]*)+@(?:(?:[\w]+[\-_\.]*)\.(?:[a-zA-Z]{2,}?))$",True,,,,,,,,,,
+,,56.0,11.0,1.0,2.0,False,False,True,True,False,False
+,,32.0,3.0,0.0,1.0,False,False,False,False,False,False
+,,53.0,8.0,0.0,1.0,False,False,False,False,False,False
+,,43.0,3.0,0.0,0.0,False,False,False,False,True,True
+,,35.0,7.0,0.0,1.0,False,False,False,False,True,True
+,,131.0,24.0,10.0,1.0,False,False,False,False,True,True
+,,162.0,24.0,0.0,1.0,False,False,False,False,False,False
+,,73.0,9.0,0.0,2.0,False,False,False,False,False,True
+,,32.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,38.0,6.0,0.0,1.0,False,False,False,False,True,True
+,,19.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,47.0,10.0,1.0,1.0,False,False,False,False,False,False
+,,48.0,7.0,3.0,1.0,False,False,False,False,True,True
+,,44.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,47.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,38.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,41.0,6.0,0.0,2.0,False,False,True,True,False,False
+,,26.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,93.0,16.0,0.0,2.0,True,False,True,True,False,False
+,,90.0,20.0,3.0,1.0,False,False,False,False,False,False
+,,27.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,45.0,5.0,0.0,1.0,False,False,False,False,False,False
+,,96.0,27.0,8.0,1.0,False,False,False,False,False,False
+,,107.0,10.0,1.0,1.0,False,False,False,False,True,True
+,,17.0,5.0,0.0,1.0,False,False,False,False,False,False
+,,61.0,9.0,1.0,1.0,False,False,False,False,False,False
+,,69.0,9.0,1.0,1.0,False,False,False,False,False,False
+,,57.0,11.0,0.0,4.0,False,False,False,False,False,False
+,,47.0,5.0,0.0,1.0,True,False,False,True,False,False
+,,60.0,11.0,1.0,1.0,False,False,False,False,False,False
+,,23.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,35.0,10.0,1.0,1.0,False,False,False,False,False,False
+,,58.0,6.0,3.0,1.0,False,False,False,False,False,False
+,,28.0,5.0,0.0,1.0,False,False,False,False,False,False
+,,34.0,5.0,1.0,1.0,False,False,False,False,False,False
+,,118.0,23.0,4.0,2.0,True,False,True,True,True,False
+,,103.0,19.0,4.0,1.0,False,False,False,False,False,False
+,,25.0,6.0,3.0,1.0,False,False,False,False,False,False
+,,27.0,6.0,3.0,1.0,False,False,False,False,False,False
+,,85.0,15.0,2.0,3.0,False,False,False,False,False,True
+,,36.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,30.0,9.0,0.0,1.0,True,False,False,True,True,True
+,,32.0,8.0,0.0,1.0,False,False,False,False,False,False
+,,47.0,12.0,1.0,1.0,False,False,False,False,False,False
+,,97.0,11.0,3.0,1.0,False,False,False,False,False,False
+,,50.0,13.0,0.0,1.0,False,False,False,False,False,False
+,,41.0,10.0,0.0,1.0,False,False,False,False,True,True
+,,84.0,23.0,0.0,1.0,False,False,False,False,True,True
+,,78.0,19.0,0.0,1.0,False,False,False,False,True,True
+,,32.0,5.0,0.0,1.0,False,False,False,False,True,False
+,,55.0,11.0,0.0,1.0,False,False,False,False,False,True
+,,93.0,18.0,1.0,1.0,False,False,False,False,False,True
+,,51.0,9.0,0.0,1.0,False,False,False,False,False,True
+,,54.0,11.0,0.0,1.0,False,False,False,False,False,False
+,,55.0,9.0,0.0,1.0,False,False,False,False,False,False
+,,78.0,15.0,1.0,1.0,False,False,False,False,False,False
+,,46.0,7.0,2.0,1.0,False,False,False,False,False,False
+,,54.0,9.0,1.0,1.0,False,False,False,False,False,False
+,,68.0,11.0,1.0,1.0,False,False,False,False,False,False
+,,68.0,9.0,1.0,1.0,False,False,False,False,False,False
+,,37.0,9.0,0.0,2.0,False,False,False,False,False,False
+,,50.0,10.0,0.0,2.0,False,False,False,False,False,False
+,,15.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,16.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,18.0,6.0,0.0,0.0,False,False,False,False,False,False
+,,16.0,3.0,0.0,0.0,False,False,False,False,False,False
+,,26.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,94.0,9.0,0.0,1.0,False,False,False,False,False,False
+,,67.0,7.0,0.0,1.0,False,False,False,False,False,False
+,,30.0,8.0,0.0,1.0,False,False,False,False,False,False
+,,45.0,5.0,1.0,1.0,False,False,False,False,False,False
+,,61.0,10.0,0.0,1.0,False,False,False,False,True,False
+,,25.0,6.0,0.0,1.0,False,False,False,False,True,False
+,,17.0,5.0,0.0,1.0,True,False,True,True,True,False
+,,17.0,5.0,0.0,1.0,True,False,True,True,True,False
+,,15.0,4.0,0.0,1.0,True,False,True,True,True,False
+,,26.0,5.0,1.0,1.0,False,False,False,False,False,False
+,,25.0,5.0,0.0,1.0,False,False,False,False,False,False
+,,61.0,8.0,0.0,1.0,False,False,False,False,True,False
+,,6.0,1.0,0.0,0.0,False,False,False,False,False,False
+,,13.0,1.0,0.0,0.0,False,False,False,False,False,False
+,,8.0,0.0,0.0,0.0,False,False,False,False,True,False
+,,51.0,11.0,1.0,1.0,False,False,False,False,False,False
+,,12.0,1.0,0.0,1.0,False,False,False,False,True,True
+,,6.0,0.0,0.0,0.0,False,False,False,False,False,False
+,,22.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,20.0,2.0,0.0,1.0,False,False,False,False,False,False
+,,14.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,19.0,0.0,0.0,0.0,False,False,False,False,False,False
+,,33.0,2.0,0.0,1.0,False,False,False,False,False,False
+,,30.0,6.0,0.0,1.0,False,False,False,False,False,False
+,,17.0,3.0,0.0,1.0,False,False,False,False,False,False
+,,48.0,1.0,0.0,1.0,False,False,False,False,False,False
+,,20.0,1.0,0.0,1.0,False,False,False,False,True,True
+,,10.0,2.0,1.0,0.0,False,False,False,False,False,False
+,,19.0,5.0,0.0,1.0,False,False,False,False,True,True
+,,19.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,18.0,1.0,0.0,1.0,False,False,False,False,False,False
+,,7.0,0.0,0.0,0.0,False,False,False,False,False,False
+,,23.0,4.0,0.0,2.0,False,False,False,False,False,False
+,,12.0,1.0,0.0,0.0,False,False,False,False,False,False
+,,107.0,3.0,11.0,1.0,False,False,False,False,False,False
+,,16.0,3.0,0.0,1.0,False,False,False,False,False,False
+,,27.0,6.0,0.0,0.0,False,False,False,False,False,False
+,,9.0,1.0,0.0,0.0,False,False,False,False,False,False
+,,17.0,2.0,0.0,0.0,False,False,False,False,True,False
+,,37.0,2.0,0.0,1.0,False,False,False,False,True,True
+,,8.0,1.0,0.0,1.0,False,False,False,False,False,False
+,,25.0,4.0,0.0,1.0,False,False,False,False,False,True
+,,46.0,4.0,0.0,0.0,False,False,False,False,False,False
+,,16.0,2.0,0.0,1.0,False,False,False,False,False,False
+,,17.0,1.0,0.0,0.0,False,False,False,False,True,True
+,,43.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,8.0,0.0,0.0,0.0,False,False,False,False,False,False
+,,25.0,3.0,0.0,1.0,False,False,False,False,True,False
+,,10.0,1.0,0.0,0.0,False,False,False,False,False,False
+,,21.0,2.0,0.0,0.0,False,False,False,False,False,False
+,,6.0,0.0,2.0,0.0,False,False,False,False,False,False
+,,11.0,2.0,0.0,0.0,False,False,False,False,False,False
+,,73.0,13.0,2.0,3.0,False,False,False,False,False,False
+,,11.0,4.0,0.0,1.0,False,False,False,False,False,False
+,,59.0,4.0,0.0,1.0,True,False,True,True,True,True
+,,16.0,4.0,1.0,2.0,False,False,False,False,False,False
